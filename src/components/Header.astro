@@ -1,0 +1,23 @@
+---
+export interface Props {
+	class?: string;
+}
+const { class: className } = Astro.props;
+---
+
+<header class={className}>
+	<h1>One to Grow On</h1>
+	<p>Understanding how food production impacts ourselves and our world</p>
+</header>
+
+<style>
+	header {
+		@apply text-purple-950 grid text-center;
+	}
+	h1 {
+		@apply font-sans text-[min(6.7vw,144px)];
+	}
+	p {
+		@apply font-sans text-sm md:text-xl lg:text-2xl font-bold;
+	}
+</style>
