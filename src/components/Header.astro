@@ -1,4 +1,7 @@
 ---
+import { Image } from 'astro:assets';
+import HeaderImage from '@/assets/12GO_YTHeader.png';
+
 export interface Props {
 	class?: string;
 }
@@ -6,18 +9,24 @@ const { class: className } = Astro.props;
 ---
 
 <header class={className}>
-	<h1>One to Grow On</h1>
-	<p>Understanding how food production impacts ourselves and our world</p>
+	<Image class="cell" src={HeaderImage} alt="" />
+	<div class="cell">
+		<h1>One to Grow On</h1>
+		<p>Understanding how food production impacts ourselves and our world</p>
+	</div>
 </header>
 
 <style>
 	header {
-		@apply text-purple-950 grid text-center;
+		@apply text-purple-950 grid text-center items-center;
 	}
 	h1 {
 		@apply font-sans text-[min(6.7vw,144px)];
 	}
 	p {
 		@apply font-sans text-sm md:text-xl lg:text-2xl font-bold;
+	}
+	.cell {
+		@apply row-start-1 col-start-1;
 	}
 </style>
