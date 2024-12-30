@@ -10,10 +10,10 @@ const { class: className } = Astro.props;
 
 <header class={className}>
 	<Image class="cell" src={HeaderImage} alt="" />
-	<div class="cell">
+	<a class="cell" href="/">
 		<h1>One to Grow On</h1>
 		<p>Understanding how food production impacts ourselves and our world</p>
-	</div>
+	</a>
 </header>
 
 <style>
@@ -22,6 +22,9 @@ const { class: className } = Astro.props;
 	}
 	h1 {
 		@apply font-sans text-[min(6.7vw,144px)];
+	}
+	a {
+		@apply bg-white shadow-white shadow-[0_0px_100px_90px] m-auto;
 	}
 	p {
 		@apply font-sans text-sm md:text-xl lg:text-2xl font-bold;
