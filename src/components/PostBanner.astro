@@ -7,12 +7,12 @@ const formattedDate = new Date(date).toLocaleDateString('en-us', options);
 
 <div class="banner">
 	<h2 set:html={title} />
-	<p>{formattedDate}</p>
+	<p set:html={formattedDate} />
 </div>
 
 <style>
 	.banner {
-		@apply font-header text-otgowhite hover:text-otgoorange-dark bg-otgopurple-dark/75 w-full text-center p-8 transition-colors;
+		@apply font-header text-otgowhite hover:text-otgoorange-light bg-otgopurple-dark/75 w-full text-center p-8 transition-colors;
 	}
 	h2 {
 		@apply text-2xl;
