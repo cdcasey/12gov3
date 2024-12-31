@@ -18,7 +18,7 @@ const { class: className } = Astro.props;
 
 <style>
 	header {
-		@apply text-purple-950 grid text-center items-center max-h-[450px];
+		@apply text-otgopurple-dark grid text-center items-center max-h-[450px];
 	}
 	.image {
 		@apply w-full h-full object-cover;
@@ -27,10 +27,10 @@ const { class: className } = Astro.props;
 		@apply font-header text-[min(6.7vw,144px)];
 	}
 	a {
-		@apply bg-white shadow-white shadow-[0_0px_100px_90px] m-auto;
+		@apply bg-white shadow-white shadow-[0_0px_100px_90px] m-auto hover:text-otgoorange-dark transition-colors leading-tight;
 	}
 	p {
-		@apply text-sm md:text-xl lg:text-2xl font-bold;
+		@apply text-sm lg:text-lg xl:text-xl font-bold;
 	}
 	.cell {
 		@apply row-start-1 col-start-1 overflow-hidden;
