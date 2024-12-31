@@ -1,4 +1,5 @@
 ---
+import { Image } from 'astro:assets';
 // https://12go.onetogrowonpod.com/graphql
 
 interface Post {
@@ -10,17 +11,27 @@ interface Post {
 		rendered: string;
 	};
 	date: string;
+	_embedded: {
+		'wp:featuredmedia': {
+			source_url: string;
+		}[];
+	};
 }
 
 type Posts = Post[];
 
 // const res = await fetch('https://12go.onetogrowonpod.com/wp-json/wp/v2/posts?per_page=100');
-const res = await fetch('https://12go.onetogrowonpod.com/wp-json/wp/v2/posts');
+// const res = await fetch(
+// 	'https://12go.onetogrowonpod.com/wp-json/wp/v2/posts?_embed&_fields=author,id,excerpt,title,link,_embed,featured_media,date',
+// );
+const res = await fetch('https://12go.onetogrowonpod.com/wp-json/wp/v2/posts?_embed');
+
 if (!res.ok) {
 	console.log(res);
 }
 const posts: Posts = await res.json();
-console.log(posts[0]);
+console.log(posts[0]._embedded['wp:featuredmedia']);
+console.log(posts.length);
 ---
 
 <section class="post-grid">
@@ -30,6 +41,7 @@ console.log(posts[0]);
 				<h2 set:html={post.title.rendered} />
 				<p>{post.date}</p>
 				<p set:html={post.excerpt.rendered} />
+				<Image src={post._embedded['wp:featuredmedia']['0'].source_url} alt="" inferSize={true} />
 			</div>
 		))
 	}
