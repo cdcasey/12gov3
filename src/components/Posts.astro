@@ -1,5 +1,6 @@
 ---
 import { Image } from 'astro:assets';
+import PostBanner from './PostBanner.astro';
 // https://12go.onetogrowonpod.com/graphql
 
 interface Post {
@@ -16,6 +17,7 @@ interface Post {
 			source_url: string;
 		}[];
 	};
+	slug: string
 }
 
 type Posts = Post[];
@@ -30,18 +32,23 @@ if (!res.ok) {
 	console.log(res);
 }
 const posts: Posts = await res.json();
-console.log(posts[0]._embedded['wp:featuredmedia']);
+console.log(posts[0]);
 console.log(posts.length);
 ---
 
 <section class="post-grid">
 	{
 		posts.map((post) => (
-			<div class="mb-8">
-				<h2 set:html={post.title.rendered} />
-				<p>{post.date}</p>
-				<p set:html={post.excerpt.rendered} />
-				<Image src={post._embedded['wp:featuredmedia']['0'].source_url} alt="" inferSize={true} />
+			<div>
+				<a
+					class="post-link"
+					style={{ backgroundImage: `url(${post._embedded['wp:featuredmedia']['0'].source_url})` }}
+					href={post.slug}
+				>
+					<PostBanner title={post.title.rendered} date={post.date}/>
+				</a>
+				  <!--<Image src={post._embedded['wp:featuredmedia']['0'].source_url} alt="" inferSize={true} />-->
+				<p class="post-excerpt" set:html={post.excerpt.rendered} />
 			</div>
 		))
 	}
@@ -50,5 +57,11 @@ console.log(posts.length);
 <style>
 	.post-grid {
 		@apply grid md:grid-cols-3 gap-8;
+	}
+	.post-link {
+			@apply bg-cover h-52 rounded flex items-center justify-center;
+	}
+	.post-excerpt {
+			@apply text-sm;
 	}
 </style>
