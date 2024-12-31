@@ -16,7 +16,9 @@ import '@fontsource/lilita-one';
 	</head>
 	<body>
 		<Header />
-		<slot />
+		<main>
+			<slot />
+		</main>
 		<Footer />
 	</body>
 </html>
@@ -27,5 +29,8 @@ import '@fontsource/lilita-one';
 		margin: 0;
 		width: 100%;
 		height: 100%;
+	}
+	main {
+		@apply p-8;
 	}
 </style>

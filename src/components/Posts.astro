@@ -14,19 +14,29 @@ interface Post {
 
 type Posts = Post[];
 
-const res = await fetch('https://12go.onetogrowonpod.com/wp-json/wp/v2/posts?per_page=100');
+// const res = await fetch('https://12go.onetogrowonpod.com/wp-json/wp/v2/posts?per_page=100');
+const res = await fetch('https://12go.onetogrowonpod.com/wp-json/wp/v2/posts');
 if (!res.ok) {
 	console.log(res);
 }
 const posts: Posts = await res.json();
-console.log({ post: posts[0] });
+console.log(posts[0]);
 ---
 
-{
-	posts.map((post) => (
-		<>
-			<h2 set:html={post.title.rendered} />
-			<p set:html={post.excerpt.rendered} />
-		</>
-	))
-}
+<section class="post-grid">
+	{
+		posts.map((post) => (
+			<div class="mb-8">
+				<h2 set:html={post.title.rendered} />
+				<p>{post.date}</p>
+				<p set:html={post.excerpt.rendered} />
+			</div>
+		))
+	}
+</section>
+
+<style>
+	.post-grid {
+		@apply grid md:grid-cols-3 grid-flow-row gap-8;
+	}
+</style>
