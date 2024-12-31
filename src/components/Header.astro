@@ -9,7 +9,7 @@ const { class: className } = Astro.props;
 ---
 
 <header class={className}>
-	<Image class="cell" src={HeaderImage} alt="" />
+	<Image class="cell image" src={HeaderImage} alt="" />
 	<a class="cell" href="/">
 		<h1>One to Grow On</h1>
 		<p>Understanding how food production impacts ourselves and our world</p>
@@ -18,18 +18,21 @@ const { class: className } = Astro.props;
 
 <style>
 	header {
-		@apply text-purple-950 grid text-center items-center;
+		@apply text-purple-950 grid text-center items-center max-h-[450px];
+	}
+	.image {
+		@apply w-full h-full object-cover;
 	}
 	h1 {
-		@apply font-sans text-[min(6.7vw,144px)];
+		@apply font-header text-[min(6.7vw,144px)];
 	}
 	a {
 		@apply bg-white shadow-white shadow-[0_0px_100px_90px] m-auto;
 	}
 	p {
-		@apply font-sans text-sm md:text-xl lg:text-2xl font-bold;
+		@apply text-sm md:text-xl lg:text-2xl font-bold;
 	}
 	.cell {
-		@apply row-start-1 col-start-1;
+		@apply row-start-1 col-start-1 overflow-hidden;
 	}
 </style>
