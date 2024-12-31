@@ -1,1 +1,32 @@
-<p>Posts will go here</p>
+---
+// https://12go.onetogrowonpod.com/graphql
+
+interface Post {
+	id: number;
+	title: {
+		rendered: string;
+	};
+	excerpt: {
+		rendered: string;
+	};
+	date: string;
+}
+
+type Posts = Post[];
+
+const res = await fetch('https://12go.onetogrowonpod.com/wp-json/wp/v2/posts?per_page=100');
+if (!res.ok) {
+	console.log(res);
+}
+const posts: Posts = await res.json();
+console.log({ post: posts[0] });
+---
+
+{
+	posts.map((post) => (
+		<>
+			<h2 set:html={post.title.rendered} />
+			<p set:html={post.excerpt.rendered} />
+		</>
+	))
+}
