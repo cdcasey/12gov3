@@ -1,6 +1,7 @@
 ---
 import { type Posts } from '@/components/Posts.astro';
 import Layout from '../layouts/Layout.astro';
+import { formatDate } from '../scripts/formatDate';
 
 export async function getStaticPaths() {
 	const res = await fetch('https://12go.onetogrowonpod.com/wp-json/wp/v2/posts?_embed');
@@ -18,11 +19,28 @@ export async function getStaticPaths() {
 	});
 }
 
-const { slug } = Astro.params;
 const { post } = Astro.props;
+const formatedDate = formatDate(post.date);
 ---
 
 <Layout>
-	<h1>{slug}:</h1>
-	<div set:html={post.content.rendered} />
+	<article>
+		<h1 class="text-4xl font-bold">{post.title.rendered}</h1>
+		<time class="block mb-5" datetime={formatedDate}>{formatedDate}</time>
+		<section class="article-text" set:html={post.content.rendered} />
+	</article>
 </Layout>
+
+<style is:global>
+	section.article-text {
+		& p {
+			@apply mb-4 text-lg;
+		}
+		& a {
+			@apply text-otgogreen-medium;
+		}
+		& a:hover {
+			@apply text-otgoorange-light;
+		}
+	}
+</style>

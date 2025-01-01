@@ -18,6 +18,9 @@ interface Post {
 		}[];
 	};
 	slug: string
+	content: {
+		rendered: string;
+	}
 }
 
 export type Posts = Post[];
