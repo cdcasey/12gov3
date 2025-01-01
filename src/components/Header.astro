@@ -6,6 +6,9 @@ export interface Props {
 	class?: string;
 }
 const { class: className } = Astro.props;
+const params = Astro.params;
+const isOnHomePage = !params?.slug;
+const headerHeight = isOnHomePage ? '450px' : '200px';
 ---
 
 <header class={className}>
@@ -16,12 +19,12 @@ const { class: className } = Astro.props;
 	</a>
 </header>
 
-<style>
+<style define:vars={{ headerHeight }}>
 	header {
 		@apply text-otgopurple-dark grid text-center items-center;
 	}
 	.image {
-		@apply w-full max-h-[450px] object-cover;
+		@apply w-full max-h-[--headerHeight] object-cover;
 	}
 	h1 {
 		@apply font-header text-[min(6.7vw,144px)];
