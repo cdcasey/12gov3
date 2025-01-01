@@ -1,8 +1,8 @@
 ---
+import { formatDate } from '../scripts/formatDate';
 const { title, date } = Astro.props;
 
-const options: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'long', day: 'numeric' };
-const formattedDate = new Date(date).toLocaleDateString('en-us', options);
+const formattedDate = formatDate(date);
 ---
 
 <div class="banner">
