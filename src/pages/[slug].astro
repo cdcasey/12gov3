@@ -1,0 +1,28 @@
+---
+import { type Posts } from '@/components/Posts.astro';
+import Layout from '../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+	const res = await fetch('https://12go.onetogrowonpod.com/wp-json/wp/v2/posts?_embed');
+
+	if (!res.ok) {
+		console.log(res);
+	}
+	const posts: Posts = await res.json();
+
+	return posts.map((post) => {
+		return {
+			params: { slug: post.slug },
+			props: { post },
+		};
+	});
+}
+
+const { slug } = Astro.params;
+const { post } = Astro.props;
+---
+
+<Layout>
+	<h1>{slug}:</h1>
+	<div set:html={post.content.rendered} />
+</Layout>
