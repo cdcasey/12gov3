@@ -1,7 +1,5 @@
 ---
-import { Image } from 'astro:assets';
 import PostBanner from './PostBanner.astro';
-// https://12go.onetogrowonpod.com/graphql
 
 interface Post {
 	id: number;
@@ -17,10 +15,10 @@ interface Post {
 			source_url: string;
 		}[];
 	};
-	slug: string
+	slug: string;
 	content: {
 		rendered: string;
-	}
+	};
 }
 
 export type Posts = Post[];
@@ -48,9 +46,9 @@ const posts: Posts = await res.json();
 					style={{ backgroundImage: `url(${post._embedded['wp:featuredmedia']['0'].source_url})` }}
 					href={post.slug}
 				>
-					<PostBanner title={post.title.rendered} date={post.date}/>
+					<PostBanner title={post.title.rendered} date={post.date} />
 				</a>
-				  <!--<Image src={post._embedded['wp:featuredmedia']['0'].source_url} alt="" inferSize={true} />-->
+				{/* <Image src={post._embedded['wp:featuredmedia']['0'].source_url} alt="" inferSize={true} /> */}
 				<p class="post-excerpt" set:html={post.excerpt.rendered} />
 			</div>
 		))
@@ -62,9 +60,9 @@ const posts: Posts = await res.json();
 		@apply grid md:grid-cols-2 lg:grid-cols-3 gap-8;
 	}
 	.post-link {
-			@apply bg-cover h-52 rounded flex items-center justify-center;
+		@apply bg-cover h-52 rounded flex items-center justify-center;
 	}
 	.post-excerpt {
-			@apply text-sm;
+		@apply text-sm;
 	}
 </style>
