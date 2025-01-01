@@ -1,0 +1,21 @@
+---
+import { Image } from 'astro:assets';
+import FooterImage from '@/assets/OTGO_whitetext.png';
+
+const currentYear = new Date().getFullYear();
+---
+
+<section class="border">
+	<a href="/">
+		<Image src={FooterImage} alt="One to Grow On" />
+	</a>
+	<div class="text-center">
+		© {currentYear}, One to Grow On
+	</div>
+</section>
+
+<style>
+	img {
+		@apply w-3/4 m-auto;
+	}
+</style>
