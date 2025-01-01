@@ -20,7 +20,7 @@ interface Post {
 	slug: string
 }
 
-type Posts = Post[];
+export type Posts = Post[];
 
 // const res = await fetch('https://12go.onetogrowonpod.com/wp-json/wp/v2/posts?per_page=100');
 // const res = await fetch(
@@ -32,8 +32,8 @@ if (!res.ok) {
 	console.log(res);
 }
 const posts: Posts = await res.json();
-console.log(posts[0]);
-console.log(posts.length);
+// console.log(posts[0]);
+// console.log(posts.length);
 ---
 
 <section class="post-grid">
