@@ -14,7 +14,8 @@ const headerHeight = isOnHomePage ? '450px' : '200px';
 <header class={className}>
 	<Image class="cell image" src={HeaderImage} alt="" />
 	<a class="cell" href="/">
-		<h1>One to Grow On</h1>
+		{isOnHomePage && <h1>One to Grow On</h1>}
+		{!isOnHomePage && <h2>One to Grow On</h2>}
 		<p>Understanding how food production impacts ourselves and our world</p>
 	</a>
 </header>
@@ -26,7 +27,8 @@ const headerHeight = isOnHomePage ? '450px' : '200px';
 	.image {
 		@apply w-full max-h-[--headerHeight] object-cover;
 	}
-	h1 {
+	h1,
+	h2 {
 		@apply font-header text-[min(6.7vw,144px)];
 	}
 	a {
