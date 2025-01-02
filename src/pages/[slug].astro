@@ -1,6 +1,7 @@
 ---
 import { type Posts } from '@/components/Posts.astro';
-import Layout from '../layouts/Layout.astro';
+import PageLayout from '../layouts/PageLayout.astro';
+
 import { formatDate } from '../scripts/formatDate';
 
 export async function getStaticPaths() {
@@ -23,13 +24,13 @@ const { post } = Astro.props;
 const formatedDate = formatDate(post.date);
 ---
 
-<Layout>
+<PageLayout>
 	<article>
 		<h1 class="text-4xl font-bold">{post.title.rendered}</h1>
 		<time class="block mb-5" datetime={formatedDate}>{formatedDate}</time>
 		<section class="article-text" set:html={post.content.rendered} />
 	</article>
-</Layout>
+</PageLayout>
 
 <style is:global>
 	section.article-text {

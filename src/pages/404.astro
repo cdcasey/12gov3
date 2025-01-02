@@ -1,11 +1,11 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
 import { Image } from 'astro:assets';
 
 import Orange from '@/assets/orange.png';
 ---
 
-<Layout>
+<BaseLayout>
 	<div class="wrapper">
 		<h1>404 Error</h1>
 		<p>
@@ -15,7 +15,7 @@ import Orange from '@/assets/orange.png';
 		</p>
 		<Image src={Orange} alt="" />
 	</div>
-</Layout>
+</BaseLayout>
 
 <style>
 	.wrapper {
