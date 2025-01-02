@@ -1,0 +1,11 @@
+---
+const { ...attributes } = Astro.props;
+---
+
+<hr {...attributes} />
+
+<style>
+	hr {
+		@apply h-[3px] bg-black/20 my-4;
+	}
+</style>

@@ -1,17 +1,22 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import Sidebar from '../components/Sidebar.astro';
+import Divider from '../components/Divider.astro';
 ---
 
 <BaseLayout>
 	<div class="wrapper">
 		<slot />
+		<Divider class="divider" />
 		<Sidebar />
 	</div>
 </BaseLayout>
 
 <style>
 	.wrapper {
-		@apply flex gap-8;
+		@apply md:flex md:gap-8;
+	}
+	.divider {
+		@apply block md:hidden;
 	}
 </style>

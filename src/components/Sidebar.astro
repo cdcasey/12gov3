@@ -3,21 +3,25 @@ import { Image } from 'astro:assets';
 
 import PatronList from './SideBarSections/PatronList.astro';
 import Image01 from '@/assets/sidebar/01.jpg';
+import Divider from './Divider.astro';
 ---
 
 <aside>
-	<hr />
+	<Divider class="divider" />
 	<PatronList />
-	<hr />
+	<Divider class="divider" />
 	<Image src={Image01} alt="" />
-	<hr />
+	<Divider class="divider" />
 </aside>
 
 <style>
 	aside {
 		@apply max-w-44;
 	}
-	hr {
-		@apply h-[3px] bg-black/20 my-4;
+	.divider {
+		@apply hidden md:block;
+	}
+	img {
+		@apply hidden md:block;
 	}
 </style>
