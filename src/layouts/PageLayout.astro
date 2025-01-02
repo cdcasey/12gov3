@@ -1,0 +1,17 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Sidebar from '../components/Sidebar.astro';
+---
+
+<BaseLayout>
+	<div class="wrapper">
+		<slot />
+		<Sidebar />
+	</div>
+</BaseLayout>
+
+<style>
+	.wrapper {
+		@apply flex gap-8;
+	}
+</style>
