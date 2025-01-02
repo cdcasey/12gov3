@@ -1,0 +1,33 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { Image } from 'astro:assets';
+
+import Orange from '@/assets/orange.png';
+---
+
+<Layout>
+	<div class="wrapper">
+		<h1>404 Error</h1>
+		<p>
+			A disaster. We can’t find that page.
+			<br />
+			It might be an old link, or it might have moved!
+		</p>
+		<Image src={Orange} alt="" />
+	</div>
+</Layout>
+
+<style>
+	.wrapper {
+		@apply flex flex-col items-center justify-center gap-5 my-10;
+	}
+	h1 {
+		@apply font-header text-4xl sm:text-7xl text-otgopurple-dark;
+	}
+	p {
+		@apply text-center;
+	}
+	img {
+		@apply max-w-32;
+	}
+</style>
