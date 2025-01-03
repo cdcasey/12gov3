@@ -7,9 +7,9 @@ import Divider from './Divider.astro';
 <aside>
 	<Divider class="topDivider" />
 	<PatronList />
-	<section class="hideOnMobile">
+	<section class="imagesSection">
 		<Divider />
-		<SidebarImages class="images" />
+		<SidebarImages />
 		<Divider />
 	</section>
 
@@ -20,7 +20,7 @@ import Divider from './Divider.astro';
 		.topDivider {
 			@apply mt-0;
 		}
-		.hideOnMobile {
+		.imagesSection {
 			@apply hidden md:block;
 		}
 	</style>

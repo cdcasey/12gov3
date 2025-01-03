@@ -1,14 +1,25 @@
 ---
-import { Image } from 'astro:assets';
-import Image1 from '@/assets/sidebar/01.jpg';
-import Image2 from '@/assets/sidebar/02.jpg';
-import Image3 from '@/assets/sidebar/03.jpg';
-import Image4 from '@/assets/sidebar/04.jpg';
-import Image5 from '@/assets/sidebar/05.jpg';
-import Image6 from '@/assets/sidebar/06.jpg';
-import Image7 from '@/assets/sidebar/07.jpg';
+import SidebarImage from './SidebarImage.astro';
+import { IMAGE_INFO } from './sidebarConstants';
+
+const min = 0;
+const max = IMAGE_INFO.length - 1;
+
+const imageNumbers = [];
+while (imageNumbers.length < 3) {
+	const imageNumber = Math.floor(Math.random() * (max - min) + min);
+	if (imageNumbers.indexOf(imageNumber) === -1) {
+		imageNumbers.push(imageNumber);
+	}
+}
 ---
 
-<Image src={Image1} alt="" />
-<Image src={Image2} alt="" />
-<Image src={Image3} alt="" />
+<div class="wrapper">
+	{imageNumbers.map((imageNumber) => <SidebarImage imageNumber={imageNumber} />)}
+</div>
+
+<style>
+	.wrapper {
+		@apply flex flex-col gap-4;
+	}
+</style>

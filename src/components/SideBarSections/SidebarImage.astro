@@ -1,0 +1,22 @@
+---
+import { Image } from 'astro:assets';
+
+import { IMAGE_INFO } from './sidebarConstants';
+
+interface Props {
+	imageNumber: number;
+}
+
+const { imageNumber } = Astro.props;
+---
+
+<figure>
+	<Image src={IMAGE_INFO[imageNumber].image} alt={IMAGE_INFO[imageNumber].alt} />
+	<figcaption>{IMAGE_INFO[imageNumber].caption}</figcaption>
+</figure>
+
+<style>
+	figcaption {
+		@apply text-sm italic;
+	}
+</style>
