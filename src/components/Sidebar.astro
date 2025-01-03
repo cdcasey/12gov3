@@ -1,8 +1,6 @@
 ---
-import { Image } from 'astro:assets';
-
 import PatronList from './SideBarSections/PatronList.astro';
-import Image01 from '@/assets/sidebar/01.jpg';
+import SidebarImages from './SideBarSections/SidebarImages.astro';
 import Divider from './Divider.astro';
 ---
 
@@ -10,13 +8,13 @@ import Divider from './Divider.astro';
 	<Divider class="divider" />
 	<PatronList />
 	<Divider class="divider" />
-	<Image src={Image01} alt="" />
+	<SidebarImages />
 	<Divider class="divider" />
 </aside>
 
 <style>
 	aside {
-		@apply max-w-44;
+		@apply max-w-52;
 	}
 	.divider {
 		@apply hidden md:block;
