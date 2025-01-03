@@ -5,21 +5,23 @@ import Divider from './Divider.astro';
 ---
 
 <aside>
-	<Divider class="divider" />
+	<Divider class="topDivider" />
 	<PatronList />
-	<Divider class="divider" />
-	<SidebarImages />
-	<Divider class="divider" />
-</aside>
+	<section class="hideOnMobile">
+		<Divider />
+		<SidebarImages class="images" />
+		<Divider />
+	</section>
 
-<style>
-	aside {
-		@apply max-w-52;
-	}
-	.divider {
-		@apply hidden md:block;
-	}
-	img {
-		@apply hidden md:block;
-	}
-</style>
+	<style>
+		aside {
+			@apply md:max-w-52;
+		}
+		.topDivider {
+			@apply mt-0;
+		}
+		.hideOnMobile {
+			@apply hidden md:block;
+		}
+	</style>
+</aside>
