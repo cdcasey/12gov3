@@ -1,11 +1,10 @@
 ---
+import FooterTags from './FooterSections/FooterTags.astro';
 import FooterLogo from './FooterSections/FooterLogo.astro';
 ---
 
 <footer>
-	<section>
-		<h1>tags</h1>
-	</section>
+	<FooterTags />
 	<FooterLogo />
 	<section>
 		<h1>links</h1>
@@ -14,7 +13,7 @@ import FooterLogo from './FooterSections/FooterLogo.astro';
 
 <style>
 	footer {
-		@apply p-3 text-otgowhite bg-otgogreen-medium grid grid-cols-3 items-center;
+		@apply grid grid-cols-3 items-center bg-otgogreen-medium p-3 text-otgowhite;
 		& section {
 			@apply border;
 		}

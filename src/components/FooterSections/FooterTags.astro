@@ -1,0 +1,38 @@
+---
+import FooterTagLink from './FooterTagLink.astro';
+
+export interface Tag {
+	id: number;
+	count: number;
+	description: string;
+	link: string;
+	name: string;
+	slug: string;
+}
+
+type Tags = Tag[];
+
+const res = await fetch('https://12go.onetogrowonpod.com/wp-json/wp/v2/tags?per_page=100');
+
+if (!res.ok) {
+	console.log(res);
+}
+const tags: Tags = await res.json();
+---
+
+<section>
+	<h3>Brows by tag:</h3>
+	{
+		tags.map((tag) => (
+			<FooterTagLink href={`/tag/${tag.slug}`} tagCount={tag.count}>
+				{tag.name}
+			</FooterTagLink>
+		))
+	}
+</section>
+
+<style>
+	h3 {
+		@apply inline font-header text-2xl;
+	}
+</style>
