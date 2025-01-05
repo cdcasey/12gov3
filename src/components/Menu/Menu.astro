@@ -1,4 +1,4 @@
-<nav>
+<nav id="menu">
 	<ul>
 		<li>
 			Episodes <ul>
@@ -20,9 +20,31 @@
 
 <style>
 	nav {
-		@apply fixed left-0 top-0 h-full bg-otgowhite/90 px-4 pt-24;
+		@apply fixed left-0 top-0 h-full -translate-x-full bg-otgowhite/90 px-4 pt-24 transition-all duration-300;
+	}
+	.open {
+		@apply translate-x-0;
 	}
 	li > ul > li {
 		@apply ml-4;
 	}
 </style>
+
+<script>
+	import { menuIsOpen } from '@/stores/menuStore';
+	const menu = document.getElementById('menu');
+	// Listen to changes in the store, and show/hide the dialog accordingly
+	menuIsOpen.subscribe((open) => {
+		if (open) {
+			menu?.classList.add('open');
+		} else {
+			menu?.classList.remove('open');
+		}
+	});
+
+	function closeMenu() {
+		menuIsOpen.set(false);
+	}
+
+	menu?.addEventListener('click', closeMenu);
+</script>
