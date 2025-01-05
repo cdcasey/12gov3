@@ -1,0 +1,63 @@
+<input type="checkbox" name="" id="navi-toggle" class="navigation__checkbox" />
+<label for="navi-toggle" class="navigation__button">
+	<span class="navigation__icon"></span>
+</label>
+
+<style>
+	.navigation__checkbox {
+		display: none;
+
+		/* hide the center bar when the button is clicked (checkbox is checked) */
+		&:checked + .navigation__button .navigation__icon {
+			background-color: transparent;
+		}
+
+		&:checked + .navigation__button .navigation__icon::before {
+			transform: rotate(135deg);
+			top: 0;
+		}
+
+		&:checked + .navigation__button .navigation__icon::after {
+			transform: rotate(-135deg);
+			top: 0;
+		}
+	}
+
+	.navigation__button {
+		@apply fixed left-[10px] top-[10px] flex h-[70px] w-[70px] cursor-pointer items-center justify-center rounded-full bg-otgopurple-dark/95 shadow-2xl;
+
+		/* animate the hamburger on hover */
+		&:hover .navigation__icon:before {
+			@apply -top-3;
+		}
+		&:hover .navigation__icon:after {
+			@apply top-3;
+		}
+	}
+
+	.navigation__icon {
+		position: relative;
+
+		/* set look of each bar */
+		&,
+		&::before,
+		&::after {
+			@apply h-[2px] w-8 bg-otgowhite;
+		}
+
+		/* make top & bottom bars appear */
+		&::before,
+		&::after {
+			content: '';
+			@apply absolute transition-all ease-linear;
+		}
+
+		/* position top & bottom bars */
+		&::before {
+			@apply -top-2;
+		}
+		&::after {
+			@apply top-2;
+		}
+	}
+</style>
