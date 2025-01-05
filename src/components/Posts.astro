@@ -39,28 +39,29 @@ const posts: Posts = await res.json();
 
 <section class="post-grid">
 	{
-		posts.map((post) => (
-			<div>
-				<a
-					class="post-link"
-					style={{ backgroundImage: `url(${post._embedded['wp:featuredmedia']['0'].source_url})` }}
-					href={post.slug}
-				>
-					<PostBanner title={post.title.rendered} date={post.date} />
-				</a>
-				{/* <Image src={post._embedded['wp:featuredmedia']['0'].source_url} alt="" inferSize={true} /> */}
-				<p class="post-excerpt" set:html={post.excerpt.rendered} />
-			</div>
-		))
+		posts.map((post) => {
+			const bgUrl = post._embedded['wp:featuredmedia']['0'].source_url
+				? `url(${post._embedded['wp:featuredmedia']['0'].source_url}`
+				: 'none';
+			return (
+				<div>
+					<a class="post-link" style={{ backgroundImage: bgUrl }} href={post.slug}>
+						<PostBanner title={post.title.rendered} date={post.date} />
+					</a>
+					{/* <Image src={post._embedded['wp:featuredmedia']['0'].source_url} alt="" inferSize={true} /> */}
+					<p class="post-excerpt" set:html={post.excerpt.rendered} />
+				</div>
+			);
+		})
 	}
 </section>
 
 <style>
 	.post-grid {
-		@apply grid md:grid-cols-2 lg:grid-cols-3 gap-8;
+		@apply grid gap-8 md:grid-cols-2 lg:grid-cols-3;
 	}
 	.post-link {
-		@apply bg-cover h-52 rounded flex items-center justify-center;
+		@apply flex h-52 items-center justify-center rounded bg-cover;
 	}
 	.post-excerpt {
 		@apply text-sm;

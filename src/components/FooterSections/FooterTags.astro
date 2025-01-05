@@ -10,7 +10,7 @@ export interface Tag {
 	slug: string;
 }
 
-type Tags = Tag[];
+export type Tags = Tag[];
 
 const res = await fetch('https://12go.onetogrowonpod.com/wp-json/wp/v2/tags?per_page=100');
 

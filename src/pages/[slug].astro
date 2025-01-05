@@ -1,5 +1,5 @@
 ---
-import { type Posts } from '@/components/Posts.astro';
+import type { Posts } from '@/components/Posts.astro';
 import PageLayout from '../layouts/PageLayout.astro';
 
 import { formatDate } from '../scripts/formatDate';
@@ -27,7 +27,7 @@ const formatedDate = formatDate(post.date);
 <PageLayout>
 	<article>
 		<h1 class="text-4xl font-bold">{post.title.rendered}</h1>
-		<time class="block mb-5" datetime={formatedDate}>{formatedDate}</time>
+		<time class="mb-5 block" datetime={formatedDate}>{formatedDate}</time>
 		<section class="article-text" set:html={post.content.rendered} />
 	</article>
 </PageLayout>
