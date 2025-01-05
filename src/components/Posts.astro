@@ -22,12 +22,24 @@ interface Post {
 }
 
 export type Posts = Post[];
+interface Props {
+	tags?: number[];
+}
 
+const { tags } = Astro.props;
 // const res = await fetch('https://12go.onetogrowonpod.com/wp-json/wp/v2/posts?per_page=100');
 // const res = await fetch(
 // 	'https://12go.onetogrowonpod.com/wp-json/wp/v2/posts?_embed&_fields=author,id,excerpt,title,link,_embed,featured_media,date',
 // );
-const res = await fetch('https://12go.onetogrowonpod.com/wp-json/wp/v2/posts?_embed');
+
+// We can't build up with new URL() because there's no way to append _embed as a valueless param
+let API_URL = 'https://12go.onetogrowonpod.com/wp-json/wp/v2/posts?_embed';
+
+if (tags) {
+	API_URL += `&tags=${tags.join(',')}`;
+}
+
+const res = await fetch(API_URL);
 
 if (!res.ok) {
 	console.log(res);
@@ -40,6 +52,7 @@ const posts: Posts = await res.json();
 <section class="post-grid">
 	{
 		posts.map((post) => {
+			/* maybe refactor to use class:lists */
 			const bgUrl = post._embedded['wp:featuredmedia']['0'].source_url
 				? `url(${post._embedded['wp:featuredmedia']['0'].source_url}`
 				: 'none';
