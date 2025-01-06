@@ -4,7 +4,7 @@ import { glob } from 'astro/loaders';
 const PostSchema = z.object({
 	title: z.string(),
 	slug: z.string(),
-	data: z.string(),
+	date: z.coerce.date(),
 	excerpt: z.string(),
 	category: z.enum(['episodes', 'transcripts', 'promo']),
 	tags: z.array(z.string()),
