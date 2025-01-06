@@ -8,7 +8,7 @@ tags:
   - "ag-industry"
   - "question-episode"
   - "series"
-coverImage: "Ep_012SQ_processedfood.jpg"
+coverImage: "./Ep_012SQ_processedfood.jpg"
 ---
 
 It's another Catherine episode! Hallie and Catherine discuss what exactly a processed food is, how they started, and if they're good for you. We learn what food processing has to do with urban growth, how the military played a part, and how much Catherine and Hallie both love hummus

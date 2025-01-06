@@ -6,7 +6,7 @@ categories:
 tags: 
   - "series"
   - "superfoods"
-coverImage: "Pomological_Watercolor_POM00004559-1.jpg"
+coverImage: "./Pomological_Watercolor_POM00004559-1.jpg"
 ---
 
 [Listen to the full audio](https://12go.onetogrowonpod.com/34-super-foods-v/).

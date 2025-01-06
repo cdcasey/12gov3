@@ -8,7 +8,7 @@ tags:
   - "organic-ag"
   - "series"
   - "social-justice"
-coverImage: "Ep_018_orgiii-e1572820027630.jpg"
+coverImage: "./Ep_018_orgiii-e1572820027630.jpg"
 ---
 
 It's time to learn more about organics! In part three of the series, Hallie and Chris discuss how organic agriculture impacts farms, farmers, and farmworkers. We learn about organic pesticides, why some farmers find organic farming controlling, and how well both Hallie and Chris can imitate cartoon Texans.

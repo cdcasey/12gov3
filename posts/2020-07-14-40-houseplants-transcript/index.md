@@ -7,7 +7,7 @@ tags:
   - "ag-history"
   - "ag-industry"
   - "gardening"
-coverImage: "200701_houseplant-scaled.jpg"
+coverImage: "./200701_houseplant-scaled.jpg"
 ---
 
 [Listen to the full episode.](https://www.onetogrowonpod.com/40-houseplants/)

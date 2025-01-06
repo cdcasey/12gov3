@@ -8,7 +8,7 @@ tags:
   - "ag-industry"
   - "series"
   - "water"
-coverImage: "water-1.jpg"
+coverImage: "./water-1.jpg"
 ---
 
 In the first of a two-part series on water, Hallie and Chris discuss irrigation and water use. We learn it's history, dating from prehistory to today, how it's used and why it's so important. We also learn that Chris is still confused about what is and is not a berry.

@@ -8,7 +8,7 @@ tags:
   - "ag-science"
   - "ag-industry"
   - "animal-ag"
-coverImage: "052_insect_ag-scaled.jpg"
+coverImage: "./052_insect_ag-scaled.jpg"
 ---
 
 This week we talk to Robert Nathan Allen (known by most as RNA) of Little Herds! We talk about what's exciting in the world of edible insects, as well as break down a few misconceptions. Also, would a grouping of insects even be called a herd?

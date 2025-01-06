@@ -6,7 +6,7 @@ categories:
 tags: 
   - "ag-science"
   - "ag-history"
-coverImage: "Ep_003_haberbosch.jpg"
+coverImage: "./Ep_003_haberbosch.jpg"
 ---
 
 \*Content warning: this episode mentions suicide in relation to a historical figure\*

@@ -7,7 +7,7 @@ tags:
   - "askonetogrowon"
   - "minisode"
   - "organic-ag"
-coverImage: "16484568416_d1466bb697.jpg"
+coverImage: "./16484568416_d1466bb697.jpg"
 ---
 
 In this mini-episode, Hallie defines certified transitional agriculture, explains why it exists, and talks about why it isn't standardized by the USDA (yet?).

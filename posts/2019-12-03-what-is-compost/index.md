@@ -8,7 +8,7 @@ tags:
   - "gardening"
   - "question-episode"
   - "series"
-coverImage: "Compost_Heap.jpg"
+coverImage: "./Compost_Heap.jpg"
 ---
 
 It's another Catherine episode! This week Hallie and Catherine discuss what compost is, how it works, and why it's good. We learn the chemistry involved in compost, what you can compost, and why Hallie loves it so darn much.

@@ -6,7 +6,7 @@ categories:
 tags: 
   - "askonetogrowon"
   - "ag-industry"
-coverImage: "1200px-Pasta_shortage_tourism_at_Tesco2C_Finchley2C_London.jpg"
+coverImage: "./1200px-Pasta_shortage_tourism_at_Tesco2C_Finchley2C_London.jpg"
 ---
 
 [Listen to the full episode](https://www.onetogrowonpod.com/askonetogrowon-6-covid19/).

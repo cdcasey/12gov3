@@ -7,7 +7,7 @@ tags:
   - "ag-history"
   - "ag-industry"
   - "gardening"
-coverImage: "vegetable-gardening.jpg"
+coverImage: "./vegetable-gardening.jpg"
 ---
 
 [Listen to the full episode](https://12go.onetogrowonpod.com/36-vegetable-gardening/).

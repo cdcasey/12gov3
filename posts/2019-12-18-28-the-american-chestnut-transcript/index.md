@@ -8,7 +8,7 @@ tags:
   - "ag-history"
   - "crops"
   - "holiday-episode"
-coverImage: "American_Chestnut.jpg"
+coverImage: "./American_Chestnut.jpg"
 ---
 
 [Listen to the full episode.](https://www.onetogrowonpod.com/28-american-chestnut/)

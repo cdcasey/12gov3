@@ -7,7 +7,7 @@ tags:
   - "ag-industry"
   - "organic-ag"
   - "series"
-coverImage: "Ep_017_orgii.jpeg"
+coverImage: "./Ep_017_orgii.jpeg"
 ---
 
 We're back with more information about organic agriculture! This week, Hallie and Chris tackle the environmental tradeoffs of organic versus conventional farming. We learn about carbon sequestration, chemical inputs and why Hallie spent a day counting worms.

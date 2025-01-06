@@ -3,7 +3,7 @@ title: "Black Lives Matter"
 date: "2020-06-09"
 categories: 
   - "episodes"
-coverImage: "BLM.png"
+coverImage: "./BLM.png"
 ---
 
 We stand with the protestors.

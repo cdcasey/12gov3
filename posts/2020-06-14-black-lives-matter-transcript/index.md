@@ -3,7 +3,7 @@ title: "Black Lives Matter Transcript"
 date: "2020-06-14"
 categories: 
   - "transcripts"
-coverImage: "BLM.png"
+coverImage: "./BLM.png"
 ---
 
 [Listen to the full audio](https://12go.onetogrowonpod.com/black-lives-matter-2/).

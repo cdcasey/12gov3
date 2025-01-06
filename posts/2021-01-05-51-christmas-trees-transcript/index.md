@@ -7,7 +7,7 @@ tags:
   - "ag-science"
   - "ag-industry"
   - "crops"
-coverImage: "200922_christmas-scaled.jpg"
+coverImage: "./200922_christmas-scaled.jpg"
 ---
 
 [Listen to the full episode.](https://www.onetogrowonpod.com/51-christmas-trees/)

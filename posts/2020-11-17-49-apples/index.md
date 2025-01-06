@@ -7,7 +7,7 @@ tags:
   - "ag-science"
   - "ag-history"
   - "crops"
-coverImage: "200920_apples-scaled.jpg"
+coverImage: "./200920_apples-scaled.jpg"
 ---
 
 This week we're talking about apples! We discuss varieties, methods of propagation, and how apples were first domesticated. Also, how well do you know Chaucer?

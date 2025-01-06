@@ -7,7 +7,7 @@ tags:
   - "ag-policy"
   - "ag-science"
   - "ag-industry"
-coverImage: "1024px-For_weeding_choose_Glyphosate.jpg"
+coverImage: "./1024px-For_weeding_choose_Glyphosate.jpg"
 ---
 
 We talk about the controversial weed killer! One more episode left!

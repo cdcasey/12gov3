@@ -8,7 +8,7 @@ tags:
   - "local-food"
   - "series"
   - "social-justice"
-coverImage: "200602_localfood.jpg"
+coverImage: "./200602_localfood.jpg"
 ---
 
 [Listen to the full episode](https://12go.onetogrowonpod.com/37-urban-farming-with-sophia-buggs/).

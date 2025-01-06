@@ -8,7 +8,7 @@ tags:
   - "ag-industry"
   - "series"
   - "water"
-coverImage: "water-1.jpg"
+coverImage: "./water-1.jpg"
 ---
 
 [Listen to the full episode.](https://www.onetogrowonpod.com/30-water-history-of-irrigation/)

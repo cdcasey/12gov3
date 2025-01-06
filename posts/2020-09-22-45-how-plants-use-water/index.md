@@ -5,7 +5,7 @@ categories:
   - "episodes"
 tags: 
   - "ag-science"
-coverImage: "200916_howplantsusewater.jpg"
+coverImage: "./200916_howplantsusewater.jpg"
 ---
 
 In this episode we dive into the weird world of plant biology and answer the question of how plants use water. We learn about the xylem, the phloem, and how photosynthesis converts H2O into oxygen. Also, plants have hairs and cuticles!?

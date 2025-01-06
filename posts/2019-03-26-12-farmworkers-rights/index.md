@@ -6,7 +6,7 @@ categories:
 tags: 
   - "ag-industry"
   - "social-justice"
-coverImage: "Ep_012_farmworkers.jpg"
+coverImage: "./Ep_012_farmworkers.jpg"
 ---
 
 \*Content warning: this episode mentions sexual violence and traumatic death\*

@@ -8,7 +8,7 @@ tags:
   - "ag-science"
   - "minisode"
   - "series"
-coverImage: "Screen-Shot-2019-11-03-at-4.43.18-PM.png"
+coverImage: "./Screen-Shot-2019-11-03-at-4.43.18-PM.png"
 ---
 
 In this mini-episode, Hallie says, once and for all, what a berry is.

@@ -5,7 +5,7 @@ categories:
   - "transcripts"
 tags: 
   - "ag-science"
-coverImage: "200916_howplantsusewater.jpg"
+coverImage: "./200916_howplantsusewater.jpg"
 ---
 
 [Listen to the full episode.](https://www.onetogrowonpod.com/45-how-plants-use-water/)

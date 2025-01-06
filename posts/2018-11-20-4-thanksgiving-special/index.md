@@ -6,7 +6,7 @@ categories:
 tags: 
   - "ag-industry"
   - "holiday-episode"
-coverImage: "Ep_004_thanksgiving.jpg"
+coverImage: "./Ep_004_thanksgiving.jpg"
 ---
 
 In One to Grow On's very first holiday special, Hallie and Chris talk about origins and some fun facts about common Thanksgiving foods. We learn about the racial history of cornbread, what exactly pumpkin spice is and how much it costs to feed a turkey.

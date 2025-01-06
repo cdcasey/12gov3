@@ -8,7 +8,7 @@ tags:
   - "guest-episode"
   - "local-food"
   - "series"
-coverImage: "Arlington_Courthouse_Farmers_Market_5106012513.jpg"
+coverImage: "./Arlington_Courthouse_Farmers_Market_5106012513.jpg"
 ---
 
 This week Hallie and Chris sit down with Amy Gallo, the Farmers' Market Programming Manager at the Sustainable Food Center. They discuss how farmers' markets impact consumers and their communities, as well as what crops are the best to buy fresh. They also develop an interest in tiny zucchini. Who do you have to help you with your weird food problems?

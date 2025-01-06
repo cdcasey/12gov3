@@ -7,7 +7,7 @@ tags:
   - "ag-industry"
   - "guest-episode"
   - "social-justice"
-coverImage: "food_rescue.jpg"
+coverImage: "./food_rescue.jpg"
 ---
 
 [Listen to the full podcast.](https://www.onetogrowonpod.com/50-food-rescue-with-jess-palmer/)

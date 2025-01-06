@@ -5,7 +5,7 @@ categories:
   - "episodes"
 tags: 
   - "ag-policy"
-coverImage: "200816_usdacovid-scaled.jpg"
+coverImage: "./200816_usdacovid-scaled.jpg"
 ---
 
 Chris and Hallie discuss USDA policies focused on COVID-19 response and relief. They talk about the CARES act, CFAP, the Farm to Families Food Box program, and answer a few listener questions. Also, would Old McDonald be eligible for aid?

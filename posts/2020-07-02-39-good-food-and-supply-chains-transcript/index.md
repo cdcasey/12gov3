@@ -8,7 +8,7 @@ tags:
   - "guest-episode"
   - "local-food"
   - "series"
-coverImage: "image0-1.jpg"
+coverImage: "./image0-1.jpg"
 ---
 
 [Listen to the full episode](https://12go.onetogrowonpod.com/39-good-food-and-supply-chains/).

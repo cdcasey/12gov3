@@ -7,7 +7,7 @@ tags:
   - "ag-science"
   - "gardening"
   - "guest-episode"
-coverImage: "200919_xeriscaping.jpg"
+coverImage: "./200919_xeriscaping.jpg"
 ---
 
 [Listen to the full episode.](https://www.onetogrowonpod.com/48-xeriscaping-with-leah-churner-and-colleen-dieter/)

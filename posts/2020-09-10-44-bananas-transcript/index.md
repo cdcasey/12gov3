@@ -7,7 +7,7 @@ tags:
   - "ag-science"
   - "ag-history"
   - "crops"
-coverImage: "200817_banana.jpg"
+coverImage: "./200817_banana.jpg"
 ---
 
 [Listen to the full episode.](https://www.onetogrowonpod.com/44-bananas/)

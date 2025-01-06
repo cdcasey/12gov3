@@ -7,7 +7,7 @@ tags:
   - "askonetogrowon"
   - "ag-industry"
   - "minisode"
-coverImage: "KreeftbijDenOsse.jpg"
+coverImage: "./KreeftbijDenOsse.jpg"
 ---
 
 In this mini-episode, Hallie discusses fish emulsion, fungicidal chitan, and edible films made from lobsters.

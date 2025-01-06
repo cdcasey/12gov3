@@ -7,7 +7,7 @@ tags:
   - "ag-science"
   - "ag-industry"
   - "gardening"
-coverImage: "fungalnetworks.jpg"
+coverImage: "./fungalnetworks.jpg"
 ---
 
 [Listen to the full episode.](https://www.onetogrowonpod.com/41-plant-communication/)

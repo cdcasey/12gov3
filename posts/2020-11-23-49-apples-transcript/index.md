@@ -7,7 +7,7 @@ tags:
   - "ag-science"
   - "ag-history"
   - "crops"
-coverImage: "200920_apples-scaled.jpg"
+coverImage: "./200920_apples-scaled.jpg"
 ---
 
 [Listen to the full episode.](https://www.onetogrowonpod.com/49-apples/)

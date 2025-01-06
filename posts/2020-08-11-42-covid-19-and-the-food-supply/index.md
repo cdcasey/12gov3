@@ -7,7 +7,7 @@ tags:
   - "ag-policy"
   - "ag-industry"
   - "animal-ag"
-coverImage: "200809_covid.jpg"
+coverImage: "./200809_covid.jpg"
 ---
 
 Chris and Hallie discuss how COVID-19 has caused disruptions to the US food supply. We learn about swine, milk, and potato supply chains and how the COVID-19 pandemic has disrupted them. Also, who originally decided that it was a good idea to drink cow's milk, anyway?

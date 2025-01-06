@@ -7,7 +7,7 @@ tags:
   - "ag-science"
   - "ag-history"
   - "ag-industry"
-coverImage: "Ep_007_greenrev.jpeg"
+coverImage: "./Ep_007_greenrev.jpeg"
 ---
 
 This week Hallie and Chris talk about one of the most fruitful and complex movements in agriculture. We learn about how the green revolution changed agriculture, ways that implementation affects farmers, and legendary football coach Vince Lombardi. This episode also explores some of the more philosophical and esoteric issues inherent in a field as impactful as agriculture.

@@ -6,7 +6,7 @@ categories:
 tags: 
   - "series"
   - "superfoods"
-coverImage: "Jade_cabbage_closeup.jpg"
+coverImage: "./Jade_cabbage_closeup.jpg"
 ---
 
 In our latest superfoods episode (and last episode of the decade), Hallie and Chris take on bok choy, wheat germ, ginger and seaweed. The stakes are a little bit higher this week though because there's a brand new original song for cape-worthy foods. We also get to hear Chris rap.

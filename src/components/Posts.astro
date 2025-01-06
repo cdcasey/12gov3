@@ -1,30 +1,32 @@
 ---
+import { getCollection } from 'astro:content';
 import PostBanner from './PostBanner.astro';
+// import type { Post } from '../content.config';
 
-interface Post {
-	id: number;
-	title: {
-		rendered: string;
-	};
-	excerpt: {
-		rendered: string;
-	};
-	date: string;
-	_embedded: {
-		'wp:featuredmedia': {
-			source_url: string;
-		}[];
-	};
-	slug: string;
-	content: {
-		rendered: string;
-	};
-}
-
-export type Posts = Post[];
-interface Props {
-	tags?: number[];
-}
+// interface Post {
+// 	id: number;
+// 	title: {
+// 		rendered: string;
+// 	};
+// 	excerpt: {
+// 		rendered: string;
+// 	};
+// 	date: string;
+// 	_embedded: {
+// 		'wp:featuredmedia': {
+// 			source_url: string;
+// 		}[];
+// 	};
+// 	slug: string;
+// 	content: {
+// 		rendered: string;
+// 	};
+// }
+//
+// export type Posts = Post[];
+// interface Props {
+// 	tags?: number[];
+// }
 
 const { tags } = Astro.props;
 // const res = await fetch('https://12go.onetogrowonpod.com/wp-json/wp/v2/posts?per_page=100');
@@ -44,8 +46,10 @@ const res = await fetch(API_URL);
 if (!res.ok) {
 	console.log(res);
 }
-const posts: Posts = await res.json();
-// console.log(posts[0]);
+// const posts1: Posts = await res.json();
+
+const posts = await getCollection('posts');
+console.log(posts[0]);
 // console.log(posts.length);
 ---
 
@@ -53,16 +57,14 @@ const posts: Posts = await res.json();
 	{
 		posts.map((post) => {
 			/* maybe refactor to use class:lists */
-			const bgUrl = post._embedded['wp:featuredmedia']['0'].source_url
-				? `url(${post._embedded['wp:featuredmedia']['0'].source_url}`
-				: 'none';
+			const bgUrl = post.data.coverImage ? `url(${post.data.coverImage.src})` : 'none';
 			return (
 				<div>
-					<a class="post-link" style={{ backgroundImage: bgUrl }} href={post.slug}>
-						<PostBanner title={post.title.rendered} date={post.date} />
+					<a class="post-link" style={{ backgroundImage: bgUrl }} href={post.data.slug}>
+						<PostBanner title={post.data.title} date={post.data.date} />
 					</a>
 					{/* <Image src={post._embedded['wp:featuredmedia']['0'].source_url} alt="" inferSize={true} /> */}
-					<p class="post-excerpt" set:html={post.excerpt.rendered} />
+					<p class="post-excerpt" set:html={post.data.excerpt} />
 				</div>
 			);
 		})

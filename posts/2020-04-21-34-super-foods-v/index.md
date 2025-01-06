@@ -6,7 +6,7 @@ categories:
 tags: 
   - "series"
   - "superfoods"
-coverImage: "Pomological_Watercolor_POM00004559-1.jpg"
+coverImage: "./Pomological_Watercolor_POM00004559-1.jpg"
 ---
 
 It's super foods time again! This week, Hallie and Chris discuss the health claims and realities of wheatgrass, avocado, bee pollen and spelt. We learn where these foods come from and how they're used, as well as some choice vintage Teen Titan's trivia.
