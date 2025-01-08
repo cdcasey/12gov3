@@ -27,7 +27,7 @@ if (tag) {
 			const bgUrl = post.data.coverImage ? `url(${post.data.coverImage.src})` : 'none';
 			return (
 				<div>
-					<a class="post-link" style={{ backgroundImage: bgUrl }} href={post.data.slug}>
+					<a class="post-link" style={{ backgroundImage: bgUrl }} href={`/${post.data.slug}`}>
 						<PostBanner title={post.data.title} date={post.data.date} />
 					</a>
 					{/* <Image src={post._embedded['wp:featuredmedia']['0'].source_url} alt="" inferSize={true} /> */}
