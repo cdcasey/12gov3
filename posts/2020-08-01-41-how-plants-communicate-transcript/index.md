@@ -8,7 +8,7 @@ tags:
   - "ag-industry"
   - "gardening"
 coverImage: "./fungalnetworks.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

@@ -9,7 +9,7 @@ tags:
   - "crops"
   - "holiday-episode"
 coverImage: "./American_Chestnut.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

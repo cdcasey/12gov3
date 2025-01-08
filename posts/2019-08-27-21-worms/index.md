@@ -7,7 +7,7 @@ tags:
   - "ag-science"
   - "animal-ag"
 coverImage: "./Ep_021_earthworms.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

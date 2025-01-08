@@ -6,7 +6,7 @@ categories:
 tags: 
   - "ag-science"
 coverImage: "./200916_howplantsusewater.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

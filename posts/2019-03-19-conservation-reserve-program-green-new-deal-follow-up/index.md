@@ -7,7 +7,7 @@ tags:
   - "ag-policy"
   - "ag-industry"
 coverImage: "./images/483903_10151675619606490_1920334073_n-1-e1552962993619.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

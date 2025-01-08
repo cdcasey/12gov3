@@ -8,7 +8,7 @@ tags:
   - "crops"
   - "holiday-episode"
 coverImage: "./Ep_009_floral.jpeg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

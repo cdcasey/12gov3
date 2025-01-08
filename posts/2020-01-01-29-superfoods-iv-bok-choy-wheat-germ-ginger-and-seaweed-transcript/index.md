@@ -7,7 +7,7 @@ tags:
   - "series"
   - "superfoods"
 coverImage: "./Jade_cabbage_closeup.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

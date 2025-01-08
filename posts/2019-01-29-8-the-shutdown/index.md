@@ -7,7 +7,7 @@ tags:
   - "ag-policy"
   - "ag-industry"
 coverImage: "./Ep_008_shutdown.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

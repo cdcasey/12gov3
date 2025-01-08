@@ -8,7 +8,7 @@ tags:
   - "ag-history"
   - "crops"
 coverImage: "./200920_apples-scaled.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

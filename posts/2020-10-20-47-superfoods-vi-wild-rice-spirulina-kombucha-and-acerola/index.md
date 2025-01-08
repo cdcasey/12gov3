@@ -9,7 +9,7 @@ tags:
   - "series"
   - "superfoods"
 coverImage: "./200918_superfoods-scaled.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

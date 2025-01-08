@@ -8,7 +8,7 @@ tags:
   - "organic-ag"
   - "series"
 coverImage: "./Ep_017_orgii.jpeg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

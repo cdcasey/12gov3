@@ -8,7 +8,7 @@ tags:
   - "ag-industry"
   - "crops"
 coverImage: "./200922_christmas-scaled.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "ag-policy"
   - "ag-industry"
 coverImage: "./Ep_011_gnd.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

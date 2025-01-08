@@ -8,7 +8,7 @@ tags:
   - "animal-ag"
   - "guest-episode"
 coverImage: "./Ep_014_beekeeping.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "ag-science"
   - "ag-history"
 coverImage: "./Ep_013_planttax.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

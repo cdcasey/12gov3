@@ -4,7 +4,7 @@ date: "2020-06-09"
 categories: 
   - "episodes"
 coverImage: "./BLM.png"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

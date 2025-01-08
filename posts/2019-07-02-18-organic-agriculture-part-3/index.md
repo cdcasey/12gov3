@@ -9,7 +9,7 @@ tags:
   - "series"
   - "social-justice"
 coverImage: "./Ep_018_orgiii-e1572820027630.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

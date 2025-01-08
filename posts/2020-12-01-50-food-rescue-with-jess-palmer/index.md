@@ -8,7 +8,7 @@ tags:
   - "guest-episode"
   - "social-justice"
 coverImage: "./food_rescue.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

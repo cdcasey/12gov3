@@ -6,7 +6,7 @@ categories:
 tags: 
   - "ag-industry"
 coverImage: "./Green_Infrastructure_vegetable_cultivation_Munich_LOS_DAMA-scaled.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

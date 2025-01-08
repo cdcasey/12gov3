@@ -8,7 +8,7 @@ tags:
   - "ag-industry"
   - "minisode"
 coverImage: "./KreeftbijDenOsse.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

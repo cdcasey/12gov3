@@ -8,7 +8,7 @@ tags:
   - "animal-ag"
   - "guest-episode"
 coverImage: "./Ep_020_zoonotic.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "organic-ag"
   - "series"
 coverImage: "./Ep_016_orgi.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

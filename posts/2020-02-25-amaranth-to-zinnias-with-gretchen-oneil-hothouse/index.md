@@ -4,7 +4,7 @@ date: "2020-02-25"
 categories: 
   - "episodes"
 coverImage: "./IMG_8166.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

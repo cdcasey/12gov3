@@ -8,7 +8,7 @@ tags:
   - "ag-industry"
   - "animal-ag"
 coverImage: "./200809_covid.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

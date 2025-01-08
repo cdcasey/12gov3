@@ -9,7 +9,7 @@ tags:
   - "series"
   - "superfoods"
 coverImage: "./Ep_006_superfoodi.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

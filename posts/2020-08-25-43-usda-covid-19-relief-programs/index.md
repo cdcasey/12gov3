@@ -6,7 +6,7 @@ categories:
 tags: 
   - "ag-policy"
 coverImage: "./200816_usdacovid-scaled.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

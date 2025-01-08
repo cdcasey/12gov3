@@ -9,7 +9,7 @@ tags:
   - "series"
   - "social-justice"
 coverImage: "./200602_localfood.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

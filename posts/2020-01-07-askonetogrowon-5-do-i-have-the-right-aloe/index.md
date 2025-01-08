@@ -9,7 +9,7 @@ tags:
   - "gardening"
   - "minisode"
 coverImage: "./005_Aloevera-scaled.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

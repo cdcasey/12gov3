@@ -7,7 +7,7 @@ tags:
   - "ag-history"
   - "ag-industry"
 coverImage: "./Chasing-Sheep.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

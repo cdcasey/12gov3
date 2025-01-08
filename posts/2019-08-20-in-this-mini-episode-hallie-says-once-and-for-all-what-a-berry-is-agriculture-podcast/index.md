@@ -9,7 +9,7 @@ tags:
   - "minisode"
   - "series"
 coverImage: "./Screen-Shot-2019-11-03-at-4.43.18-PM.png"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

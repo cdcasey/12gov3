@@ -8,7 +8,7 @@ tags:
   - "ag-history"
   - "crops"
 coverImage: "./200817_banana.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

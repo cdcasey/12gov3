@@ -8,7 +8,7 @@ tags:
   - "minisode"
   - "organic-ag"
 coverImage: "./16484568416_d1466bb697.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

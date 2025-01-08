@@ -4,7 +4,7 @@ date: "2020-03-10"
 categories: 
   - "episodes"
 coverImage: "./200224_FFP2_Toasted-Sister.png"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

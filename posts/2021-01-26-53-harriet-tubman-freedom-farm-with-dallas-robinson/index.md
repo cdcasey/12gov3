@@ -9,7 +9,7 @@ tags:
   - "guest-episode"
   - "social-justice"
 coverImage: "./Farm_where_Harriet_Tubman_was_a_slave_-_panoramio.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

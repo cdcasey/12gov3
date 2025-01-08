@@ -8,7 +8,7 @@ tags:
   - "ag-history"
   - "ag-industry"
 coverImage: "./Ep_007_greenrev.jpeg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

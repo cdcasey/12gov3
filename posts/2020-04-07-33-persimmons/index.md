@@ -8,7 +8,7 @@ tags:
   - "ag-industry"
   - "crops"
 coverImage: "./image0.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

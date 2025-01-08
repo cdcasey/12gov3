@@ -7,7 +7,7 @@ tags:
   - "series"
   - "superfoods"
 coverImage: "./Pomological_Watercolor_POM00004559-1.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "ag-industry"
   - "social-justice"
 coverImage: "./Ep_012_farmworkers.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

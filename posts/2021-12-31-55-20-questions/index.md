@@ -6,7 +6,7 @@ categories:
 tags: 
   - "question-episode"
 coverImage: "./me_hallie.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

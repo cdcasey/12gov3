@@ -8,7 +8,7 @@ tags:
   - "guest-episode"
   - "social-justice"
 coverImage: "./Screen-Shot-2019-11-04-at-4.50.11-PM.png"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

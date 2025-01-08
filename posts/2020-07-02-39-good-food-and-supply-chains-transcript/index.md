@@ -9,7 +9,7 @@ tags:
   - "local-food"
   - "series"
 coverImage: "./image0-1.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

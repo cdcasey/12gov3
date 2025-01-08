@@ -4,7 +4,7 @@ date: "2020-03-24"
 categories: 
   - "episodes"
 coverImage: "./oysters.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

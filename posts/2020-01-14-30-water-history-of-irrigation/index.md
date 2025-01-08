@@ -9,7 +9,7 @@ tags:
   - "series"
   - "water"
 coverImage: "./water-1.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

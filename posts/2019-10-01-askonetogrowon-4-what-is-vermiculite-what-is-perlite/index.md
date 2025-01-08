@@ -9,7 +9,7 @@ tags:
   - "gardening"
   - "minisode"
 coverImage: "./31460506994_f7400bf564_b.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

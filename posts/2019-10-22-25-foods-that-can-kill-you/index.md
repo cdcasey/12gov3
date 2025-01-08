@@ -7,7 +7,7 @@ tags:
   - "ag-science"
   - "holiday-episode"
 coverImage: "./Screen-Shot-2019-11-03-at-4.38.48-PM.png"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

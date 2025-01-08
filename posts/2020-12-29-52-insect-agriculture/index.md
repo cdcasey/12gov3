@@ -9,7 +9,7 @@ tags:
   - "ag-industry"
   - "animal-ag"
 coverImage: "./052_insect_ag-scaled.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

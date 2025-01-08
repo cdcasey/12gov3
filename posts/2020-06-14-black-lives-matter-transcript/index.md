@@ -4,7 +4,7 @@ date: "2020-06-14"
 categories: 
   - "transcripts"
 coverImage: "./BLM.png"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "ag-science"
   - "ag-industry"
 coverImage: "./1024px-For_weeding_choose_Glyphosate.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

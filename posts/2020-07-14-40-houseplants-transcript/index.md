@@ -8,7 +8,7 @@ tags:
   - "ag-industry"
   - "gardening"
 coverImage: "./200701_houseplant-scaled.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

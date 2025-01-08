@@ -8,7 +8,7 @@ tags:
   - "ag-industry"
   - "gardening"
 coverImage: "./2048px-Plant_tissue_cultures_National_Center_for_Genetic_Resources_Preservation_USDA.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

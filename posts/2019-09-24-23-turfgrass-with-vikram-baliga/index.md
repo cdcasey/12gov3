@@ -9,7 +9,7 @@ tags:
   - "crops"
   - "guest-episode"
 coverImage: "./Ep_023_turfgrass.jpeg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

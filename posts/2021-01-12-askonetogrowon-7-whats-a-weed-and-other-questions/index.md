@@ -6,7 +6,7 @@ categories:
 tags: 
   - "askonetogrowon"
 coverImage: "./weeds-scaled.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

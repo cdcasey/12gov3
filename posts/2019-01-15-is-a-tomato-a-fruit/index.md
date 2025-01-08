@@ -8,7 +8,7 @@ tags:
   - "question-episode"
   - "series"
 coverImage: "./Ep_007SQ_tomatofruit.jpeg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

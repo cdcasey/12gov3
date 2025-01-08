@@ -6,7 +6,7 @@ categories:
 tags: 
   - "ag-industry"
 coverImage: "./Ep_010_biodiesel.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

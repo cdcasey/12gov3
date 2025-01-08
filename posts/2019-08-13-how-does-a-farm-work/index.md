@@ -8,7 +8,7 @@ tags:
   - "question-episode"
   - "series"
 coverImage: "./Ep_020SQ_howdoesafarmwork.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 

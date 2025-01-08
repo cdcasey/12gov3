@@ -8,7 +8,7 @@ tags:
   - "ag-industry"
   - "gardening"
 coverImage: "./vegetable-gardening.jpg"
-slug: ""
+slug: "slug"
 excerpt: ""
 ---
 
