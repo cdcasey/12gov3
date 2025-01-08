@@ -6,6 +6,8 @@ categories:
 tags: 
   - "ag-industry"
 coverImage: "./Green_Infrastructure_vegetable_cultivation_Munich_LOS_DAMA-scaled.jpg"
+slug: ""
+excerpt: ""
 ---
 
 [Listen to the full episode.](https://www.onetogrowonpod.com/46-new-farmers-with-marcus-coleman/)

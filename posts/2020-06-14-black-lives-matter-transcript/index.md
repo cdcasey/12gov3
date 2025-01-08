@@ -4,6 +4,8 @@ date: "2020-06-14"
 categories: 
   - "transcripts"
 coverImage: "./BLM.png"
+slug: ""
+excerpt: ""
 ---
 
 [Listen to the full audio](https://12go.onetogrowonpod.com/black-lives-matter-2/).

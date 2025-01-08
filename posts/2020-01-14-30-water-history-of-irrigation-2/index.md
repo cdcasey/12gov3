@@ -9,6 +9,8 @@ tags:
   - "series"
   - "water"
 coverImage: "./water-1.jpg"
+slug: ""
+excerpt: ""
 ---
 
 [Listen to the full episode.](https://www.onetogrowonpod.com/30-water-history-of-irrigation/)

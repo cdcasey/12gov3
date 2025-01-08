@@ -8,6 +8,8 @@ tags:
   - "question-episode"
   - "series"
 coverImage: "./Ep_020SQ_howdoesafarmwork.jpg"
+slug: ""
+excerpt: ""
 ---
 
 It's another Catherine episode! This week, Catherine and Hallie discuss farm production, employment and revenue. We learn about small scale versus large scale production, the practicalities of different crops, and the merits of different film versions of the musical Annie.

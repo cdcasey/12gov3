@@ -8,6 +8,8 @@ tags:
   - "ag-industry"
   - "gardening"
 coverImage: "./vegetable-gardening.jpg"
+slug: ""
+excerpt: ""
 ---
 
 [Listen to the full episode](https://12go.onetogrowonpod.com/36-vegetable-gardening/).

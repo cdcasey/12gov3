@@ -10,6 +10,8 @@ tags:
   - "series"
   - "social-justice"
 coverImage: "./200602_localfood.jpg"
+slug: ""
+excerpt: ""
 ---
 
 This week we kick off our series on local food and talk about the adventures of urban farming! Find Sophia on instagram, [https://www.instagram.com/ladybuggsfarm/](https://www.instagram.com/ladybuggsfarm/), or watch her TEDx talk! [https://www.youtube.com/watch?v=zrGSYHl3HfA](https://www.youtube.com/watch?v=zrGSYHl3HfA)

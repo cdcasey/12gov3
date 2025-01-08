@@ -8,6 +8,8 @@ tags:
   - "ag-industry"
   - "gardening"
 coverImage: "./200701_houseplant-scaled.jpg"
+slug: ""
+excerpt: ""
 ---
 
 [Listen to the full episode.](https://www.onetogrowonpod.com/40-houseplants/)

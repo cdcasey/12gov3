@@ -9,6 +9,8 @@ tags:
   - "minisode"
   - "series"
 coverImage: "./Screen-Shot-2019-11-03-at-4.43.18-PM.png"
+slug: ""
+excerpt: ""
 ---
 
 In this mini-episode, Hallie says, once and for all, what a berry is.

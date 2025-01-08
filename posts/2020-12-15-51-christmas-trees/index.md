@@ -8,6 +8,8 @@ tags:
   - "ag-industry"
   - "crops"
 coverImage: "./200922_christmas-scaled.jpg"
+slug: ""
+excerpt: ""
 ---
 
 This week we're talking about Chistmas trees! What is a conifer? Should you buy real or plastic? How many super powers does Santa Claus have?

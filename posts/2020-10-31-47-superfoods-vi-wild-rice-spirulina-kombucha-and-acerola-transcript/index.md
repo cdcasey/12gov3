@@ -9,6 +9,8 @@ tags:
   - "series"
   - "superfoods"
 coverImage: "./200918_superfoods-scaled.jpg"
+slug: ""
+excerpt: ""
 ---
 
 [Listen to the full episode.](https://www.onetogrowonpod.com/47-superfoods-vi-wild-rice-spirulina-kombucha-and-acerola/)

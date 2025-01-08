@@ -8,6 +8,8 @@ tags:
   - "guest-episode"
   - "social-justice"
 coverImage: "./Screen-Shot-2019-11-04-at-4.50.11-PM.png"
+slug: ""
+excerpt: ""
 ---
 
 \*Content warning: there is a PG-13 un-bleeped curse word in this episode\*

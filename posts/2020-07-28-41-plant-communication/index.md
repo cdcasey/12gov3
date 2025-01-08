@@ -8,6 +8,8 @@ tags:
   - "ag-industry"
   - "gardening"
 coverImage: "./fungalnetworks.jpg"
+slug: ""
+excerpt: ""
 ---
 
 This week, Hallie and Chris explore the fun-filled world of fungi! We learn about the ways the fungi support plant-life, how they make it possible for plants to communicate with each other, and what these relationships mean for agriculture. We definitely decide how to pronounce "gif" and "fungi."

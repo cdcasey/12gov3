@@ -8,6 +8,8 @@ tags:
   - "guest-episode"
   - "social-justice"
 coverImage: "./food_rescue.jpg"
+slug: ""
+excerpt: ""
 ---
 
 [Listen to the full podcast.](https://www.onetogrowonpod.com/50-food-rescue-with-jess-palmer/)

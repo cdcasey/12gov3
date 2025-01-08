@@ -8,6 +8,8 @@ tags:
   - "ag-industry"
   - "gardening"
 coverImage: "./200701_houseplant-scaled.jpg"
+slug: ""
+excerpt: ""
 ---
 
 In this episode, Hallie and Chris discuss houseplants. They discuss a brief history of houseplants, as well as some of Hallie's favorite varieties and tips for keeping them! Also, Hallie clearly knows much more about Girls Scout cookies than Chris does.

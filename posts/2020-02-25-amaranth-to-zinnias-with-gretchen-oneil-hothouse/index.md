@@ -4,6 +4,8 @@ date: "2020-02-25"
 categories: 
   - "episodes"
 coverImage: "./IMG_8166.jpg"
+slug: ""
+excerpt: ""
 ---
 
 We're kicking off our agricultural podcast exchange with a fellow Austin podcast: Hothouse. In this episode, host Leah and her guest Gretchen discuss growing cut flowers, women-run farms, and the (many) differences between Texas and New England. We learn how Gretchen got her start in farming as well as the many intricacies of running an agricultural business. We hope you like this episode of Hothouse and we're so excited to bring new agriculture podcasts to your feeds this month!

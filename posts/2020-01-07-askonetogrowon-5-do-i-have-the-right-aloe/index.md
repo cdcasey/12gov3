@@ -9,6 +9,8 @@ tags:
   - "gardening"
   - "minisode"
 coverImage: "./005_Aloevera-scaled.jpg"
+slug: ""
+excerpt: ""
 ---
 
 In this mini-episode, Hallie explains what _Aloe_ is and which we kind we use for what.  

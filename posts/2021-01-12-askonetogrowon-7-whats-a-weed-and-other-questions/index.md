@@ -6,6 +6,8 @@ categories:
 tags: 
   - "askonetogrowon"
 coverImage: "./weeds-scaled.jpg"
+slug: ""
+excerpt: ""
 ---
 
 What makes something a weed? What is pumpkin spice? What are our favorite fruits and vegetables? These an many more listener questions answered on this week's episode.

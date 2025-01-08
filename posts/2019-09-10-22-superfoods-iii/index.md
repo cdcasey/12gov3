@@ -8,6 +8,8 @@ tags:
   - "series"
   - "superfoods"
 coverImage: "./Ep_022_superfoodiii.jpg"
+slug: ""
+excerpt: ""
 ---
 
 Who's ready for more superfoods? We sure are! This week Hallie and Chris evaluate microgreens, steel-cut oats, mangosteen and ginko. We learn which fruit is the "queen of fruit", which plant is highly nutritious, and which is kind of regular. And of course, which are cape-worthy.

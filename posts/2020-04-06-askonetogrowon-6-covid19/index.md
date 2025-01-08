@@ -7,6 +7,8 @@ tags:
   - "askonetogrowon"
   - "ag-industry"
 coverImage: "./1200px-Pasta_shortage_tourism_at_Tesco2C_Finchley2C_London.jpg"
+slug: ""
+excerpt: ""
 ---
 
 On this maxisode-length edition of Ask One to Grow On, three-quarters of the Casey family (Hallie, Chris and Joanna) discuss how the COVID19 outbreak is impacting agriculture and the food supply chain.

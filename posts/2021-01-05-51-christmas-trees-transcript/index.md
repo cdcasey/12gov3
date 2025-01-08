@@ -8,6 +8,8 @@ tags:
   - "ag-industry"
   - "crops"
 coverImage: "./200922_christmas-scaled.jpg"
+slug: ""
+excerpt: ""
 ---
 
 [Listen to the full episode.](https://www.onetogrowonpod.com/51-christmas-trees/)

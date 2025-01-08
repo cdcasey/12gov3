@@ -6,6 +6,8 @@ categories:
 tags: 
   - "ag-science"
 coverImage: "./200916_howplantsusewater.jpg"
+slug: ""
+excerpt: ""
 ---
 
 [Listen to the full episode.](https://www.onetogrowonpod.com/45-how-plants-use-water/)

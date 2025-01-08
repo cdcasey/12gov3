@@ -8,6 +8,8 @@ tags:
   - "ag-industry"
   - "crops"
 coverImage: "./image0.jpg"
+slug: ""
+excerpt: ""
 ---
 
 [Listen to the full episode](https://12go.onetogrowonpod.com/33-persimmons/).

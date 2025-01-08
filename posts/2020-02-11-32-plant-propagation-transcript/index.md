@@ -8,6 +8,8 @@ tags:
   - "ag-industry"
   - "gardening"
 coverImage: "./2048px-Plant_tissue_cultures_National_Center_for_Genetic_Resources_Preservation_USDA.jpg"
+slug: ""
+excerpt: ""
 ---
 
 [Listen to the full episode](https://12go.onetogrowonpod.com/32-plant-propagation/).

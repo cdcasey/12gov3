@@ -9,6 +9,8 @@ tags:
   - "crops"
   - "guest-episode"
 coverImage: "./Ep_023_turfgrass.jpeg"
+slug: ""
+excerpt: ""
 ---
 
 This week Vikram Baliga of Texas Tech university joins Hallie and Chris to talk about turf grass. We learn where it comes from, what it does, and just how high some grasses can grow.

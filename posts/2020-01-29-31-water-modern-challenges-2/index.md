@@ -9,6 +9,8 @@ tags:
   - "series"
   - "water"
 coverImage: "./Screen-Shot-2020-01-28-at-10.49.39-AM.png"
+slug: ""
+excerpt: ""
 ---
 
 [Listen to the full episode.](https://www.onetogrowonpod.com/31-water-modern-challenges/)

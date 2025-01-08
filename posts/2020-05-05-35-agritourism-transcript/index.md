@@ -6,6 +6,8 @@ categories:
 tags: 
   - "ag-industry"
 coverImage: "./Tree_Grace_Farms_specializes_in_organic_fruit_and_vegetables._Families_can_visit_the_farm_and_harvest_fresh_produce._24821411950-scaled.jpg"
+slug: ""
+excerpt: ""
 ---
 
 [Listen to the full episode](https://12go.onetogrowonpod.com/35-agrotourism/).

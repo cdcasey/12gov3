@@ -9,6 +9,8 @@ tags:
   - "series"
   - "superfoods"
 coverImage: "./200918_superfoods-scaled.jpg"
+slug: ""
+excerpt: ""
 ---
 
 More superfoods! Will wild rice, spirulina, kombucha, or acerola be caped? Will you please vote? Will you wear kombucha scoby?

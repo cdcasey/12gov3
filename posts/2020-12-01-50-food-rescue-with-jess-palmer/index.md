@@ -8,6 +8,8 @@ tags:
   - "guest-episode"
   - "social-justice"
 coverImage: "./food_rescue.jpg"
+slug: ""
+excerpt: ""
 ---
 
 This week we're talking to Jess Palmer of [Keep Austin Fed](https://keepaustinfed.org/) about food rescue. Why is food rescue something we need to worry about, and what can we do to help?

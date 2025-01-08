@@ -8,6 +8,8 @@ tags:
   - "ag-industry"
   - "animal-ag"
 coverImage: "./200809_covid.jpg"
+slug: ""
+excerpt: ""
 ---
 
 Article Hallie wrote about this topic: [COVID-19 and the US Food Supply Chain: What Happened?](https://sustainablefoodcenter.org/latest/blog/covid-19-and-the-us-food-supply-chain-what-happened)

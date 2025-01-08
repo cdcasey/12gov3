@@ -9,6 +9,8 @@ tags:
   - "crops"
   - "holiday-episode"
 coverImage: "./American_Chestnut.jpg"
+slug: ""
+excerpt: ""
 ---
 
 [Listen to the full episode.](https://www.onetogrowonpod.com/28-american-chestnut/)

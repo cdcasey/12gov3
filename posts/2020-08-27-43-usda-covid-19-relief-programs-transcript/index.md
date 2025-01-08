@@ -6,6 +6,8 @@ categories:
 tags: 
   - "ag-policy"
 coverImage: "./200816_usdacovid-scaled.jpg"
+slug: ""
+excerpt: ""
 ---
 
 [Listen to the full episode](https://www.onetogrowonpod.com/43-usda-covid-19-relief-programs/).

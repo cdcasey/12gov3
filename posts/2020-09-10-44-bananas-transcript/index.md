@@ -8,6 +8,8 @@ tags:
   - "ag-history"
   - "crops"
 coverImage: "./200817_banana.jpg"
+slug: ""
+excerpt: ""
 ---
 
 [Listen to the full episode.](https://www.onetogrowonpod.com/44-bananas/)

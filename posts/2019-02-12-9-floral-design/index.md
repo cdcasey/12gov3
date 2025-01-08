@@ -8,6 +8,8 @@ tags:
   - "crops"
   - "holiday-episode"
 coverImage: "./Ep_009_floral.jpeg"
+slug: ""
+excerpt: ""
 ---
 
 Just in time for Valentine's Day, Hallie and Chris bring us the history and intricacies of floral design and the floral industry. We learn about how the internet has affected florists, the crazy auction process for flowers and just how much Hallie loves her local florist. Plus, this episode contains maximal flower fun facts to wow your friends with.

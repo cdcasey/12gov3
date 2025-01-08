@@ -9,6 +9,8 @@ tags:
   - "local-food"
   - "series"
 coverImage: "./image0-1.jpg"
+slug: ""
+excerpt: ""
 ---
 
 [Listen to the full episode](https://12go.onetogrowonpod.com/39-good-food-and-supply-chains/).

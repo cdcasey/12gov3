@@ -8,6 +8,8 @@ tags:
   - "gardening"
   - "guest-episode"
 coverImage: "./200919_xeriscaping.jpg"
+slug: ""
+excerpt: ""
 ---
 
 [Listen to the full episode.](https://www.onetogrowonpod.com/48-xeriscaping-with-leah-churner-and-colleen-dieter/)

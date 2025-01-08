@@ -9,6 +9,8 @@ tags:
   - "local-food"
   - "series"
 coverImage: "./Arlington_Courthouse_Farmers_Market_5106012513.jpg"
+slug: ""
+excerpt: ""
 ---
 
 [Listen to the full episode](https://www.onetogrowonpod.com/farmers-markets/).

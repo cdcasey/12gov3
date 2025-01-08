@@ -9,6 +9,8 @@ tags:
   - "gardening"
   - "minisode"
 coverImage: "./31460506994_f7400bf564_b.jpg"
+slug: ""
+excerpt: ""
 ---
 
 In this mini-episode, Hallie explains the difference between perlite and vermiculite, what they're good for, and when to use them.

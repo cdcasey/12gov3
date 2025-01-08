@@ -4,6 +4,8 @@ date: "2021-02-09"
 categories: 
   - "episodes"
 coverImage: "./IMG_0454.jpg"
+slug: ""
+excerpt: ""
 ---
 
 Hey there! We're taking a little break, but never fear. We'll be back!

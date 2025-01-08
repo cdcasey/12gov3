@@ -7,6 +7,8 @@ tags:
   - "series"
   - "superfoods"
 coverImage: "./Jade_cabbage_closeup.jpg"
+slug: ""
+excerpt: ""
 ---
 
 [Listen to the full episode.](https://www.onetogrowonpod.com/29-superfoods-iv-bok-choy-wheat-germ-ginger-and-seaweed/)
