@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import PostBanner from './PostBanner.astro';
 
-const { tags } = Astro.props;
+const { tag } = Astro.props;
 // const res = await fetch('https://12go.onetogrowonpod.com/wp-json/wp/v2/posts?per_page=100');
 // const res = await fetch(
 // 	'https://12go.onetogrowonpod.com/wp-json/wp/v2/posts?_embed&_fields=author,id,excerpt,title,link,_embed,featured_media,date',
@@ -10,22 +10,14 @@ const { tags } = Astro.props;
 
 // We can't build up with new URL() because there's no way to append _embed as a valueless param
 // let API_URL = 'https://12go.onetogrowonpod.com/wp-json/wp/v2/posts?_embed';
-//
-// if (tags) {
-// 	API_URL += `&tags=${tags.join(',')}`;
-// }
-//
-// const res = await fetch(API_URL);
-//
-// if (!res.ok) {
-// 	console.log(res);
-// }
-// const posts1: Posts = await res.json();
 
 const posts = await getCollection('posts');
-const sortedPosts = posts.sort(
+let sortedPosts = posts.sort(
 	(a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf(),
 );
+if (tag) {
+	sortedPosts = sortedPosts.filter((post) => post?.data?.tags?.includes(tag));
+}
 ---
 
 <section class="post-grid">

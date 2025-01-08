@@ -1,19 +1,22 @@
 ---
 import Posts from '@/components/Posts.astro';
 import BaseLayout from '@/layouts/BaseLayout.astro';
-import type { Tags } from '@/components/FooterSections/FooterTags.astro';
+import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
-	const res = await fetch('https://12go.onetogrowonpod.com/wp-json/wp/v2/tags?per_page=100');
+	const posts = await getCollection('posts');
 
-	if (!res.ok) {
-		console.log(res);
-	}
-	const tags: Tags = await res.json();
+	let allTags = posts.reduce((tagList: string[], post) => {
+		if (post?.data?.tags?.length) {
+			tagList = tagList?.concat(post.data.tags);
+		}
+		return tagList;
+	}, []);
+	allTags = [...new Set(allTags)];
 
-	return tags.map((tag) => {
+	return allTags.map((tag) => {
 		return {
-			params: { tag: tag.slug },
+			params: { tag },
 			props: { tag },
 		};
 	});
@@ -23,5 +26,5 @@ const { tag } = Astro.props;
 ---
 
 <BaseLayout>
-	<Posts tags={[tag.id]} />
+	<Posts tag={tag} />
 </BaseLayout>
