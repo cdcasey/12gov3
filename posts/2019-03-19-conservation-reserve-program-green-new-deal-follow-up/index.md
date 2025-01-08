@@ -7,8 +7,8 @@ tags:
   - "ag-policy"
   - "ag-industry"
 coverImage: "./images/483903_10151675619606490_1920334073_n-1-e1552962993619.jpg"
-slug: "slug"
-excerpt: ""
+slug: "conservation-reserve-program-green-new-deal-follow-up"
+excerpt: "The Conservation Reserve Program (or CRP) is administered by the Farm Service Agency and is funded by the Farm Bill. This program offers yearly rental payment to farmers, and, in exchange, farmers take environmentally sensitive land out of production and grow plants that can bolster the surrounding ecosystem …"
 ---
 
 The Conservation Reserve Program (or CRP) is administered by the Farm Service Agency and is funded by the Farm Bill. This program offers yearly rental payment to farmers, and, in exchange, farmers take environmentally sensitive land out of production and grow plants that can bolster the surrounding ecosystem. Farmers can sign contracts 10-15 years in length and are usually paid based on the dryland crop rent rate, meaning whatever someone could earn renting the land for growth of non-irrigated crops (like wheat, corn, etc.). The program targets land for things like wetland restoration, pollinator habitats, and erosion control.
