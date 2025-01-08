@@ -3,32 +3,38 @@ import type { Posts } from '@/components/Posts.astro';
 import PageLayout from '../layouts/PageLayout.astro';
 
 import { formatDate } from '../scripts/formatDate';
+import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
-	const res = await fetch('https://12go.onetogrowonpod.com/wp-json/wp/v2/posts?_embed');
-
-	if (!res.ok) {
-		console.log(res);
-	}
-	const posts: Posts = await res.json();
+	// const res = await fetch('https://12go.onetogrowonpod.com/wp-json/wp/v2/posts?_embed');
+	//
+	// if (!res.ok) {
+	// 	console.log(res);
+	// }
+	// const posts: Posts = await res.json();
+	const posts = await getCollection('posts');
 
 	return posts.map((post) => {
 		return {
-			params: { slug: post.slug },
+			params: { slug: post.data.slug },
 			props: { post },
 		};
 	});
 }
 
 const { post } = Astro.props;
-const formatedDate = formatDate(post.date);
+const { Content } = await render(post);
+
+const formattedDate = formatDate(post.data.date);
 ---
 
 <PageLayout>
 	<article>
-		<h1 class="text-4xl font-bold">{post.title.rendered}</h1>
-		<time class="mb-5 block" datetime={formatedDate}>{formatedDate}</time>
-		<section class="article-text" set:html={post.content.rendered} />
+		<h1 class="text-4xl font-bold">{post.data.title}</h1>
+		<time class="mb-5 block" datetime={formattedDate}>{formattedDate}</time>
+		<section class="article-text">
+			<Content />
+		</section>
 	</article>
 </PageLayout>
 

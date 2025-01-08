@@ -1,32 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
 import PostBanner from './PostBanner.astro';
-// import type { Post } from '../content.config';
-
-// interface Post {
-// 	id: number;
-// 	title: {
-// 		rendered: string;
-// 	};
-// 	excerpt: {
-// 		rendered: string;
-// 	};
-// 	date: string;
-// 	_embedded: {
-// 		'wp:featuredmedia': {
-// 			source_url: string;
-// 		}[];
-// 	};
-// 	slug: string;
-// 	content: {
-// 		rendered: string;
-// 	};
-// }
-//
-// export type Posts = Post[];
-// interface Props {
-// 	tags?: number[];
-// }
 
 const { tags } = Astro.props;
 // const res = await fetch('https://12go.onetogrowonpod.com/wp-json/wp/v2/posts?per_page=100');
@@ -35,27 +9,28 @@ const { tags } = Astro.props;
 // );
 
 // We can't build up with new URL() because there's no way to append _embed as a valueless param
-let API_URL = 'https://12go.onetogrowonpod.com/wp-json/wp/v2/posts?_embed';
-
-if (tags) {
-	API_URL += `&tags=${tags.join(',')}`;
-}
-
-const res = await fetch(API_URL);
-
-if (!res.ok) {
-	console.log(res);
-}
+// let API_URL = 'https://12go.onetogrowonpod.com/wp-json/wp/v2/posts?_embed';
+//
+// if (tags) {
+// 	API_URL += `&tags=${tags.join(',')}`;
+// }
+//
+// const res = await fetch(API_URL);
+//
+// if (!res.ok) {
+// 	console.log(res);
+// }
 // const posts1: Posts = await res.json();
 
 const posts = await getCollection('posts');
-console.log(posts[0]);
-// console.log(posts.length);
+const sortedPosts = posts.sort(
+	(a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf(),
+);
 ---
 
 <section class="post-grid">
 	{
-		posts.map((post) => {
+		sortedPosts.map((post) => {
 			/* maybe refactor to use class:lists */
 			const bgUrl = post.data.coverImage ? `url(${post.data.coverImage.src})` : 'none';
 			return (

@@ -19,10 +19,10 @@ const posts = defineCollection({
 	loader: glob({ pattern: '**/*.md', base: './posts' }),
 	schema: ({ image }) =>
 		z.object({
-			title: z.string().optional(),
-			slug: z.string().optional(),
-			date: z.coerce.date().optional(),
-			excerpt: z.string().optional(),
+			title: z.string(),
+			slug: z.string(),
+			date: z.coerce.date(),
+			excerpt: z.string(),
 			category: z.enum(['episodes', 'transcripts', 'promo']).optional(),
 			tags: z.array(z.string()).optional(),
 			coverImage: image(),
