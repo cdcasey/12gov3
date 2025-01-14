@@ -8,8 +8,8 @@ tags:
   - "ag-science"
   - "ag-industry"
 coverImage: "./1024px-For_weeding_choose_Glyphosate.jpg"
-slug: "slug"
-excerpt: ""
+slug: "54-glyphosate"
+excerpt: "We talk about the controversial weed killer! One more episode left!"
 ---
 
 We talk about the controversial weed killer! One more episode left!
