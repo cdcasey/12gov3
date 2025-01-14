@@ -7,8 +7,8 @@ tags:
   - "ag-industry"
   - "social-justice"
 coverImage: "./Ep_012_farmworkers.jpg"
-slug: "slug"
-excerpt: ""
+slug: "12-farmworkers-rights"
+excerpt: "In honor of Cesar Chavez day this coming Sunday, Hallie and Chris talk about the struggles farmworkers face and the efforts individuals and organizations have made to try to elevate these struggles. We also learn about why farmworkers rights are intertwined with immigration policy and who exactly Cesar Chavez and Dolores Huerta are."
 ---
 
 \*Content warning: this episode mentions sexual violence and traumatic death\*
