@@ -8,11 +8,11 @@ tags:
   - "series"
   - "superfoods"
 coverImage: "./Ep_015_superfoodii.jpg"
-slug: "slug"
-excerpt: ""
+slug: "15-superfoods-2"
+excerpt: "We’re back with more superfoods! This time Hallie and Chris tackle flax, charcoal, cocoa and moringa. We learn which foods are connected to a decreased risk of cancer, which are mostly useless, and what to do if you've been poisoned in the Harry Potter universe."
 ---
 
-We're back with more superfoods! This time Hallie and Chris tackle flax, charcoal, cocoa and moringa. We learn which foods are connected to a decreased risk of cancer, which are mostly useless, and what to do if you've been poisoned in the Harry Potter universe.
+We’re back with more superfoods! This time Hallie and Chris tackle flax, charcoal, cocoa and moringa. We learn which foods are connected to a decreased risk of cancer, which are mostly useless, and what to do if you've been poisoned in the Harry Potter universe.
 
 **Connect with us!**  
 [twitter.com/onetogrowonpod](http://twitter.com/onetogrowonpod)  
