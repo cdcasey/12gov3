@@ -12,7 +12,7 @@ slug: "slug"
 excerpt: ""
 ---
 
-This week we're talking about xeriscaping! Leah and Colleen join us to talk about what it is, where it came from, and why a yard full of gravel is a terrible idea. Also, did your school ever have any weird branding?
+This week we’re talking about xeriscaping! Leah and Colleen join us to talk about what it is, where it came from, and why a yard full of gravel is a terrible idea. Also, did your school ever have any weird branding?
 
 [Read the transcript for this episode.](https://www.onetogrowonpod.com/48-xeriscaping-with-leah-churner-and-colleen-dieter-transcript/)
 

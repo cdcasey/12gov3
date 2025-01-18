@@ -11,7 +11,7 @@ slug: "slug"
 excerpt: ""
 ---
 
-It's super foods time again! This week, Hallie and Chris discuss the health claims and realities of wheatgrass, avocado, bee pollen and spelt. We learn where these foods come from and how they're used, as well as some choice vintage Teen Titan's trivia.
+It’s super foods time again! This week, Hallie and Chris discuss the health claims and realities of wheatgrass, avocado, bee pollen and spelt. We learn where these foods come from and how they’re used, as well as some choice vintage Teen Titan’s trivia.
 
 [Read the transcript](https://onetogrowonpod.com/34-super-foods-v/).
 

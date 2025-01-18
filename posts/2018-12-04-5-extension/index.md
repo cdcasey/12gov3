@@ -9,10 +9,10 @@ tags:
   - "ag-industry"
 coverImage: "./Ep_005_extension.jpg"
 slug: 5-extension
-excerpt: "In this episode, we learn about agricultural extension, the seemingly radical, government supported method of ensuring that farming keeps up with current technology. It's also what Hallie does all day at work."
+excerpt: "In this episode, we learn about agricultural extension, the seemingly radical, government supported method of ensuring that farming keeps up with current technology. It’s also what Hallie does all day at work."
 ---
 
-In this episode, we learn about agricultural extension, the seemingly radical, government supported method of ensuring that farming keeps up with current technology. It's also what Hallie does all day at work.
+In this episode, we learn about agricultural extension, the seemingly radical, government supported method of ensuring that farming keeps up with current technology. It’s also what Hallie does all day at work.
 
 **Connect with us!** [twitter.com/onetogrowonpod](http://twitter.com/onetogrowonpod) [instagram.com/onetogrowonpod](http://instagram.com/onetogrowonpod) [facebook.com/onetogrowonpod](http://facebook.com/onetogrowonpod) [onetogrowonpod@gmail.com](mailto:onetogrowonpod@gmail.com) Tweet with #AskOnetoGrowOn [onetogrowonpod.com](http://onetogrowonpod.com)
 

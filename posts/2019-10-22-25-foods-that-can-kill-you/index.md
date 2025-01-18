@@ -11,7 +11,7 @@ slug: "slug"
 excerpt: ""
 ---
 
-Are you ready to get spooky? We are! For this creepiest of seasons, Hallie and Chris discuss foods that are rumored to kill you and whether or not they're actually as scary as they're made out to be. We learn about foods ranging from almonds to nutmeg to potatoes. We also learn about Chris's undying love of pumpkin chiffon pie.
+Are you ready to get spooky? We are! For this creepiest of seasons, Hallie and Chris discuss foods that are rumored to kill you and whether or not they’re actually as scary as they’re made out to be. We learn about foods ranging from almonds to nutmeg to potatoes. We also learn about Chris’s undying love of pumpkin chiffon pie.
 
 Sources Mentioned:
 

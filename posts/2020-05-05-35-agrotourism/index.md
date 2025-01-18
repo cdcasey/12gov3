@@ -10,7 +10,7 @@ slug: "slug"
 excerpt: ""
 ---
 
-This week Hallie and Chris are discussing agritourism, the practice of combining farms and tourism, what it is, both farmers and non-farmers love it, and how it works. We learn all about the agritourism industry, as well as both Hallie and Chris's opinions on ponies they have known, and the role of cornfields in the American psyche.
+This week Hallie and Chris are discussing agritourism, the practice of combining farms and tourism, what it is, both farmers and non-farmers love it, and how it works. We learn all about the agritourism industry, as well as both Hallie and Chris’s opinions on ponies they have known, and the role of cornfields in the American psyche.
 
 [Read the transcript](https://12go.onetogrowonpod.com/35-agritourism-transcript/).
 

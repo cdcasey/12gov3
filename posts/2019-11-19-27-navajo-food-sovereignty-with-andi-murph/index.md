@@ -18,7 +18,7 @@ To learn more about Andi and her work, check out [toastedsisterpodcast.co](https
 
 You can find Native America Calling at [https://www.nativeamericacalling.com/](https://www.nativeamericacalling.com/)
 
-Andi's pieces on Pueblo bread, mentioned in the episode:  
+Andi’s pieces on Pueblo bread, mentioned in the episode:  
 [https://www.eater.com/2019/1/23/18183970/zuni-bread-pueblos-new-mexico](https://www.eater.com/2019/1/23/18183970/zuni-bread-pueblos-new-mexico)  
 [https://toastedsisterpodcast.com/2019/01/23/e47-on-the-pueblo-bread-trail-in-new-mexico/](https://toastedsisterpodcast.com/2019/01/23/e47-on-the-pueblo-bread-trail-in-new-mexico/)
 

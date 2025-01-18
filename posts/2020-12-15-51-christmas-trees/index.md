@@ -12,7 +12,7 @@ slug: "slug"
 excerpt: ""
 ---
 
-This week we're talking about Chistmas trees! What is a conifer? Should you buy real or plastic? How many super powers does Santa Claus have?
+This week we’re talking about Chistmas trees! What is a conifer? Should you buy real or plastic? How many super powers does Santa Claus have?
 
 Pine cone opening: [https://www.youtube.com/watch?v=KUhubDdGRuo](https://www.youtube.com/watch?v=KUhubDdGRuo)
 

@@ -13,6 +13,6 @@ slug: "slug"
 excerpt: ""
 ---
 
-This week we talk to Robert Nathan Allen (known by most as RNA) of Little Herds! We talk about what's exciting in the world of edible insects, as well as break down a few misconceptions. Also, would a grouping of insects even be called a herd?
+This week we talk to Robert Nathan Allen (known by most as RNA) of Little Herds! We talk about what’s exciting in the world of edible insects, as well as break down a few misconceptions. Also, would a grouping of insects even be called a herd?
 
 [https://twitter.com/rnaeatsbugs](https://twitter.com/rnaeatsbugs), https://www.instagram.com/rnaeatsbugs/, https://twitter.com/littleherds, https://www.instagram.com/littleherds/

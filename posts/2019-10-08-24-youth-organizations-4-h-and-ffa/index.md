@@ -11,7 +11,7 @@ slug: "slug"
 excerpt: ""
 ---
 
-This week we're talking about kids and agriculture. Hallie and Chris discuss the agriculture youth organizations 4-H and FFA. We learn the history of these organizations, what they do, and who they serve. We also get the recipe for Hallie's blue-ribbon pie.
+This week we’re talking about kids and agriculture. Hallie and Chris discuss the agriculture youth organizations 4-H and FFA. We learn the history of these organizations, what they do, and who they serve. We also get the recipe for Hallie’s blue-ribbon pie.
 
 **Connect with us!**  
 [twitter.com/onetogrowonpod](https://twitter.com/onetogrowonpod)  

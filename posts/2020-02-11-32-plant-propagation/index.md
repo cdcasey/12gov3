@@ -12,7 +12,7 @@ slug: "slug"
 excerpt: ""
 ---
 
-It's time to learn where plants come from! In this episode, Hallie and Chris discuss all the different ways plants make new plants and how we help them along. We learn how plant propagation works, how many kinds of roots there are, and why potato growing sounds like murder.
+It’s time to learn where plants come from! In this episode, Hallie and Chris discuss all the different ways plants make new plants and how we help them along. We learn how plant propagation works, how many kinds of roots there are, and why potato growing sounds like murder.
 
 [Read the transcript](https://onetogrowonpod.com/32-plant-propagation/).
 

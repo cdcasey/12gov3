@@ -13,7 +13,7 @@ slug: "slug"
 excerpt: ""
 ---
 
-It's another Catherine episode! This week Hallie and Catherine discuss what compost is, how it works, and why it's good. We learn the chemistry involved in compost, what you can compost, and why Hallie loves it so darn much.
+It’s another Catherine episode! This week Hallie and Catherine discuss what compost is, how it works, and why it’s good. We learn the chemistry involved in compost, what you can compost, and why Hallie loves it so darn much.
 
 **Connect with us!**  
 [twitter.com/onetogrowonpod](http://twitter.com/onetogrowonpod)  

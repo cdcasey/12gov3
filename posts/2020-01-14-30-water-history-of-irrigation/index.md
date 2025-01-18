@@ -13,7 +13,7 @@ slug: "slug"
 excerpt: ""
 ---
 
-In the first of a two-part series on water, Hallie and Chris discuss irrigation and water use. We learn it's history, dating from prehistory to today, how it's used and why it's so important. We also learn that Chris is still confused about what is and is not a berry.
+In the first of a two-part series on water, Hallie and Chris discuss irrigation and water use. We learn it’s history, dating from prehistory to today, how it’s used and why it’s so important. We also learn that Chris is still confused about what is and is not a berry.
 
 You can check out the stellar podcast the future of agriculture at [futureofag.com](https://futureofag.com/) or wherever you get your podcasts.
 

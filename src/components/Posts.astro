@@ -8,7 +8,7 @@ const { tag } = Astro.props;
 // 	'https://12go.onetogrowonpod.com/wp-json/wp/v2/posts?_embed&_fields=author,id,excerpt,title,link,_embed,featured_media,date',
 // );
 
-// We can't build up with new URL() because there's no way to append _embed as a valueless param
+// We can’t build up with new URL() because there’s no way to append _embed as a valueless param
 // let API_URL = 'https://12go.onetogrowonpod.com/wp-json/wp/v2/posts?_embed';
 
 const posts = await getCollection('posts');

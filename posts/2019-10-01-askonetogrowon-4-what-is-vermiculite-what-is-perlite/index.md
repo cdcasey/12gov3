@@ -13,7 +13,7 @@ slug: "slug"
 excerpt: ""
 ---
 
-In this mini-episode, Hallie explains the difference between perlite and vermiculite, what they're good for, and when to use them.
+In this mini-episode, Hallie explains the difference between perlite and vermiculite, what they’re good for, and when to use them.
 
 **Connect with us!**  
 [twitter.com/onetogrowonpod](https://twitter.com/onetogrowonpod)  
