@@ -8,8 +8,8 @@ tags:
   - "animal-ag"
   - "guest-episode"
 coverImage: "./Ep_020_zoonotic.jpg"
-slug: "slug"
-excerpt: ""
+slug: "20-zoonotic-disease"
+excerpt: "We’re finally talking about animals! This week special guest Dr. Sara Packebush joins Hallie and Chris to talk about zoonotic diseases, how they spread to humans and how to keep yourself healthy. We learn about animal-borne pathogens, mind-controlling parasites and Hallie and Chris’s serious lack of dog movie knowledge."
 ---
 
 We’re finally talking about animals! This week special guest Dr. Sara Packebush joins Hallie and Chris to talk about zoonotic diseases, how they spread to humans and how to keep yourself healthy. We learn about animal-borne pathogens, mind-controlling parasites and Hallie and Chris’s serious lack of dog movie knowledge.
