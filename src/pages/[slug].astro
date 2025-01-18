@@ -24,7 +24,6 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content } = await render(post);
-
 const formattedDate = formatDate(post.data.date);
 ---
 
@@ -48,6 +47,9 @@ const formattedDate = formatDate(post.data.date);
 		}
 		& a:hover {
 			@apply text-otgoorange-light;
+		}
+		& ul {
+			@apply mb-4 ml-4 list-disc text-lg;
 		}
 	}
 </style>
