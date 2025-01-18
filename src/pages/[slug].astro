@@ -39,8 +39,9 @@ const formattedDate = formatDate(post.data.date);
 
 <style is:global>
 	section.article-text {
+		@apply text-lg;
 		& p {
-			@apply mb-4 text-lg;
+			@apply mb-4;
 		}
 		& a {
 			@apply text-otgogreen-medium;
@@ -49,7 +50,7 @@ const formattedDate = formatDate(post.data.date);
 			@apply text-otgoorange-light;
 		}
 		& ul {
-			@apply mb-4 ml-4 list-disc text-lg;
+			@apply mb-4 ml-4 list-disc;
 		}
 	}
 </style>
