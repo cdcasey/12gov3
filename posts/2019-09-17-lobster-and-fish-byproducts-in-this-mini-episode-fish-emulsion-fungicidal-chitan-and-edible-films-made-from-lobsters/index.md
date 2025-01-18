@@ -8,15 +8,15 @@ tags:
   - "ag-industry"
   - "minisode"
 coverImage: "./KreeftbijDenOsse.jpg"
-slug: "slug"
-excerpt: ""
+slug: "lobster-and-fish-byproducts"
+excerpt: "In this mini-episode, Hallie discusses fish emulsion, fungicidal chitin, and edible films made from lobsters."
 ---
 
-In this mini-episode, Hallie discusses fish emulsion, fungicidal chitan, and edible films made from lobsters.
+In this mini-episode, Hallie discusses fish emulsion, fungicidal chitin, and edible films made from lobsters.
 
 **Sources:**
 
-The article Hallie mentioned is [Nguyen, Trung T. (2017). Lobster processing by-products as valuable bioresource of marine functional ingredients, nutraceuticals, and pharmaceuticals.](https://link.springer.com/article/10.1186/s40643-017-0157-5) _[Bioresources and Bioprocessing](https://link.springer.com/article/10.1186/s40643-017-0157-5)_[.](https://link.springer.com/article/10.1186/s40643-017-0157-5)
+The article Hallie mentioned is [Nguyen, Trung T. (2017). Lobster processing by-products as valuable bioresource of marine functional ingredients, nutraceuticals, and pharmaceuticals. _Bioresources and Bioprocessing_.](https://link.springer.com/article/10.1186/s40643-017-0157-5)
 
 Other information came from personal expertise and personal communications with First Nations gardeners.
 
