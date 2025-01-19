@@ -1,5 +1,5 @@
 ---
-import { Image, Picture } from 'astro:assets';
+import { Image } from 'astro:assets';
 
 import PostBanner from './PostBanner.astro';
 
@@ -19,29 +19,16 @@ const { title, image, slug, date } = Astro.props;
 ---
 
 <a class="post-link" href={`/${slug}`}>
-	<Image
-		class="bg-img-container bg-img"
-		src={image}
-		alt=""
-		inferSize={true}
-		width={277}
-		height={208}
-	/>
+	<Image class="bg-img" src={image} alt="" width={277} height={208} />
 	<!--<Picture pictureAttributes={{ class: 'bg-img-container' }} class="bg-img" src={image} alt="" />-->
-	<PostBanner class="link-child" title={title} date={date} />
+	<PostBanner title={title} date={date} />
 </a>
 
 <style>
 	.post-link {
 		@apply relative flex h-52 items-center justify-center;
 	}
-	.bg-img-container {
-		@apply absolute left-1/2 top-1/2 -z-10 h-full w-full -translate-x-1/2 -translate-y-1/2;
-	}
 	.bg-img {
-		@apply h-full w-full rounded;
-	}
-	.link-child {
-		@apply col-start-1 row-start-1;
+		@apply absolute left-1/2 top-1/2 -z-10 h-full w-full -translate-x-1/2 -translate-y-1/2 rounded;
 	}
 </style>
