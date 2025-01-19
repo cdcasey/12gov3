@@ -1,11 +1,11 @@
 ---
 import { formatDate } from '../scripts/formatDate';
-const { title, date } = Astro.props;
+const { title, date, class: className, ...rest } = Astro.props;
 
 const formattedDate = formatDate(date);
 ---
 
-<div class="banner">
+<div class:list={['banner', className]} {...rest}>
 	<h2 set:html={title} />
 	<p set:html={formattedDate} />
 </div>

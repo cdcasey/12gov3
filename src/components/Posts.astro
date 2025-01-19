@@ -24,13 +24,8 @@ if (tag) {
 <section class="post-grid">
 	{
 		sortedPosts.map((post) => {
-			/* maybe refactor to use class:lists */
-			<!--const bgUrl = post.data.coverImage ? `url(${post.data.coverImage.src})` : 'none';-->
 			return (
 				<div>
-					{/*<a class="post-link" style={{ backgroundImage: bgUrl }} href={`/${post.data.slug}`}>
-						<PostBanner title={post.data.title} date={post.data.date} />
-					</a>*/}
 					<PostLink
 						title={post.data.title}
 						image={post.data.coverImage}

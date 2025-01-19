@@ -1,5 +1,5 @@
 ---
-import { Image, getImage } from 'astro:assets';
+import { Image } from 'astro:assets';
 
 import PostBanner from './PostBanner.astro';
 
@@ -16,11 +16,6 @@ interface Props {
 }
 
 const { title, image, slug, date } = Astro.props;
-const bgImage = await getImage({ src: image, format: 'jpg' });
-console.log({ bgImage });
-const styleString = `
-  background-image: url(${bgImage.src});
-`;
 ---
 
 <a class="post-link" href={`/${slug}`}>
@@ -33,7 +28,7 @@ const styleString = `
 		@apply grid h-52 grid-cols-1 items-center justify-center rounded;
 	}
 	.bg-img {
-		@apply rounded;
+		@apply h-full w-full rounded;
 	}
 	.link-child {
 		@apply col-start-1 row-start-1;
