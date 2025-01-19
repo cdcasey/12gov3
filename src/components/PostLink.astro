@@ -19,8 +19,15 @@ const { title, image, slug, date } = Astro.props;
 ---
 
 <a class="post-link" href={`/${slug}`}>
-	<!--<Image class="bg-img-container bg-img" src={image} alt="" inferSize={true} />-->
-	<Picture pictureAttributes={{ class: 'bg-img-container' }} class="bg-img" src={image} alt="" />
+	<Image
+		class="bg-img-container bg-img"
+		src={image}
+		alt=""
+		inferSize={true}
+		width={277}
+		height={208}
+	/>
+	<!--<Picture pictureAttributes={{ class: 'bg-img-container' }} class="bg-img" src={image} alt="" />-->
 	<PostBanner class="link-child" title={title} date={date} />
 </a>
 
