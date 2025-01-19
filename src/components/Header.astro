@@ -21,22 +21,22 @@ const headerHeight = isOnHomePage ? '450px' : '200px';
 
 <style define:vars={{ headerHeight }}>
 	header {
-		@apply text-otgopurple-dark grid text-center items-center;
+		@apply grid items-center text-center text-otgopurple-dark;
 	}
 	.image {
-		@apply w-full max-h-[--headerHeight] object-cover;
+		@apply max-h-[--headerHeight] w-full object-cover;
 	}
 	h1,
 	h2 {
 		@apply font-header text-[min(6.7vw,144px)];
 	}
 	a {
-		@apply bg-white shadow-white shadow-[0_0px_100px_90px] m-auto hover:text-otgoorange-light transition-colors leading-tight;
+		@apply m-auto bg-white leading-none shadow-[0_0px_100px_90px] shadow-white transition-colors hover:text-otgoorange-light;
 	}
 	p {
-		@apply text-sm lg:text-lg xl:text-xl font-bold;
+		@apply text-sm font-bold lg:text-lg xl:text-xl;
 	}
 	.cell {
-		@apply row-start-1 col-start-1 overflow-hidden;
+		@apply col-start-1 row-start-1 overflow-hidden;
 	}
 </style>

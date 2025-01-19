@@ -1,21 +1,21 @@
 ---
 import { formatDate } from '../scripts/formatDate';
-const { title, date } = Astro.props;
+const { title, date, class: className, ...rest } = Astro.props;
 
 const formattedDate = formatDate(date);
 ---
 
-<div class="banner">
+<div class:list={['banner', className]} {...rest}>
 	<h2 set:html={title} />
 	<p set:html={formattedDate} />
 </div>
 
 <style>
 	.banner {
-		@apply w-full bg-otgopurple-dark/75 p-8 text-center font-header text-otgowhite transition-colors hover:text-otgoorange-light;
+		@apply flex min-h-[60%] w-full flex-col items-center justify-center bg-otgopurple-dark/75 p-1 text-center font-header text-otgowhite transition-colors hover:text-otgoorange-light;
 	}
 	h2 {
-		@apply text-2xl;
+		@apply text-xl;
 	}
 	p {
 		@apply text-base;

@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
-import PostBanner from './PostBanner.astro';
+
+import PostLink from './PostLink.astro';
 
 const { tag } = Astro.props;
 // const res = await fetch('https://12go.onetogrowonpod.com/wp-json/wp/v2/posts?per_page=100');
@@ -23,13 +24,14 @@ if (tag) {
 <section class="post-grid">
 	{
 		sortedPosts.map((post) => {
-			/* maybe refactor to use class:lists */
-			const bgUrl = post.data.coverImage ? `url(${post.data.coverImage.src})` : 'none';
 			return (
 				<div>
-					<a class="post-link" style={{ backgroundImage: bgUrl }} href={`/${post.data.slug}`}>
-						<PostBanner title={post.data.title} date={post.data.date} />
-					</a>
+					<PostLink
+						title={post.data.title}
+						image={post.data.coverImage}
+						slug={post.data.slug}
+						date={post.data.date}
+					/>
 					{/* <Image src={post._embedded['wp:featuredmedia']['0'].source_url} alt="" inferSize={true} /> */}
 					<p class="post-excerpt" set:html={post.data.excerpt} />
 				</div>
@@ -41,9 +43,6 @@ if (tag) {
 <style>
 	.post-grid {
 		@apply grid gap-8 md:grid-cols-2 lg:grid-cols-3;
-	}
-	.post-link {
-		@apply flex h-52 items-center justify-center rounded bg-cover;
 	}
 	.post-excerpt {
 		@apply text-sm;
