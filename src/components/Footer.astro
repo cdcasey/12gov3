@@ -1,6 +1,8 @@
 ---
 import FooterTags from './FooterSections/FooterTags.astro';
 import FooterLogo from './FooterSections/FooterLogo.astro';
+import { SUBSCRIBE_LINKS } from './Icons/constants';
+import IconLink from './Icons/IconLink.astro';
 ---
 
 <footer>
@@ -8,6 +10,11 @@ import FooterLogo from './FooterSections/FooterLogo.astro';
 	<FooterLogo />
 	<section>
 		<h1>links</h1>
+		{
+			SUBSCRIBE_LINKS.map((link) => {
+				return <IconLink href={link.href} path={link.path} title={link.title} />;
+			})
+		}
 	</section>
 </footer>
 
