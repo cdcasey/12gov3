@@ -8,17 +8,22 @@ type Icon = {
 };
 
 interface Props {
+	title: string;
 	icons: Icon[];
 }
 
-const { icons } = Astro.props;
+const { title, icons } = Astro.props;
 ---
 
+<div class="icon-label">{title}:</div>
 <div class="icon-container">
 	{icons.map((icon) => <IconLink href={icon.href} path={icon.path} title={icon.title} />)}
 </div>
 
 <style>
+	.icon-label {
+		@apply font-header text-2xl;
+	}
 	.icon-container {
 		@apply flex justify-evenly;
 	}
