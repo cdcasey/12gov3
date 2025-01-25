@@ -14,3 +14,9 @@ const { href, title, path } = Astro.props;
 		<path d={path}></path>
 	</svg>
 </a>
+
+<style>
+	svg {
+		@apply transition-colors hover:fill-otgoorange-light;
+	}
+</style>
