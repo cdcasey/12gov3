@@ -15,14 +15,19 @@ interface Props {
 const { title, icons } = Astro.props;
 ---
 
-<div class="icon-label">{title}:</div>
-<div class="icon-container">
-	{icons.map((icon) => <IconLink href={icon.href} path={icon.path} title={icon.title} />)}
+<div class="grid-wrapper">
+	<div class="icon-label">{title}:</div>
+	<div class="icon-container">
+		{icons.map((icon) => <IconLink href={icon.href} path={icon.path} title={icon.title} />)}
+	</div>
 </div>
 
 <style>
+	.grid-wrapper {
+		@apply grid grid-cols-[1fr_2fr] items-center;
+	}
 	.icon-label {
-		@apply font-header text-2xl;
+		@apply text-right font-header text-2xl;
 	}
 	.icon-container {
 		@apply flex justify-evenly;
