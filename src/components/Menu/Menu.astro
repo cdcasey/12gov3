@@ -43,6 +43,8 @@
 	});
 
 	function closeMenu() {
+		const navCheckbox = document.getElementById('nav-toggle') as HTMLInputElement | null;
+		if (navCheckbox?.checked) navCheckbox.click();
 		menuIsOpen.set(false);
 	}
 
