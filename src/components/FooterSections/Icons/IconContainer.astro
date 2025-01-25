@@ -1,0 +1,35 @@
+---
+import IconLink from './IconLink.astro';
+
+type Icon = {
+	href: string;
+	title: string;
+	path: string;
+};
+
+interface Props {
+	title: string;
+	icons: Icon[];
+}
+
+const { title, icons } = Astro.props;
+---
+
+<div class="grid-wrapper">
+	<div class="icon-label">{title}:</div>
+	<div class="icon-container">
+		{icons.map((icon) => <IconLink href={icon.href} path={icon.path} title={icon.title} />)}
+	</div>
+</div>
+
+<style>
+	.grid-wrapper {
+		@apply grid grid-cols-[1fr_2fr] items-center;
+	}
+	.icon-label {
+		@apply text-right font-header text-2xl;
+	}
+	.icon-container {
+		@apply flex justify-evenly;
+	}
+</style>

@@ -1,0 +1,15 @@
+---
+import IconContainer from './Icons/IconContainer.astro';
+import { CONNECT_LINKS, SUBSCRIBE_LINKS } from './Icons/constants';
+---
+
+<section class="icon-section">
+	<IconContainer icons={SUBSCRIBE_LINKS} title="Listen Now" />
+	<IconContainer icons={CONNECT_LINKS} title="Connect" />
+</section>
+
+<style>
+	.icon-section {
+		@apply flex flex-col gap-3;
+	}
+</style>
