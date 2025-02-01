@@ -11,10 +11,10 @@
   "dependencies": {
     "@fontsource/cabin": "^5.1.1",
     "@fontsource/lilita-one": "^5.1.1",
-    "@tailwindcss/vite": "^4.0.1",
-    "astro": "^5.2.1",
+    "@tailwindcss/vite": "^4.0.2",
+    "astro": "^5.2.3",
     "nanostores": "^0.11.3",
-    "tailwindcss": "^4.0.1"
+    "tailwindcss": "^4.0.2"
   },
   "devDependencies": {
     "prettier": "^3.4.2",
