@@ -20,8 +20,9 @@ const headerHeight = isOnHomePage ? '450px' : '200px';
 </header>
 
 <style define:vars={{ headerHeight }}>
+	@reference '@/styles/global.css';
 	header {
-		@apply grid items-center text-center text-otgopurple-dark;
+		@apply text-otgopurple-dark grid items-center text-center;
 	}
 	.image {
 		@apply max-h-[--headerHeight] w-full object-cover;
@@ -31,7 +32,7 @@ const headerHeight = isOnHomePage ? '450px' : '200px';
 		@apply font-header text-[min(6.7vw,144px)];
 	}
 	a {
-		@apply m-auto bg-white leading-none shadow-[0_0px_100px_90px] shadow-white transition-colors hover:text-otgoorange-light;
+		@apply hover:text-otgoorange-light m-auto bg-white leading-none shadow-[0_0px_100px_90px] shadow-white transition-colors;
 	}
 	p {
 		@apply text-sm font-bold lg:text-lg xl:text-xl;
