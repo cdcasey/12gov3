@@ -7,7 +7,7 @@
 			</ul>
 		</li>
 		<li>
-			About
+			<a href="/about">About</a>
 			<ul>
 				<li>Press Kit</li>
 				<li>Collaborations</li>
@@ -20,7 +20,7 @@
 
 <style>
 	nav {
-		@apply fixed left-0 top-0 h-full -translate-x-full bg-otgowhite/90 px-4 pt-24 transition-all duration-300;
+		@apply fixed left-0 top-0 z-10 h-full -translate-x-full bg-otgowhite/90 px-4 pt-24 transition-all duration-300;
 	}
 	.open {
 		@apply translate-x-0;
@@ -43,6 +43,8 @@
 	});
 
 	function closeMenu() {
+		const navCheckbox = document.getElementById('nav-toggle') as HTMLInputElement | null;
+		if (navCheckbox?.checked) navCheckbox.click();
 		menuIsOpen.set(false);
 	}
 

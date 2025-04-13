@@ -1,0 +1,49 @@
+@import 'tailwindcss';
+
+@plugin 'tailwindcss-animate';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+	--color-otgopurple-light: #692f65;
+	--color-otgopurple-dark: #3f421b;
+
+	--colors-otgogreen-light: #b4d55f;
+	--colors-otgogreen-medium: #4c9342;
+	--colors-otgogreen-dark: #3f421b;
+
+	--colors-otgoorange-light: #f9a415;
+	--colors-otgoorange-dark: #f68722;
+
+	--colors-otgored: #b42025;
+	--colors-otgoyellow: #ffd744;
+	--colors-otgowhite: #fdfdfd;
+	--colors-otgoblack: #212121;
+
+	--font-header: 'Lilita One', var(--font-serif), serif;
+	--font-body: 'Cabin', var(--font-sans), sans-serif;
+}
+
+/*
+  The default border color has changed to `currentColor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+	*,
+	::after,
+	::before,
+	::backdrop,
+	::file-selector-button {
+		border-color: var(--color-gray-200, currentColor);
+	}
+}
+
+@layer utilities {
+	body {
+		font-family: Arial, Helvetica, sans-serif;
+	}
+}
