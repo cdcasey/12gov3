@@ -1,0 +1,61 @@
+@import 'tailwindcss';
+
+@theme inline {
+	/* Fonts */
+	--font-header: var(--header);
+	--font-sans: var(--sans);
+
+	/* Colors */
+	--color-accent-1: var(--accent-1);
+	--color-accent-2: var(--accent-2);
+	--color-accent-7: var(--accent-7);
+	--color-success: var(--success);
+	--color-cyan: var(--cyan);
+
+	/* Custom color groups */
+	--color-otgogreen-light: var(--otgogreen-light);
+	--color-otgogreen-medium: var(--otgogreen-medium);
+	--color-otgogreen-dark: var(--otgogreen-dark);
+
+	--color-otgopurple-light: var(--otgopurple-light);
+	--color-otgopurple-dark: var(--otgopurple-dark);
+
+	--color-otgoorange-light: var(--otgoorange-light);
+	--color-otgoorange-dark: var(--otgoorange-dark);
+
+	--color-otgored: var(--otgored);
+	--color-otgoyellow: var(--otgoyellow);
+	--color-otgowhite: var(--otgowhite);
+	--color-otgoblack: var(--otgoblack);
+}
+
+@layer base {
+	:root {
+		/* Fonts */
+		--header: 'Lilita One', var(--font-serif);
+		--sans: 'Cabin', var(--font-sans);
+
+		/* Colors */
+		--accent-1: #fafafa;
+		--accent-2: #eaeaea;
+		--accent-7: #333;
+		--success: #0070f3;
+		--cyan: #79ffe1;
+
+		/* Custom color groups */
+		--otgogreen-light: #b4d55f;
+		--otgogreen-medium: #4c9342;
+		--otgogreen-dark: #3f421b;
+
+		--otgopurple-light: #692f65;
+		--otgopurple-dark: #4e2688;
+
+		--otgoorange-light: #f9a415;
+		--otgoorange-dark: #f68722;
+
+		--otgored: #b42025;
+		--otgoyellow: #ffd744;
+		--otgowhite: #fdfdfd;
+		--otgoblack: #212121;
+	}
+}
