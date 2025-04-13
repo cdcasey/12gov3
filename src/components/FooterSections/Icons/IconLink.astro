@@ -16,7 +16,8 @@ const { href, title, path } = Astro.props;
 </a>
 
 <style>
+	@reference '@/styles/global.css';
 	svg {
-		@apply transition-colors hover:fill-otgoorange-light;
+		@apply hover:fill-otgoorange-light transition-colors;
 	}
 </style>

@@ -18,7 +18,8 @@ const fontScaler = `${Math.log(Math.sqrt(tagCount)) + 0.2}rem`;
 </a>
 
 <style define:vars={{ fontScaler }}>
+	@reference '@/styles/global.css';
 	a {
-		@apply rounded px-0.5 text-[length:--fontScaler] leading-none hover:bg-otgogreen-light hover:text-otgogreen-dark;
+		@apply hover:bg-otgogreen-light hover:text-otgogreen-dark rounded px-0.5 text-[length:--fontScaler] leading-none;
 	}
 </style>

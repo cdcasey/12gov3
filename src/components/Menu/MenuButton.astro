@@ -4,6 +4,7 @@
 </label>
 
 <style>
+	@reference '@/styles/global.css';
 	/* style other things based on the state of the checkbox */
 	.navigation__checkbox {
 		@apply hidden;
@@ -24,7 +25,7 @@
 
 	/* Gets applied to the label because labels can be styled and control the checkboxes */
 	.navigation__button {
-		@apply fixed left-[10px] top-[10px] z-10 flex h-[70px] w-[70px] cursor-pointer items-center justify-center rounded-full bg-otgopurple-dark/95 shadow-2xl;
+		@apply bg-otgopurple-dark/95 fixed top-[10px] left-[10px] z-10 flex h-[70px] w-[70px] cursor-pointer items-center justify-center rounded-full shadow-2xl;
 
 		/* animate the hamburger on hover */
 		&:hover .navigation__icon:before {
@@ -43,7 +44,7 @@
 		&,
 		&::before,
 		&::after {
-			@apply h-[2px] w-8 bg-otgowhite;
+			@apply bg-otgowhite h-[2px] w-8;
 		}
 
 		/* make top & bottom bars appear */
