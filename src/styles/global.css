@@ -1,8 +1,8 @@
 @layer base {
 	:root {
 		/* Fonts */
-		--header: 'Lilita One', serif;
-		--sans: 'Cabin', sans-serif;
+		--font-header: 'Lilita One', serif;
+		--font-sans: 'Cabin', sans-serif;
 
 		/* Colors */
 		--accent-1: #fafafa;
@@ -29,6 +29,7 @@
 
 		--spacing: 0.25rem;
 
+		/* Breakpoints are for reference only since var can't be used in media queries */
 		--breakpoint-sm: 40rem;
 		--breakpoint-md: 48rem;
 		--breakpoint-lg: 64rem;
