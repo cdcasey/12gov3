@@ -51,23 +51,24 @@ const headerHeight = isOnHomePage ? '450px' : '200px';
 	}
 
 	p {
-		font-size: var(--text-sm); /* text-sm */
+		font-size: var(--text-sm);
 		font-weight: var(--font-weight-bold);
 		line-height: var(--text-base--line-height);
 	}
 
-	@media (min-width: 1024px) { /* lg: breakpoint */
+	@media (min-width: 64rem) {
+		/* lg: breakpoint */
 		p {
-			font-size: var(--text-lg); /* text-lg */
+			font-size: var(--text-lg);
 		}
 	}
 
-	@media (min-width: 1280px) { /* xl: breakpoint */
+	@media (min-width: 96rem) {
+		/* xl: breakpoint */
 		p {
-			font-size: var(--text-xl); /* text-xl */
+			font-size: var(--text-xl);
 		}
 	}
-
 
 	.cell {
 		grid-column-start: 1;

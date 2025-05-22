@@ -48,11 +48,11 @@ a {
 		--spacing: 0.25rem;
 
 		/* Breakpoints are for reference only since var can't be used in media queries */
-		--breakpoint-sm: 40rem;
+		--breakpoint-sm: 40rem; /* 640 */
 		--breakpoint-md: 48rem; /* 768 */
-		--breakpoint-lg: 64rem;
-		--breakpoint-xl: 80rem;
-		--breakpoint-2xl: 96rem;
+		--breakpoint-lg: 64rem; /* 1024 */
+		--breakpoint-xl: 80rem; /* 1280 */
+		--breakpoint-2xl: 96rem; /* 1536 */
 
 		--text-xs: 0.75rem;
 		--text-xs--line-height: calc(1 / 0.75);
