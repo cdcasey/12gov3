@@ -9,15 +9,20 @@ const { href, title, path } = Astro.props;
 ---
 
 <a href={href} target="_blank" rel="noopener noreferrer">
-	<svg width="32" height="32" viewBox="0 0 32 32" class="fill-otgowhite">
+	<svg width="32" height="32" viewBox="0 0 32 32" class="animate">
 		<title>{title}</title>
 		<path d={path}></path>
 	</svg>
 </a>
 
 <style>
-	@reference '@/styles/global.css';
 	svg {
 		@apply hover:fill-otgoorange-light transition-colors;
+		fill: var(--otgowhite);
 	}
+
+	svg:hover {
+		fill: var(--otgoorange-light);
+	}
+
 </style>

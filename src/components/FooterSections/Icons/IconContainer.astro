@@ -23,14 +23,19 @@ const { title, icons } = Astro.props;
 </div>
 
 <style>
-	@reference '@/styles/global.css';
 	.grid-wrapper {
-		@apply grid grid-cols-[1fr_2fr] items-center;
+		display: grid;
+		grid-template-columns: 1fr 2fr;
+		align-items: center;
 	}
 	.icon-label {
-		@apply font-header text-right text-2xl;
+		font-family: var(--font-header);
+		text-align: right;
+		font-size: var(--text-2xl);
 	}
+
 	.icon-container {
-		@apply flex justify-evenly;
+		display: flex;
+		justify-content: space-evenly;
 	}
 </style>

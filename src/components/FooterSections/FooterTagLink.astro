@@ -18,8 +18,15 @@ const fontScaler = `${Math.log(Math.sqrt(tagCount)) + 0.2}rem`;
 </a>
 
 <style define:vars={{ fontScaler }}>
-	@reference '@/styles/global.css';
 	a {
-		@apply hover:bg-otgogreen-light hover:text-otgogreen-dark rounded px-0.5 text-[length:--fontScaler] leading-none;
+		border-radius: var(--radius-sm); /* rounded */
+		padding: 0 0.125rem;
+		font-size: var(--fontScaler);
+		line-height: 1; /* leading-none */
+	}
+
+	a:hover {
+		background-color: var(--otgogreen-light);
+		color: var(--otgogreen-dark);
 	}
 </style>
