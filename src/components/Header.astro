@@ -20,24 +20,58 @@ const headerHeight = isOnHomePage ? '450px' : '200px';
 </header>
 
 <style define:vars={{ headerHeight }}>
-	@reference '@/styles/global.css';
 	header {
-		@apply text-otgopurple-dark grid items-center text-center;
+		color: var(--otgopurple-dark);
+		display: grid;
+		align-items: center;
+		text-align: center;
 	}
+
 	.image {
-		@apply max-h-[--headerHeight] w-full object-cover;
+		max-height: var(--headerHeight);
+		width: 100%;
+		object-fit: cover;
 	}
+
 	h1,
 	h2 {
-		@apply font-header text-[min(6.7vw,144px)];
+		font-family: var(--font-header);
+		font-size: min(6.7vw, 144px);
 	}
+
 	a {
-		@apply hover:text-otgoorange-light m-auto bg-white leading-none shadow-[0_0px_100px_90px] shadow-white transition-colors;
+		margin: auto;
+		background-color: white;
+		line-height: 1;
+		box-shadow: 0 0px 100px 90px white;
 	}
+
+	a:hover {
+		color: var(--otgoorange-light);
+	}
+
 	p {
-		@apply text-sm font-bold lg:text-lg xl:text-xl;
+		font-size: var(--text-sm); /* text-sm */
+		font-weight: var(--font-weight-bold);
+		line-height: var(--text-base--line-height);
 	}
+
+	@media (min-width: 1024px) { /* lg: breakpoint */
+		p {
+			font-size: var(--text-lg); /* text-lg */
+		}
+	}
+
+	@media (min-width: 1280px) { /* xl: breakpoint */
+		p {
+			font-size: var(--text-xl); /* text-xl */
+		}
+	}
+
+
 	.cell {
-		@apply col-start-1 row-start-1 overflow-hidden;
+		grid-column-start: 1;
+		grid-row-start: 1;
+		overflow: hidden;
 	}
 </style>
