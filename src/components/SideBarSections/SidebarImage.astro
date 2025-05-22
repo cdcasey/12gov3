@@ -16,8 +16,14 @@ const { imageNumber } = Astro.props;
 </figure>
 
 <style>
-	@reference '@/styles/global.css';
 	figcaption {
-		@apply text-sm italic;
+		margin: 0;
+		font-size: var(--text-sm);
+		font-style: italic;
+	}
+
+	img {
+		width: 100%;
+		height: auto;
 	}
 </style>
