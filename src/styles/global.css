@@ -31,7 +31,7 @@
 
 		/* Breakpoints are for reference only since var can't be used in media queries */
 		--breakpoint-sm: 40rem;
-		--breakpoint-md: 48rem;
+		--breakpoint-md: 48rem; /* 768 */
 		--breakpoint-lg: 64rem;
 		--breakpoint-xl: 80rem;
 		--breakpoint-2xl: 96rem;

@@ -12,27 +12,24 @@ import Divider from './Divider.astro';
 		<SidebarImages />
 		<Divider />
 	</section>
-
-	<style>
-		aside {
-			@apply md:max-w-52;
-			max-width: calc(52 * var(--spacing));
-		}
-
-		.topDivider {
-			@apply mt-0;
-			margin-top: 0;
-		}
-
-		.imagesSection {
-			display: none;
-		}
-
-		@media (min-width: 768px) { /* md: breakpoint */
-			.imagesSection {
-				display: block;
-			}
-		}
-
-	</style>
 </aside>
+
+<style>
+	aside {
+		max-width: calc(52 * var(--spacing));
+	}
+
+	.topDivider {
+		margin-top: 0;
+	}
+
+	.imagesSection {
+		display: none;
+	}
+
+	@media (min-width: 48rem) {
+		.imagesSection {
+			display: block;
+		}
+	}
+</style>
