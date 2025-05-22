@@ -14,15 +14,25 @@ import Divider from './Divider.astro';
 	</section>
 
 	<style>
-		@reference '@/styles/global.css';
 		aside {
 			@apply md:max-w-52;
+			max-width: calc(52 * var(--spacing));
 		}
+
 		.topDivider {
 			@apply mt-0;
+			margin-top: 0;
 		}
+
 		.imagesSection {
-			@apply hidden md:block;
+			display: none;
 		}
+
+		@media (min-width: 768px) { /* md: breakpoint */
+			.imagesSection {
+				display: block;
+			}
+		}
+
 	</style>
 </aside>
