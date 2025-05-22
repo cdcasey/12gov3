@@ -13,6 +13,12 @@ import Sidebar from '../components/Sidebar.astro';
 <style>
 	@reference '@/styles/global.css';
 	.wrapper {
-		@apply md:flex md:gap-8;
+		@media (min-width: var(--breakpoint-md)) {
+			.wrapper {
+				display: flex;
+				gap: calc(var(--spacing) * 8); /* 8 * 0.25rem = 2rem, since Tailwind's gap-8 represents 8 units of 0.25rem */
+			}
+		}
+
 	}
 </style>
