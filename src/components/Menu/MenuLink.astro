@@ -1,0 +1,32 @@
+---
+const { pathname } = Astro.url;
+
+const { href } = Astro.props;
+---
+
+<a href={href} aria-current={pathname === href ? 'page' : 'false'}>
+	<slot />
+</a>
+
+<style>
+	a {
+		&,
+		&:link,
+		&:visited {
+			text-decoration: none;
+			color: var(--otgopurple-dark);
+			display: inline-block;
+			width: 100%;
+			padding: 0 calc(var(--spacing) * 2);
+			border-radius: 3px;
+		}
+
+		&:hover {
+			background-color: var(--otgogreen-light);
+		}
+
+		&[aria-current='page'] {
+			color: var(--otgoorange-light);
+		}
+	}
+</style>

@@ -1,14 +1,18 @@
+---
+import MenuLink from './MenuLink.astro';
+---
+
 <nav id="menu">
 	<ul>
 		<li>
-			<a href="/" >Episodes</a>
+			<MenuLink href="/">Episodes</MenuLink>
 			<ul>
 				<li>Series and Minisodes</li>
 				<li>Transcripts</li>
 			</ul>
 		</li>
 		<li>
-			<a href="/about">About</a>
+			<MenuLink href="/about">About</MenuLink>
 			<ul>
 				<li>Press Kit</li>
 				<li>Collaborations</li>
@@ -35,7 +39,7 @@
 	.open {
 		transform: translateX(0);
 	}
-/*
+	/*
 	ul {
 		display: flex;
 		flex-direction: column;
@@ -48,11 +52,11 @@
 		margin-bottom: 1rem;
 	}
 */
-li {
-	width: 100%;
-	font-size: var(--text-lg);
-	font-weight: bold;
-}
+	li {
+		width: 100%;
+		font-size: var(--text-lg);
+		font-weight: bold;
+	}
 
 	li > ul > li {
 		margin-left: calc(4 * var(--spacing));
