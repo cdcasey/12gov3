@@ -1,11 +1,13 @@
 ---
 import PageLayout from '@/layouts/PageLayout.astro';
+import PageSection from '@/components/PageComponents/PageSection.astro';
+import Clear from "@/components/Clear.astro"
 // import Clear from '@/components/Clear.astro';
 ---
 
 <PageLayout>
 	<h1>About</h1>
-	<section>
+	<PageSection>
 		<p>
 			<em>One to Grow On</em> is a podcast where we dig into questions about agriculture and try to understand
 			how food production impacts us and our world. Each episode, hosts Hallie and Chris pick an area
@@ -17,9 +19,9 @@ import PageLayout from '@/layouts/PageLayout.astro';
 			of all ages. There are a few clearly marked episodes that contain content that may not be suitable
 			for all ages.
 		</p>
-	</section>
+	</PageSection>
 	<h2>Meet the Team</h2>
-	<section>
+	<PageSection>
 		<figure>
 			<img
 				src="https://12go.onetogrowonpod.com/wp-content/uploads/2018/09/IMG_5692_square-300x300.jpg"
@@ -40,9 +42,9 @@ import PageLayout from '@/layouts/PageLayout.astro';
 			Sustainable Food Center. While not working, she enjoys gardening, swing dancing, and lemon
 			tarts.
 		</p>
-	</section>
-	<!--<Clear />-->
-	<section>
+	</PageSection>
+	<Clear />
+	<PageSection>
 		<figure>
 			<img
 				src="https://12go.onetogrowonpod.com/wp-content/uploads/2018/09/cdc-300x300.jpg"
@@ -56,10 +58,10 @@ import PageLayout from '@/layouts/PageLayout.astro';
 			he hosted the podcast <em>eBook Ninjas</em>. Chris lives in his hometown, Austin, Texas. When
 			not podcasting, acting, or coding, Chris enjoys perfecting his smoked brisket recipe.
 		</p>
-	</section>
-	<!--<Clear />-->
+	</PageSection>
+	<Clear />
 	<h2>Our Story</h2>
-	<section>
+	<PageSection>
 		<figure>
 			<img
 				src="https://12go.onetogrowonpod.com/wp-content/uploads/2018/09/WhatsApp-Image-2018-09-29-at-6.08.09-PM-300x292.jpeg"
@@ -76,9 +78,9 @@ import PageLayout from '@/layouts/PageLayout.astro';
 			So she called Catherine, her long-time best friend, and couldn’t stop talking about the idea.
 			Catherine was immediately on-board and they began scheming.
 		</p>
-	</section>
-	<!--<Clear />-->
-	<section>
+	</PageSection>
+	<Clear />
+	<PageSection>
 		<figure>
 			<img
 				src="https://12go.onetogrowonpod.com/wp-content/uploads/2018/09/12go-e1539314987888-287x300.jpeg"
@@ -102,5 +104,5 @@ import PageLayout from '@/layouts/PageLayout.astro';
 			Now, One to Grow On is a two-person operation with the goal of open and honest learning out
 			loud.
 		</p>
-	</section>
+	</PageSection>
 </PageLayout>
