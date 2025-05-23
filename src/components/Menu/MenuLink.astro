@@ -1,0 +1,45 @@
+---
+import type { HTMLAttributes } from 'astro/types';
+const { pathname } = Astro.url;
+
+interface Props extends HTMLAttributes<'a'> {
+	isExternal?: boolean;
+}
+
+const { isExternal, href, ...rest } = Astro.props;
+---
+
+{
+	isExternal ? (
+		<a href={href} {...rest} target="_blank" rel="noopener noreferrer">
+			<slot />
+		</a>
+	) : (
+		<a href={href} {...rest} aria-current={pathname === href ? 'page' : 'false'}>
+			<slot />
+		</a>
+	)
+}
+
+<style>
+	a {
+		&,
+		&:link,
+		&:visited {
+			text-decoration: none;
+			color: var(--otgopurple-dark);
+			display: inline-block;
+			width: 100%;
+			padding: 0 calc(var(--spacing) * 2);
+			border-radius: 3px;
+		}
+
+		&:hover {
+			background-color: var(--otgogreen-light);
+		}
+
+		&[aria-current='page'] {
+			color: var(--otgoorange-light);
+		}
+	}
+</style>
