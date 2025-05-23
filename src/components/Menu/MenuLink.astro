@@ -1,10 +1,15 @@
 ---
+import type { HTMLAttributes } from 'astro/types';
 const { pathname } = Astro.url;
 
-const { href } = Astro.props;
+interface Props extends HTMLAttributes<'a'> {
+	isExternal?: boolean;
+}
+
+const { href, ...rest } = Astro.props;
 ---
 
-<a href={href} aria-current={pathname === href ? 'page' : 'false'}>
+<a href={href} {...rest} aria-current={pathname === href ? 'page' : 'false'}>
 	<slot />
 </a>
 
