@@ -4,61 +4,78 @@
 </label>
 
 <style>
-	@reference '@/styles/global.css';
 	/* style other things based on the state of the checkbox */
 	.navigation__checkbox {
-		@apply hidden;
+		display: none;
 
 		/* hide the center bar when the button is clicked (checkbox is checked) */
 		&:checked + .navigation__button .navigation__icon {
-			@apply bg-transparent;
+			background-color: transparent;
 		}
 
 		&:checked + .navigation__button .navigation__icon::before {
-			@apply top-0 rotate-[135deg];
+			top: 0;
+			transform: rotate(135deg);
 		}
 
 		&:checked + .navigation__button .navigation__icon::after {
-			@apply top-0 -rotate-[135deg];
+			top: 0;
+			transform: rotate(-135deg);
 		}
 	}
 
 	/* Gets applied to the label because labels can be styled and control the checkboxes */
 	.navigation__button {
-		@apply bg-otgopurple-dark/95 fixed top-[10px] left-[10px] z-10 flex h-[70px] w-[70px] cursor-pointer items-center justify-center rounded-full shadow-2xl;
+		background-color: rgba(82, 37, 70, 0.95);
+		position: fixed;
+		top: 10px;
+		left: 10px;
+		z-index: 10;
+		display: flex;
+		height: 70px;
+		width: 70px;
+		cursor: pointer;
+		align-items: center;
+		justify-content: center;
+		border-radius: 9999px;
+		box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
 
 		/* animate the hamburger on hover */
 		&:hover .navigation__icon:before {
-			@apply -top-3;
+			top: calc(var(--spacing) * -3);
 		}
 		&:hover .navigation__icon:after {
-			@apply top-3;
+			top: calc(var(--spacing) * 3);
 		}
 	}
 
 	/* the hamburger itself */
 	.navigation__icon {
-		@apply relative;
+		position: relative;
 
 		/* set look of each bar */
 		&,
 		&::before,
 		&::after {
-			@apply bg-otgowhite h-[2px] w-8;
+			background-color: white;
+			height: 2px;
+			width: calc(var(--spacing) * 8);
 		}
 
 		/* make top & bottom bars appear */
 		&::before,
 		&::after {
-			@apply absolute transition-all ease-linear content-[''];
+			position: absolute;
+			transition: all linear 0.2s;
+			content: '';
 		}
 
 		/* position top & bottom bars */
 		&::before {
-			@apply -top-2;
+			top:  calc(var(--spacing) * -2);
 		}
 		&::after {
-			@apply top-2;
+			top: calc(var(--spacing) * 2);
 		}
 	}
 </style>

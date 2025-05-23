@@ -9,14 +9,18 @@ const currentYear = new Date().getFullYear();
 	<a href="/">
 		<Image src={FooterImage} alt="One to Grow On" />
 	</a>
-	<div class="text-center">
+	<div class="copyright">
 		© {currentYear}, One to Grow On
 	</div>
 </section>
 
 <style>
-	@reference '@/styles/global.css';
 	img {
-		@apply m-auto w-11/12;
+		width: 90%;
+		margin: auto;
+	}
+
+	.copyright {
+		text-align: center;
 	}
 </style>

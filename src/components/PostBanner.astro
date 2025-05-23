@@ -5,20 +5,34 @@ const { title, date, class: className, ...rest } = Astro.props;
 const formattedDate = formatDate(date);
 ---
 
-<div class:list={['banner', className]} {...rest}>
+<div class:list={['banner', 'animate', className]} {...rest}>
 	<h2 set:html={title} />
 	<p set:html={formattedDate} />
 </div>
 
 <style>
-	@reference '@/styles/global.css';
 	.banner {
-		@apply bg-otgopurple-dark/75 font-header text-otgowhite hover:text-otgoorange-light flex min-h-[60%] w-full flex-col items-center justify-center p-1 text-center transition-colors;
+		background-color: rgba(from var(--otgopurple-dark) r g b / 0.75);
+		font-family: var(--font-header);
+		color: var(--otgowhite);
+		display: flex;
+		min-height: 60%;
+		width: 100%;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: calc(var(--spacing));
+		text-align: center;
+
+		&:hover {
+			color: var(--otgoorange-light);
+		}
 	}
+
 	h2 {
-		@apply text-xl;
+		font-size: var(--text-xl);
 	}
 	p {
-		@apply text-base;
+		font-size: var(--text-base);
 	}
 </style>

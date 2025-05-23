@@ -41,11 +41,24 @@ if (tag) {
 </section>
 
 <style>
-	@reference '@/styles/global.css';
 	.post-grid {
-		@apply grid gap-8 md:grid-cols-2 lg:grid-cols-3;
+		display: grid;
+		gap: calc(8 * var(--spacing)); /* gap-8 */
 	}
+
+	@media (min-width: 48rem) { /* md: breakpoint */
+		.post-grid {
+			grid-template-columns: repeat(2, minmax(0, 1fr)); /* grid-cols-2 */
+		}
+	}
+
+	@media (min-width: 64rem) { /* lg: breakpoint */
+		.post-grid {
+			grid-template-columns: repeat(3, minmax(0, 1fr)); /* grid-cols-3 */
+		}
+	}
+
 	.post-excerpt {
-		@apply text-sm;
+		font-size: var(--text-sm);
 	}
 </style>
