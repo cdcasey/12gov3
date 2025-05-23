@@ -51,23 +51,20 @@
 
 	/* the hamburger itself */
 	.navigation__icon {
-		@apply relative;
 		position: relative;
 
 		/* set look of each bar */
 		&,
 		&::before,
 		&::after {
-			@apply bg-otgowhite h-[2px] w-8;
 			background-color: white;
 			height: 2px;
-			width: 2rem;
+			width: calc(var(--spacing) * 8);
 		}
 
 		/* make top & bottom bars appear */
 		&::before,
 		&::after {
-			@apply absolute transition-all ease-linear content-[''];
 			position: absolute;
 			transition: all linear 0.2s;
 			content: '';
@@ -75,12 +72,10 @@
 
 		/* position top & bottom bars */
 		&::before {
-			@apply -top-2;
-			top: -0.5rem;
+			top:  calc(var(--spacing) * -2);
 		}
 		&::after {
-			@apply top-2;
-			top: 0.5rem;
+			top: calc(var(--spacing) * 2);
 		}
 	}
 </style>
