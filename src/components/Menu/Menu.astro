@@ -68,7 +68,7 @@ import MenuLink from './MenuLink.astro';
 	const menu = document.getElementById('menu');
 	// Listen to changes in the store, and show/hide the dialog accordingly
 	menuIsOpen.subscribe((open) => {
-		if (open || 1) {
+		if (open) {
 			menu?.classList.add('open');
 		} else {
 			menu?.classList.remove('open');
