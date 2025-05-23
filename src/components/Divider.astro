@@ -5,8 +5,10 @@ const { ...attributes } = Astro.props;
 <hr {...attributes} />
 
 <style>
-	@reference '@/styles/global.css';
 	hr {
-		@apply my-4 h-[3px] bg-black/20;
+		margin-top: calc(4 * var(--spacing));
+		margin-bottom: calc(4 * var(--spacing));
+		height: 3px;
+		background-color: rgb(0 0 0 / 0.2);
 	}
 </style>

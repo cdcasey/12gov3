@@ -25,11 +25,22 @@ const { title, image, slug, date } = Astro.props;
 </a>
 
 <style>
-	@reference '@/styles/global.css';
 	.post-link {
-		@apply relative flex h-52 items-center justify-center;
+		position: relative;
+		display: flex;
+		height: calc(52 * var(--spacing)); /* h-52 */
+		align-items: center;
+		justify-content: center;
 	}
+
 	.bg-img {
-		@apply absolute top-1/2 left-1/2 -z-10 h-full w-full -translate-x-1/2 -translate-y-1/2 rounded;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		z-index: -10;
+		height: 100%;
+		width: 100%;
+		transform: translate(-50%, -50%);
+		border-radius: var(--radius-sm);
 	}
 </style>

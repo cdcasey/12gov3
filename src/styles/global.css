@@ -1,39 +1,26 @@
-@import 'tailwindcss';
+@import 'reset.css';
 
-@theme inline {
-	/* Fonts */
-	--font-header: var(--header);
-	--font-sans: var(--sans);
+html {
+	font-family: var(--font-sans);
+}
 
-	/* Colors */
-	--color-accent-1: var(--accent-1);
-	--color-accent-2: var(--accent-2);
-	--color-accent-7: var(--accent-7);
-	--color-success: var(--success);
-	--color-cyan: var(--cyan);
+a {
+	transition-property: color;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition-duration: 150ms;
+}
 
-	/* Custom color groups */
-	--color-otgogreen-light: var(--otgogreen-light);
-	--color-otgogreen-medium: var(--otgogreen-medium);
-	--color-otgogreen-dark: var(--otgogreen-dark);
-
-	--color-otgopurple-light: var(--otgopurple-light);
-	--color-otgopurple-dark: var(--otgopurple-dark);
-
-	--color-otgoorange-light: var(--otgoorange-light);
-	--color-otgoorange-dark: var(--otgoorange-dark);
-
-	--color-otgored: var(--otgored);
-	--color-otgoyellow: var(--otgoyellow);
-	--color-otgowhite: var(--otgowhite);
-	--color-otgoblack: var(--otgoblack);
+.animate {
+	transition-property: all;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition-duration: 150ms;
 }
 
 @layer base {
 	:root {
 		/* Fonts */
-		--header: 'Lilita One', var(--font-serif);
-		--sans: 'Cabin', var(--font-sans);
+		--font-header: 'Lilita One', ui-serif, serif;
+		--font-sans: 'Cabin', ui-sans-serif, system-ui, sans-serif;
 
 		/* Colors */
 		--accent-1: #fafafa;
@@ -57,5 +44,60 @@
 		--otgoyellow: #ffd744;
 		--otgowhite: #fdfdfd;
 		--otgoblack: #212121;
+
+		--spacing: 0.25rem;
+
+		/* Breakpoints are for reference only since var can't be used in media queries */
+		--breakpoint-sm: 40rem; /* 640 */
+		--breakpoint-md: 48rem; /* 768 */
+		--breakpoint-lg: 64rem; /* 1024 */
+		--breakpoint-xl: 80rem; /* 1280 */
+		--breakpoint-2xl: 96rem; /* 1536 */
+
+		--text-xs: 0.75rem;
+		--text-xs--line-height: calc(1 / 0.75);
+		--text-sm: 0.875rem;
+		--text-sm--line-height: calc(1.25 / 0.875);
+		--text-base: 1rem;
+		--text-base--line-height: calc(1.5 / 1);
+		--text-lg: 1.125rem;
+		--text-lg--line-height: calc(1.75 / 1.125);
+		--text-xl: 1.25rem;
+		--text-xl--line-height: calc(1.75 / 1.25);
+		--text-2xl: 1.5rem;
+		--text-2xl--line-height: calc(2 / 1.5);
+		--text-3xl: 1.875rem;
+		--text-3xl--line-height: calc(2.25 / 1.875);
+		--text-4xl: 2.25rem;
+		--text-4xl--line-height: calc(2.5 / 2.25);
+		--text-5xl: 3rem;
+		--text-5xl--line-height: 1;
+		--text-6xl: 3.75rem;
+		--text-6xl--line-height: 1;
+		--text-7xl: 4.5rem;
+		--text-7xl--line-height: 1;
+		--text-8xl: 6rem;
+		--text-8xl--line-height: 1;
+		--text-9xl: 8rem;
+		--text-9xl--line-height: 1;
+
+		--font-weight-thin: 100;
+		--font-weight-extralight: 200;
+		--font-weight-light: 300;
+		--font-weight-normal: 400;
+		--font-weight-medium: 500;
+		--font-weight-semibold: 600;
+		--font-weight-bold: 700;
+		--font-weight-extrabold: 800;
+		--font-weight-black: 900;
+
+		--radius-xs: 0.125rem;
+		--radius-sm: calc(var(--spacing)); /* rounded */
+		--radius-md: calc(var(--spacing) * 1.5);
+		--radius-lg: calc(var(--spacing) * 2);
+		--radius-xl: calc(var(--spacing) * 3);
+		--radius-2xl: calc(var(--spacing) * 4);
+		--radius-3xl: calc(var(--spacing) * 6);
+		--radius-4xl: calc(var(--spacing) * 8);
 	}
 }
