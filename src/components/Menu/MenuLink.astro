@@ -6,12 +6,20 @@ interface Props extends HTMLAttributes<'a'> {
 	isExternal?: boolean;
 }
 
-const { href, ...rest } = Astro.props;
+const { isExternal, href, ...rest } = Astro.props;
 ---
 
-<a href={href} {...rest} aria-current={pathname === href ? 'page' : 'false'}>
-	<slot />
-</a>
+{
+	isExternal ? (
+		<a href={href} {...rest} target="_blank" rel="noopener noreferrer">
+			<slot />
+		</a>
+	) : (
+		<a href={href} {...rest} aria-current={pathname === href ? 'page' : 'false'}>
+			<slot />
+		</a>
+	)
+}
 
 <style>
 	a {
