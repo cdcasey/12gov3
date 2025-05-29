@@ -3,6 +3,7 @@ import PageLayout from '@/layouts/PageLayout.astro';
 import PageTitle from '@/components/PageComponents/PageTitle.astro';
 import SectionTitle from '@/components/PageComponents/SectionTitle.astro';
 import PageSection from '@/components/PageComponents/PageSection.astro';
+import AudioPlayer from '../components/AudioPlayer.astro';
 ---
 
 <PageLayout>
@@ -30,19 +31,7 @@ import PageSection from '@/components/PageComponents/PageSection.astro';
 
 	<SectionTitle>Trailer</SectionTitle>
 	<PageSection>
-		<media-controller audio>
-			<audio slot="media" src="/audio/promo.mp3"></audio>
-			<media-control-bar class="media-control-bar">
-				<media-play-button></media-play-button>
-				<media-time-display showduration></media-time-display>
-				<media-time-range></media-time-range>
-				<media-seek-backward-button seekoffset="15"></media-seek-backward-button>
-				<media-seek-forward-button seekoffset="15"></media-seek-forward-button>
-				<media-playback-rate-button></media-playback-rate-button>
-				<media-mute-button></media-mute-button>
-				<media-volume-range></media-volume-range>
-			</media-control-bar>
-		</media-controller>
+		<AudioPlayer src="/audio/promo.mp3" />
 	</PageSection>
 
 	<SectionTitle>Who We Are</SectionTitle>
@@ -172,10 +161,6 @@ import PageSection from '@/components/PageComponents/PageSection.astro';
 </PageLayout>
 
 <style>
-	.media-control-bar {
-		gap: calc(var(--spacing) * 4);
-		padding: 0 calc(var(--spacing) * 2);
-	}
 	.gallery {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
