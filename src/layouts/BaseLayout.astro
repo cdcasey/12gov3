@@ -7,6 +7,7 @@ import '@fontsource/lilita-one';
 import Lilita1 from '@fontsource/lilita-one/files/lilita-one-latin-400-normal.woff2?url';
 import MenuButton from '../components/Menu/MenuButton.astro';
 import Menu from '../components/Menu/Menu.astro';
+// import 'media-chrome';
 
 import '@/styles/global.css';
 ---
@@ -21,6 +22,7 @@ import '@/styles/global.css';
 		<link rel="preload" as="font" type="font/woff2" href={Cabin} crossorigin="anonymous" />
 		<meta name="generator" content={Astro.generator} />
 		<title>12GO</title>
+		<script type="module" src="https://cdn.jsdelivr.net/npm/media-chrome@4/+esm"></script>
 	</head>
 	<body>
 		<MenuButton />
