@@ -22,8 +22,18 @@ const { src, class: className } = Astro.props;
 </media-controller>
 
 <style>
-	.media-control-bar {
+	media-controller {
+		border-radius: var(--radius-sm);
+	}
+
+	media-control-bar {
 		gap: calc(var(--spacing) * 4);
 		padding: 0 calc(var(--spacing) * 2);
+		border-radius: var(--radius-sm);
+		background-color: var(--otgopurple-dark);
+	}
+
+	media-control-bar > * {
+		background-color: var(--otgopurple-dark);
 	}
 </style>
