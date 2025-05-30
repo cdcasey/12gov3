@@ -11,7 +11,7 @@
 	"dependencies": {
 		"@fontsource/cabin": "^5.2.5",
 		"@fontsource/lilita-one": "^5.2.5",
-		"astro": "^5.8.0",
+		"astro": "^5.8.1",
 		"media-chrome": "^4.10.0",
 		"nanostores": "^1.0.1"
 	},
