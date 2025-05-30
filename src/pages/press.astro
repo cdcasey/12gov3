@@ -3,6 +3,7 @@ import PageLayout from '@/layouts/PageLayout.astro';
 import PageTitle from '@/components/PageComponents/PageTitle.astro';
 import SectionTitle from '@/components/PageComponents/SectionTitle.astro';
 import PageSection from '@/components/PageComponents/PageSection.astro';
+import AudioPlayer from '@/components/AudioPlayer.astro';
 ---
 
 <PageLayout>
@@ -30,7 +31,7 @@ import PageSection from '@/components/PageComponents/PageSection.astro';
 
 	<SectionTitle>Trailer</SectionTitle>
 	<PageSection>
-		<audio src="/audio/promo.mp3" controls></audio>
+		<AudioPlayer src="/audio/promo.mp3" />
 	</PageSection>
 
 	<SectionTitle>Who We Are</SectionTitle>

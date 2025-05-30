@@ -1,6 +1,7 @@
 ---
-import type { Posts } from '@/components/Posts.astro';
+// import type { Posts } from '@/components/Posts.astro';
 import PageLayout from '../layouts/PageLayout.astro';
+import AudioPlayer from '@/components/AudioPlayer.astro';
 
 import { formatDate } from '../scripts/formatDate';
 import { getCollection, render } from 'astro:content';
@@ -34,6 +35,7 @@ const formattedDate = formatDate(post.data.date);
 		<section class="article-text">
 			<Content />
 		</section>
+		{post.data.audio && <AudioPlayer src={post.data.audio} />}
 	</article>
 </PageLayout>
 
@@ -64,6 +66,10 @@ const formattedDate = formatDate(post.data.date);
 			margin-bottom: calc((var(--spacing) * 4));
 			margin-left: calc((var(--spacing) * 4));
 			list-style-type: disc;
+		}
+
+		& media-controller {
+			margin-bottom: calc((var(--spacing) * 4));
 		}
 	}
 </style>

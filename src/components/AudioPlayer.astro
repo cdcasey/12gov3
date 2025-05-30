@@ -1,0 +1,39 @@
+---
+interface Props {
+	src: string;
+	class?: string;
+}
+
+const { src, class: className } = Astro.props;
+---
+
+<media-controller audio class={className}>
+	<audio slot="media" src={src}></audio>
+	<media-control-bar class="media-control-bar">
+		<media-play-button></media-play-button>
+		<media-time-display showduration></media-time-display>
+		<media-time-range></media-time-range>
+		<media-seek-backward-button seekoffset="15"></media-seek-backward-button>
+		<media-seek-forward-button seekoffset="15"></media-seek-forward-button>
+		<media-playback-rate-button></media-playback-rate-button>
+		<media-mute-button></media-mute-button>
+		<media-volume-range></media-volume-range>
+	</media-control-bar>
+</media-controller>
+
+<style>
+	media-controller {
+		border-radius: var(--radius-sm);
+	}
+
+	media-control-bar {
+		gap: calc(var(--spacing) * 4);
+		padding: 0 calc(var(--spacing) * 2);
+		border-radius: var(--radius-sm);
+		background-color: var(--otgopurple-dark);
+	}
+
+	media-control-bar > * {
+		background-color: var(--otgopurple-dark);
+	}
+</style>
