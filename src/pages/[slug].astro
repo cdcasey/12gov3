@@ -1,10 +1,11 @@
 ---
 // import type { Posts } from '@/components/Posts.astro';
-import PageLayout from '../layouts/PageLayout.astro';
+import { getCollection, render } from 'astro:content';
 import AudioPlayer from '@/components/AudioPlayer.astro';
 
+import PageLayout from '../layouts/PageLayout.astro';
 import { formatDate } from '../scripts/formatDate';
-import { getCollection, render } from 'astro:content';
+import ConnectAbout from '../components/ConnectAbout.astro';
 
 export async function getStaticPaths() {
 	// const res = await fetch('https://12go.onetogrowonpod.com/wp-json/wp/v2/posts?_embed');
@@ -34,8 +35,16 @@ const formattedDate = formatDate(post.data.date);
 		<time class="date" datetime={formattedDate}>{formattedDate}</time>
 		<section class="article-text">
 			<Content />
+			<ConnectAbout />
+			{
+				post.data.audio && (
+					<>
+						<h2>Listen here</h2>
+						<AudioPlayer src={post.data.audio} />
+					</>
+				)
+			}
 		</section>
-		{post.data.audio && <AudioPlayer src={post.data.audio} />}
 	</article>
 </PageLayout>
 
@@ -52,6 +61,11 @@ const formattedDate = formatDate(post.data.date);
 	}
 
 	section.article-text {
+		& h2 {
+			font-size: var(--text-2xl);
+			font-weight: var(--font-weight-bold);
+		}
+
 		font-size: var(--text-lg);
 		& p {
 			margin-bottom: calc(var(--spacing) * 4);
