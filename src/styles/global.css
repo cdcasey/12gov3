@@ -40,7 +40,19 @@ a {
 		--otgogreen-dark: #3f421b;
 
 		--otgopurple-light: #692f65;
-		--otgopurple-dark: #4e2688;
+		--otgopurple-dark: var(--color-purple-500);
+
+		--color-purple-50: #ebe3f7;
+		--color-purple-100: #dacbf1;
+		--color-purple-200: #b597e2;
+		--color-purple-300: #8e60d2;
+		--color-purple-400: #6a34bb;
+		--color-purple-500: #4e2688;
+		--color-purple-600: #3d1e6c;
+		--color-purple-700: #2d1650;
+		--color-purple-800: #201038;
+		--color-purple-900: #10081c;
+		--color-purple-950: #07030c;
 
 		--otgoorange-light: #f9a415;
 		--otgoorange-dark: #f68722;
