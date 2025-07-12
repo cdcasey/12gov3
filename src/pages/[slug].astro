@@ -3,9 +3,10 @@
 import { getCollection, render } from 'astro:content';
 import AudioPlayer from '@/components/AudioPlayer.astro';
 
-import PageLayout from '../layouts/PageLayout.astro';
-import { formatDate } from '../scripts/formatDate';
-import ConnectAbout from '../components/ConnectAbout.astro';
+import PageLayout from '@/layouts/PageLayout.astro';
+import { formatDate } from '@/scripts/formatDate';
+import ConnectAbout from '@/components/ConnectAbout.astro';
+import SEO from '@/components/SEO.astro';
 
 export async function getStaticPaths() {
 	// const res = await fetch('https://12go.onetogrowonpod.com/wp-json/wp/v2/posts?_embed');
@@ -30,6 +31,7 @@ const formattedDate = formatDate(post.data.date);
 ---
 
 <PageLayout>
+	<SEO title={post.data.slug} />
 	<article>
 		<h1 class="main-header">{post.data.title}</h1>
 		<time class="date" datetime={formattedDate}>{formattedDate}</time>
