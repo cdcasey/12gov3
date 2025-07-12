@@ -2,6 +2,7 @@
 import Posts from '@/components/Posts.astro';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+import SEO from '@/components/SEO.astro';
 
 export async function getStaticPaths() {
 	const posts = await getCollection('posts');
@@ -26,5 +27,6 @@ const { tag } = Astro.props;
 ---
 
 <BaseLayout>
-	<Posts tag={tag} />
+	<SEO title={tag} slot="seo" />
+	<Posts tag={tag} slot="content" />
 </BaseLayout>
