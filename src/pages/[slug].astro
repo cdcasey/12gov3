@@ -46,49 +46,49 @@ const formattedDate = formatDate(post.data.date);
 			}
 		</section>
 	</article>
+</PageLayout>
 
-	<style is:global>
-		.main-header {
-			font-size: var(--text-4xl);
-			line-height: var(--text-4xl--line-height);
+<style is:global>
+	.main-header {
+		font-size: var(--text-4xl);
+		line-height: var(--text-4xl--line-height);
+		font-weight: var(--font-weight-bold);
+	}
+
+	.date {
+		margin-bottom: calc(var(--spacing) * 5);
+		display: block;
+	}
+
+	section.article-text {
+		& h2 {
+			font-size: var(--text-2xl);
 			font-weight: var(--font-weight-bold);
 		}
 
-		.date {
-			margin-bottom: calc(var(--spacing) * 5);
-			display: block;
+		font-size: var(--text-lg);
+		& p {
+			margin-bottom: calc(var(--spacing) * 4);
+		}
+		& a {
+			color: var(--otgogreen-medium);
+		}
+		& a:hover {
+			color: var(--otgogreen-light);
+		}
+		& ul {
+			margin-bottom: calc((var(--spacing) * 4));
+			margin-left: calc((var(--spacing) * 4));
+			list-style-type: disc;
 		}
 
-		section.article-text {
-			& h2 {
-				font-size: var(--text-2xl);
-				font-weight: var(--font-weight-bold);
-			}
-
-			font-size: var(--text-lg);
-			& p {
-				margin-bottom: calc(var(--spacing) * 4);
-			}
-			& a {
-				color: var(--otgogreen-medium);
-			}
-			& a:hover {
-				color: var(--otgogreen-light);
-			}
-			& ul {
-				margin-bottom: calc((var(--spacing) * 4));
-				margin-left: calc((var(--spacing) * 4));
-				list-style-type: disc;
-			}
-
-			& media-controller {
-				margin-bottom: calc((var(--spacing) * 4));
-				width: 100%;
-			}
-
-			& media-control-bar {
-				width: 100%;
-			}
+		& media-controller {
+			margin-bottom: calc((var(--spacing) * 4));
+			width: 100%;
 		}
-	</style>
-</PageLayout>
+
+		& media-control-bar {
+			width: 100%;
+		}
+	}
+</style>
