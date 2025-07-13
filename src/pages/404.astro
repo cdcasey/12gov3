@@ -5,7 +5,7 @@ import { Image } from 'astro:assets';
 import Orange from '@/assets/orange.png';
 ---
 
-<BaseLayout>
+<BaseLayout title="404 Not Found">
 	<div class="wrapper">
 		<h1>404 Error</h1>
 		<p>
@@ -34,7 +34,8 @@ import Orange from '@/assets/orange.png';
 		color: var(--otgopurple-dark);
 	}
 
-	@media (min-width: 40rem) { /* sm: breakpoint */
+	@media (min-width: 40rem) {
+		/* sm: breakpoint */
 		h1 {
 			font-size: var(--text-7xl); /* text-7xl */
 		}

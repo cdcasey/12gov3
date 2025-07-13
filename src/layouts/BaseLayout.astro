@@ -5,11 +5,19 @@ import '@fontsource/cabin';
 import Cabin from '@fontsource/cabin/files/cabin-latin-400-normal.woff2?url';
 import '@fontsource/lilita-one';
 import Lilita1 from '@fontsource/lilita-one/files/lilita-one-latin-400-normal.woff2?url';
-import MenuButton from '../components/Menu/MenuButton.astro';
-import Menu from '../components/Menu/Menu.astro';
+import MenuButton from '@/components/Menu/MenuButton.astro';
+import Menu from '@/components/Menu/Menu.astro';
+import { metadata } from '@/constants/metadata';
 // import 'media-chrome';
 
 import '@/styles/global.css';
+interface Props {
+	title: string | null;
+}
+
+const { title } = Astro.props;
+
+const seoTitle = title ? `${title} | ${metadata.title}` : metadata.title;
 ---
 
 <!doctype html>
@@ -21,7 +29,37 @@ import '@/styles/global.css';
 		<link rel="preload" as="font" type="font/woff2" href={Lilita1} crossorigin="anonymous" />
 		<link rel="preload" as="font" type="font/woff2" href={Cabin} crossorigin="anonymous" />
 		<meta name="generator" content={Astro.generator} />
-		<title>12GO</title>
+		<meta name="robots" content="index, follow" />
+		<link rel="canonical" href="https://www.onetogrowonpod.com/" />
+
+		<title>{seoTitle}</title>
+
+		<!-- Meta Tags -->
+		<meta charset="utf-8" />
+		<meta name="description" content=`${metadata.description}` />
+		<meta property="og:title" content=`${seoTitle}` />
+		<meta property="og:description" content=`${metadata.description}` />
+		<meta property="og:type" content="website" />
+		<meta
+			property="og:image"
+			content="https://12go.onetogrowonpod.com/wp-content/uploads/2019/04/OTGO-1400.jpg"
+		/>
+		<meta property="og:url" content={Astro.url.href} />
+
+		<!-- Twitter Cards -->
+		<meta name="twitter:site" content="@onetogrowonpod" />
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:creator" content=`${metadata.author}` />
+		<meta name="twitter:title" content=`${seoTitle}` />
+		<meta name="twitter:description" content=`${metadata.description}` />
+		<meta
+			property="twitter:image"
+			content="https://12go.onetogrowonpod.com/wp-content/uploads/2019/04/OTGO-1400.jpg"
+		/>
+
+		<!-- Optional Keywords Meta Tag -->
+		<meta name="keywords" content=`${metadata.keywords.join(', ')}` />
+
 		<script type="module" src="https://cdn.jsdelivr.net/npm/media-chrome@4/+esm"></script>
 	</head>
 	<body>
