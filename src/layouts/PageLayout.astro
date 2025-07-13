@@ -1,10 +1,16 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import Sidebar from '../components/Sidebar.astro';
+
+interface Props {
+	title?: string;
+}
+
+const { title } = Astro.props;
 ---
 
-<BaseLayout>
-	<div class="wrapper" slot="content">
+<BaseLayout title={title}>
+	<div class="wrapper">
 		<div>
 			<slot />
 		</div>
