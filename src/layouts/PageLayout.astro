@@ -3,7 +3,7 @@ import BaseLayout from './BaseLayout.astro';
 import Sidebar from '../components/Sidebar.astro';
 
 interface Props {
-	title?: string;
+	title: string | null;
 }
 
 const { title } = Astro.props;
