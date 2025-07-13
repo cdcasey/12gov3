@@ -30,6 +30,7 @@ const seoTitle = title ? `${title} | ${metadata.title}` : metadata.title;
 		<link rel="preload" as="font" type="font/woff2" href={Cabin} crossorigin="anonymous" />
 		<meta name="generator" content={Astro.generator} />
 		<meta name="robots" content="index, follow" />
+		<link rel="canonical" href="https://www.onetogrowonpod.com/" />
 
 		<title>{seoTitle}</title>
 
@@ -43,7 +44,7 @@ const seoTitle = title ? `${title} | ${metadata.title}` : metadata.title;
 			property="og:image"
 			content="https://12go.onetogrowonpod.com/wp-content/uploads/2019/04/OTGO-1400.jpg"
 		/>
-		<meta property="og:url" content={Astro.url} />
+		<meta property="og:url" content={Astro.url.href} />
 
 		<!-- Twitter Cards -->
 		<meta name="twitter:site" content="@onetogrowonpod" />
