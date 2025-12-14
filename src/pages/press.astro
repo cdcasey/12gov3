@@ -48,10 +48,10 @@ import bannerArt from '@/assets/press/12GO_PatreonHeader_background-1-1024x256.p
 			and passionate about agricultural sustainability and communication. Her love of science communication
 			began at 12 when she co-founded Discover Green, a statewide non-profit focused on promoting youth
 			leadership in environmental activism. She continued to work in science communication focused on
-			agriculture and plant science, primarily through work in online video. Hallie got a bachelor’s
-			in agribusiness from Texas State University and a master’s in International Agricultural Development
-			at the University of California, Davis. She now lives in Austin, Texas. While not working, she
-			enjoys mystery novels and lemon tarts.
+			agriculture and plant science, primarily through work in online video. Hallie got a bachelor’s in
+			agribusiness from Texas State University and a master’s in International Agricultural Development
+			at the University of California, Davis. She now lives in Austin, Texas. While not working, she enjoys
+			mystery novels and lemon tarts.
 		</p>
 
 		<p>
@@ -80,8 +80,8 @@ import bannerArt from '@/assets/press/12GO_PatreonHeader_background-1-1024x256.p
 	<SectionTitle>Where to Find Us</SectionTitle>
 	<PageSection>
 		<p>
-			<em>One to Grow On</em> is released every other Tuesday on all podcasting platforms. If you’re
-			looking for us between episodes, check out @onetogrowonpod on{' '}
+			<em>One to Grow On</em> is released every other Tuesday on all podcasting platforms. If you’re looking
+			for us between episodes, check out @onetogrowonpod on{' '}
 			<a href="http://www.instagram.com/onetogrowonpod">Instagram</a>,{' '}
 			<a href="http://www.twitter.com/onetogrowonpod">Twitter</a>, and{' '}
 			<a href="https://www.facebook.com/onetogrowonpod">Facebook</a>.
@@ -98,10 +98,7 @@ import bannerArt from '@/assets/press/12GO_PatreonHeader_background-1-1024x256.p
 		<div class="gallery-item">
 			<figure>
 				<a href={hallieHeadshot.src}>
-					<Image
-						src={hallieHeadshot}
-						alt="brunette girl half smiles in front of trees"
-					/>
+					<Image src={hallieHeadshot} alt="brunette girl half smiles in front of trees" />
 				</a>
 				<figcaption>
 					Hallie Casey
@@ -150,10 +147,7 @@ import bannerArt from '@/assets/press/12GO_PatreonHeader_background-1-1024x256.p
 		<div class="gallery-item">
 			<figure>
 				<a href={bannerArt.src}>
-					<Image
-						src={bannerArt}
-						alt="Fruits and vegetables against a white background"
-					/>
+					<Image src={bannerArt} alt="Fruits and vegetables against a white background" />
 				</a>
 				<figcaption>One to Grow On banner art</figcaption>
 			</figure>
@@ -164,7 +158,8 @@ import bannerArt from '@/assets/press/12GO_PatreonHeader_background-1-1024x256.p
 <style>
 	.gallery {
 		display: grid;
-		grid-template-columns: repeat(3, 1fr);
+		/* Stacks on mobile, 3 columns on desktop */
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 		grid-gap: 1.6rem;
 		list-style-type: none;
 	}
