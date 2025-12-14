@@ -1,5 +1,5 @@
-import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
+import { defineCollection, z } from 'astro:content';
 
 // const PostSchema = ({ image }) =>
 // 	z.object({
@@ -23,7 +23,7 @@ const posts = defineCollection({
 			slug: z.string(),
 			date: z.coerce.date(),
 			excerpt: z.string(),
-			category: z.enum(['episodes', 'transcripts', 'promo']).optional(),
+			categories: z.array(z.enum(['episodes', 'transcripts', 'promo'])),
 			tags: z.array(z.string()).optional(),
 			coverImage: image(),
 			audio: z.string().optional(),
