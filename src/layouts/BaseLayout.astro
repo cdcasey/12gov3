@@ -25,7 +25,7 @@ const seoTitle = title ? `${title} | ${metadata.title}` : metadata.title;
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/lettuce.png" />
+		<link rel="icon" type="image/svg+xml" href="/images/lettuce.png" />
 		<link rel="preload" as="font" type="font/woff2" href={Lilita1} crossorigin="anonymous" />
 		<link rel="preload" as="font" type="font/woff2" href={Cabin} crossorigin="anonymous" />
 		<meta name="generator" content={Astro.generator} />
@@ -40,10 +40,7 @@ const seoTitle = title ? `${title} | ${metadata.title}` : metadata.title;
 		<meta property="og:title" content=`${seoTitle}` />
 		<meta property="og:description" content=`${metadata.description}` />
 		<meta property="og:type" content="website" />
-		<meta
-			property="og:image"
-			content="https://12go.onetogrowonpod.com/wp-content/uploads/2019/04/OTGO-1400.jpg"
-		/>
+		<meta property="og:image" content={`${metadata.siteUrl}/images/OTGO-1400.jpg`} />
 		<meta property="og:url" content={Astro.url.href} />
 
 		<!-- Twitter Cards -->
@@ -52,10 +49,7 @@ const seoTitle = title ? `${title} | ${metadata.title}` : metadata.title;
 		<meta name="twitter:creator" content=`${metadata.author}` />
 		<meta name="twitter:title" content=`${seoTitle}` />
 		<meta name="twitter:description" content=`${metadata.description}` />
-		<meta
-			property="twitter:image"
-			content="https://12go.onetogrowonpod.com/wp-content/uploads/2019/04/OTGO-1400.jpg"
-		/>
+		<meta property="twitter:image" content={`${metadata.siteUrl}/images/OTGO-1400.jpg`} />
 
 		<!-- Optional Keywords Meta Tag -->
 		<meta name="keywords" content=`${metadata.keywords.join(', ')}` />
