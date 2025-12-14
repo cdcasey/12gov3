@@ -1,0 +1,77 @@
+---
+import { Image } from 'astro:assets';
+
+import horticulturatiImg from '@/assets/collabs/horticulturati.png';
+import planthropologyImg from '@/assets/collabs/planthropology.jpg';
+import spiritsImg from '@/assets/collabs/spirits.png';
+import farmtravelerImg from '@/assets/collabs/farmtraveler.jpg';
+import outsideinImg from '@/assets/collabs/outsidein.png';
+import puttingittogetherImg from '@/assets/collabs/puttingittogether.jpg';
+
+interface Props {
+	image:
+		| 'horticulturati'
+		| 'planthropology'
+		| 'spirits'
+		| 'farmtraveler'
+		| 'outsidein'
+		| 'puttingittogether';
+	class?: string;
+}
+
+const { image, class: className = '' } = Astro.props;
+
+const IMAGE_MAP = {
+	horticulturati: {
+		src: horticulturatiImg,
+		alt: 'Horticulturati logo',
+	},
+	planthropology: {
+		src: planthropologyImg,
+		alt: 'Planthropology logo',
+	},
+	spirits: {
+		src: spiritsImg,
+		alt: 'Spirits logo',
+	},
+	farmtraveler: {
+		src: farmtravelerImg,
+		alt: 'Farm Traveler logo',
+	},
+	outsidein: {
+		src: outsideinImg,
+		alt: 'Outside In logo',
+	},
+	puttingittogether: {
+		src: puttingittogetherImg,
+		alt: 'Putting It Together logo',
+	},
+};
+
+const imageData = IMAGE_MAP[image];
+---
+
+<figure>
+	<Image src={imageData.src} alt={imageData.alt} width={200} class={`collab-image ${className}`} />
+</figure>
+
+<style>
+	figure {
+		margin: 0;
+	}
+
+	.collab-image {
+		border-radius: 4px;
+		transition-duration: 0.3s;
+		width: 100%;
+		height: auto;
+	}
+
+	.collab-image:hover {
+		transition-duration: 0.3s;
+		box-shadow:
+			0px 1px 10px 0px rgba(0, 0, 0, 0.2),
+			0px 1px 1px 0px rgba(60, 155, 160, 0.14),
+			0px 2px 10px -1px rgba(60, 155, 160, 0.12);
+	}
+</style>
