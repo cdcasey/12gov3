@@ -1,20 +1,13 @@
 ---
 import PageTitle from '@/components/PageComponents/PageTitle.astro';
+import SectionTitle from '@/components/PageComponents/SectionTitle.astro';
 import PageLayout from '@/layouts/PageLayout.astro';
-
-// import PageLayout from '../components/Layout/PageLayout.astro'
 import CollabImage from '@/components/CollabImage.astro';
-// const title = 'Collaborations' ---
 ---
 
-<!-- <PageLayout title="Collaborations">
-	<PageTitle>Collaborations</PageTitle>
-	<h1>Collaborations</h1>
-	<p>hello</p> -->---
-
 <PageLayout title="Collaborations">
-	<h1 class="post-title">Collaborations</h1>
-	<h2 class="section-title">Listen to us elsewhere!</h2>
+	<PageTitle>Collaborations</PageTitle>
+	<SectionTitle>Listen to us elsewhere!</SectionTitle>
 
 	<div class="collab-gallery">
 		<div>
@@ -112,15 +105,10 @@ import CollabImage from '@/components/CollabImage.astro';
 		</div>
 
 		<div>
-			<a
-				class="collab-link"
-				target="_blank"
-				rel="noopener noreferrer"
-				href="https://www.planthropologypod.com/home/halliecasey"
-			>
+			<span>
 				<CollabImage image="planthropology" />
 				<h3 class="series-title">Planthropology</h3>
-			</a>
+			</span>
 			<div class="collab-episode-title">
 				Episode 5: Hallie Casey- Science Communication, One to Grow On, and Giant Entomology Books
 			</div>
@@ -153,37 +141,20 @@ import CollabImage from '@/components/CollabImage.astro';
 		</div>
 	</div>
 </PageLayout>
-<!-- </PageLayout> -->
 
 <style>
-	.post-title {
-		font-family: 'Lilita One', cursive;
-		line-height: 1.3;
-		font-size: 3.5rem;
-		font-weight: normal;
-		margin-bottom: 1.5rem;
-	}
-
-	.section-title {
-		font-family: 'Lato', sans-serif;
-		font-size: 1.8rem;
-		font-weight: 300;
-		margin-bottom: 2rem;
-	}
-
 	.collab-gallery {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-		grid-column-gap: 1.2rem;
-		grid-row-gap: 2.4rem;
+		gap: var(--spacing-6);
 	}
 
 	.series-title {
-		font-family: 'Lilita One', cursive;
-		line-height: 1.3;
-		font-size: 2rem;
+		font-family: var(--font-header);
+		line-height: var(--text-xl--line-height);
+		font-size: var(--text-xl);
 		font-weight: normal;
-		margin-bottom: 0.3rem;
+		margin-bottom: var(--spacing);
 	}
 
 	.collab-episode-title {
@@ -191,7 +162,7 @@ import CollabImage from '@/components/CollabImage.astro';
 	}
 
 	.collab-episode-date {
-		margin-bottom: 0.5rem;
+		margin-bottom: var(--spacing-2);
 		font-style: italic;
 	}
 
@@ -200,7 +171,6 @@ import CollabImage from '@/components/CollabImage.astro';
 	.collab-link:visited {
 		display: inline-block;
 		text-decoration: none;
-		//color: #4a154b;
 		color: var(--otgopurple-dark);
 		width: 100%;
 		border-radius: 3px;
@@ -208,7 +178,7 @@ import CollabImage from '@/components/CollabImage.astro';
 	}
 
 	.collab-link:hover {
-		color: #ff6f3c;
+		color: var(--otgoorange-light);
 		transition-duration: 0.3s;
 	}
 
