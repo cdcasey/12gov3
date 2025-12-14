@@ -2,12 +2,12 @@
 title: '29: Superfoods IV - Bok Choy, Wheat Germ, Ginger and Seaweed'
 date: '2019-12-31'
 categories:
-  - 'episodes'
+  - episodes
 tags:
-  - 'series'
-  - 'superfoods'
-coverImage: './Jade_cabbage_closeup.jpg'
-slug: 'slug'
+  - series
+  - superfoods
+coverImage: ./Jade_cabbage_closeup.jpg
+slug: 29-superfoods-iv-bok-choy-wheat-germ-ginger-and-seaweed
 excerpt: ''
 ---
 

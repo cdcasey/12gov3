@@ -1,13 +1,14 @@
 ---
-title: "35: Agritourism Transcript"
-date: "2020-05-05"
-categories: 
-  - "transcripts"
-tags: 
-  - "ag-industry"
-coverImage: "./Tree_Grace_Farms_specializes_in_organic_fruit_and_vegetables._Families_can_visit_the_farm_and_harvest_fresh_produce._24821411950-scaled.jpg"
-slug: "slug"
-excerpt: ""
+title: '35: Agritourism Transcript'
+date: '2020-05-05'
+categories:
+  - transcripts
+tags:
+  - ag-industry
+coverImage: >-
+  ./Tree_Grace_Farms_specializes_in_organic_fruit_and_vegetables._Families_can_visit_the_farm_and_harvest_fresh_produce._24821411950-scaled.jpg
+slug: 35-agritourism-transcript
+excerpt: ''
 ---
 
 [Listen to the full episode](https://12go.onetogrowonpod.com/35-agrotourism/).

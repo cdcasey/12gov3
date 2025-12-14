@@ -1,16 +1,16 @@
 ---
-title: "38: Farmers’ Markets with Amy Gallo Transcript"
-date: "2020-06-16"
-categories: 
-  - "transcripts"
-tags: 
-  - "ag-industry"
-  - "guest-episode"
-  - "local-food"
-  - "series"
-coverImage: "./Arlington_Courthouse_Farmers_Market_5106012513.jpg"
-slug: "slug"
-excerpt: ""
+title: '38: Farmers’ Markets with Amy Gallo Transcript'
+date: '2020-06-16'
+categories:
+  - transcripts
+tags:
+  - ag-industry
+  - guest-episode
+  - local-food
+  - series
+coverImage: ./Arlington_Courthouse_Farmers_Market_5106012513.jpg
+slug: 38-farmers-markets-with-amy-gallo-transcript
+excerpt: ''
 ---
 
 [Listen to the full episode](https://www.onetogrowonpod.com/farmers-markets/).

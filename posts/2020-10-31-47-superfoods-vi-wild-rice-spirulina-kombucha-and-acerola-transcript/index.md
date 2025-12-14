@@ -1,16 +1,16 @@
 ---
-title: "47: Superfoods VI – Wild Rice, Spirulina, Kombucha, and Acerola Transcript"
-date: "2020-10-31"
-categories: 
-  - "transcripts"
-tags: 
-  - "ag-science"
-  - "ag-industry"
-  - "series"
-  - "superfoods"
-coverImage: "./200918_superfoods-scaled.jpg"
-slug: "slug"
-excerpt: ""
+title: '47: Superfoods VI – Wild Rice, Spirulina, Kombucha, and Acerola Transcript'
+date: '2020-10-31'
+categories:
+  - transcripts
+tags:
+  - ag-science
+  - ag-industry
+  - series
+  - superfoods
+coverImage: ./200918_superfoods-scaled.jpg
+slug: 47-superfoods-vi-wild-rice-spirulina-kombucha-and-acerola-transcript
+excerpt: ''
 ---
 
 [Listen to the full episode.](https://www.onetogrowonpod.com/47-superfoods-vi-wild-rice-spirulina-kombucha-and-acerola/)

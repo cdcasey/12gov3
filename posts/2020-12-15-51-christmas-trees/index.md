@@ -1,15 +1,15 @@
 ---
-title: "51: Christmas Trees"
-date: "2020-12-15"
-categories: 
-  - "episodes"
-tags: 
-  - "ag-science"
-  - "ag-industry"
-  - "crops"
-coverImage: "./200922_christmas-scaled.jpg"
-slug: "slug"
-excerpt: ""
+title: '51: Christmas Trees'
+date: '2020-12-15'
+categories:
+  - episodes
+tags:
+  - ag-science
+  - ag-industry
+  - crops
+coverImage: ./200922_christmas-scaled.jpg
+slug: 51-christmas-trees
+excerpt: ''
 ---
 
 This week we’re talking about Chistmas trees! What is a conifer? Should you buy real or plastic? How many super powers does Santa Claus have?

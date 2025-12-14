@@ -1,16 +1,16 @@
 ---
-title: "39: Good Food and Supply Chains Transcript with FamilyFarmed"
-date: "2020-07-02"
-categories: 
-  - "transcripts"
-tags: 
-  - "ag-industry"
-  - "guest-episode"
-  - "local-food"
-  - "series"
-coverImage: "./image0-1.jpg"
-slug: "slug"
-excerpt: ""
+title: '39: Good Food and Supply Chains Transcript with FamilyFarmed'
+date: '2020-07-02'
+categories:
+  - transcripts
+tags:
+  - ag-industry
+  - guest-episode
+  - local-food
+  - series
+coverImage: ./image0-1.jpg
+slug: 39-good-food-and-supply-chains-transcript-with-familyfarmed
+excerpt: ''
 ---
 
 [Listen to the full episode](https://12go.onetogrowonpod.com/39-good-food-and-supply-chains/).

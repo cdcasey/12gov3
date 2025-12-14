@@ -1,15 +1,15 @@
 ---
-title: "41: How Plants Communicate Transcript"
-date: "2020-08-01"
-categories: 
-  - "transcripts"
-tags: 
-  - "ag-science"
-  - "ag-industry"
-  - "gardening"
-coverImage: "./fungalnetworks.jpg"
-slug: "slug"
-excerpt: ""
+title: '41: How Plants Communicate Transcript'
+date: '2020-08-01'
+categories:
+  - transcripts
+tags:
+  - ag-science
+  - ag-industry
+  - gardening
+coverImage: ./fungalnetworks.jpg
+slug: 41-how-plants-communicate-transcript
+excerpt: ''
 ---
 
 [Listen to the full episode.](https://www.onetogrowonpod.com/41-plant-communication/)

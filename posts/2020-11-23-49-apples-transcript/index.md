@@ -1,15 +1,15 @@
 ---
-title: "49: Apples Transcript"
-date: "2020-11-23"
-categories: 
-  - "transcripts"
-tags: 
-  - "ag-science"
-  - "ag-history"
-  - "crops"
-coverImage: "./200920_apples-scaled.jpg"
-slug: "slug"
-excerpt: ""
+title: '49: Apples Transcript'
+date: '2020-11-23'
+categories:
+  - transcripts
+tags:
+  - ag-science
+  - ag-history
+  - crops
+coverImage: ./200920_apples-scaled.jpg
+slug: 49-apples-transcript
+excerpt: ''
 ---
 
 [Listen to the full episode.](https://www.onetogrowonpod.com/49-apples/)

@@ -1,15 +1,15 @@
 ---
-title: "44: Bananas"
-date: "2020-09-08"
-categories: 
-  - "episodes"
-tags: 
-  - "ag-science"
-  - "ag-history"
-  - "crops"
-coverImage: "./200817_banana.jpg"
-slug: "slug"
-excerpt: ""
+title: '44: Bananas'
+date: '2020-09-08'
+categories:
+  - episodes
+tags:
+  - ag-science
+  - ag-history
+  - crops
+coverImage: ./200817_banana.jpg
+slug: 44-bananas
+excerpt: ''
 ---
 
 This week we talk about bananas! The banana has quite a turbulent history. And while there are multiple varieties, the one we most commonly eat are all clones! Also, how far would YOU run in a banana costume?

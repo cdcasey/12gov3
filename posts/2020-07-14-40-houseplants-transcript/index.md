@@ -1,15 +1,15 @@
 ---
-title: "40: Houseplants Transcript"
-date: "2020-07-14"
-categories: 
-  - "transcripts"
-tags: 
-  - "ag-history"
-  - "ag-industry"
-  - "gardening"
-coverImage: "./200701_houseplant-scaled.jpg"
-slug: "slug"
-excerpt: ""
+title: '40: Houseplants Transcript'
+date: '2020-07-14'
+categories:
+  - transcripts
+tags:
+  - ag-history
+  - ag-industry
+  - gardening
+coverImage: ./200701_houseplant-scaled.jpg
+slug: 40-houseplants-transcript
+excerpt: ''
 ---
 
 [Listen to the full episode.](https://www.onetogrowonpod.com/40-houseplants/)

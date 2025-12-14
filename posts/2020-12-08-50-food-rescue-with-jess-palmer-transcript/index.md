@@ -1,15 +1,15 @@
 ---
-title: "50: Food Rescue with Jess Palmer Transcript"
-date: "2020-12-08"
-categories: 
-  - "transcripts"
-tags: 
-  - "ag-industry"
-  - "guest-episode"
-  - "social-justice"
-coverImage: "./food_rescue.jpg"
-slug: "slug"
-excerpt: ""
+title: '50: Food Rescue with Jess Palmer Transcript'
+date: '2020-12-08'
+categories:
+  - transcripts
+tags:
+  - ag-industry
+  - guest-episode
+  - social-justice
+coverImage: ./food_rescue.jpg
+slug: 50-food-rescue-with-jess-palmer-transcript
+excerpt: ''
 ---
 
 [Listen to the full podcast.](https://www.onetogrowonpod.com/50-food-rescue-with-jess-palmer/)

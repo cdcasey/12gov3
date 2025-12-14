@@ -2,14 +2,14 @@
 title: '28: The American Chestnut'
 date: '2019-12-17'
 categories:
-  - 'episodes'
+  - episodes
 tags:
-  - 'ag-science'
-  - 'ag-history'
-  - 'crops'
-  - 'holiday-episode'
-coverImage: './American_Chestnut.jpg'
-slug: 'slug'
+  - ag-science
+  - ag-history
+  - crops
+  - holiday-episode
+coverImage: ./American_Chestnut.jpg
+slug: 28-the-american-chestnut
 excerpt: ''
 ---
 

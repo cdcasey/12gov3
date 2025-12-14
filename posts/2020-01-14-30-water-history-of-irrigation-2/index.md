@@ -1,16 +1,16 @@
 ---
-title: "30: Water – History of Irrigation Transcript"
-date: "2020-01-14"
-categories: 
-  - "transcripts"
-tags: 
-  - "ag-history"
-  - "ag-industry"
-  - "series"
-  - "water"
-coverImage: "./water-1.jpg"
-slug: "slug"
-excerpt: ""
+title: '30: Water – History of Irrigation Transcript'
+date: '2020-01-14'
+categories:
+  - transcripts
+tags:
+  - ag-history
+  - ag-industry
+  - series
+  - water
+coverImage: ./water-1.jpg
+slug: 30-water-history-of-irrigation-transcript
+excerpt: ''
 ---
 
 [Listen to the full episode.](https://www.onetogrowonpod.com/30-water-history-of-irrigation/)

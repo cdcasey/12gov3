@@ -1,13 +1,13 @@
 ---
-title: "46: New Farmers with Marcus Coleman Transcript"
-date: "2020-10-07"
-categories: 
-  - "transcripts"
-tags: 
-  - "ag-industry"
-coverImage: "./Green_Infrastructure_vegetable_cultivation_Munich_LOS_DAMA-scaled.jpg"
-slug: "slug"
-excerpt: ""
+title: '46: New Farmers with Marcus Coleman Transcript'
+date: '2020-10-07'
+categories:
+  - transcripts
+tags:
+  - ag-industry
+coverImage: ./Green_Infrastructure_vegetable_cultivation_Munich_LOS_DAMA-scaled.jpg
+slug: 46-new-farmers-with-marcus-coleman-transcript
+excerpt: ''
 ---
 
 [Listen to the full episode.](https://www.onetogrowonpod.com/46-new-farmers-with-marcus-coleman/)

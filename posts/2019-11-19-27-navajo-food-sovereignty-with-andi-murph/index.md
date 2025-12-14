@@ -2,13 +2,13 @@
 title: '27: Navajo Food Sovereignty with Andi Murphy'
 date: '2019-11-19'
 categories:
-  - 'episodes'
+  - episodes
 tags:
-  - 'ag-history'
-  - 'guest-episode'
-  - 'social-justice'
-coverImage: './Screen-Shot-2019-11-19-at-10.14.24-AM.png'
-slug: 'slug'
+  - ag-history
+  - guest-episode
+  - social-justice
+coverImage: ./Screen-Shot-2019-11-19-at-10.14.24-AM.png
+slug: 27-navajo-food-sovereignty-with-andi-murphy
 excerpt: ''
 ---
 

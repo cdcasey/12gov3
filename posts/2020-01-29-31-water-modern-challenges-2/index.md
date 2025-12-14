@@ -1,16 +1,16 @@
 ---
-title: "31: Water – Modern Challenges Transcript"
-date: "2020-01-29"
-categories: 
-  - "transcripts"
-tags: 
-  - "ag-policy"
-  - "ag-industry"
-  - "series"
-  - "water"
-coverImage: "./Screen-Shot-2020-01-28-at-10.49.39-AM.png"
-slug: "slug"
-excerpt: ""
+title: '31: Water – Modern Challenges Transcript'
+date: '2020-01-29'
+categories:
+  - transcripts
+tags:
+  - ag-policy
+  - ag-industry
+  - series
+  - water
+coverImage: ./Screen-Shot-2020-01-28-at-10.49.39-AM.png
+slug: 31-water-modern-challenges-transcript
+excerpt: ''
 ---
 
 [Listen to the full episode.](https://www.onetogrowonpod.com/31-water-modern-challenges/)

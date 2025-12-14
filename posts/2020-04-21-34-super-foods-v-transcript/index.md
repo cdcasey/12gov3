@@ -1,14 +1,14 @@
 ---
-title: "34: Super Foods V Transcript"
-date: "2020-04-21"
-categories: 
-  - "transcripts"
-tags: 
-  - "series"
-  - "superfoods"
-coverImage: "./Pomological_Watercolor_POM00004559-1.jpg"
-slug: "slug"
-excerpt: ""
+title: '34: Super Foods V Transcript'
+date: '2020-04-21'
+categories:
+  - transcripts
+tags:
+  - series
+  - superfoods
+coverImage: ./Pomological_Watercolor_POM00004559-1.jpg
+slug: 34-super-foods-v-transcript
+excerpt: ''
 ---
 
 [Listen to the full audio](https://12go.onetogrowonpod.com/34-super-foods-v/).

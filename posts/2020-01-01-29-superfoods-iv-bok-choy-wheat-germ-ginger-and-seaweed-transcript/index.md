@@ -1,14 +1,14 @@
 ---
-title: "29: Superfoods IV – Bok Choy, Wheat Germ, Ginger and Seaweed Transcript"
-date: "2020-01-01"
-categories: 
-  - "transcripts"
-tags: 
-  - "series"
-  - "superfoods"
-coverImage: "./Jade_cabbage_closeup.jpg"
-slug: "slug"
-excerpt: ""
+title: '29: Superfoods IV – Bok Choy, Wheat Germ, Ginger and Seaweed Transcript'
+date: '2020-01-01'
+categories:
+  - transcripts
+tags:
+  - series
+  - superfoods
+coverImage: ./Jade_cabbage_closeup.jpg
+slug: 29-superfoods-iv-bok-choy-wheat-germ-ginger-and-seaweed-transcript
+excerpt: ''
 ---
 
 [Listen to the full episode.](https://www.onetogrowonpod.com/29-superfoods-iv-bok-choy-wheat-germ-ginger-and-seaweed/)

@@ -1,15 +1,15 @@
 ---
-title: "36: Vegetable Gardening Transcript"
-date: "2020-05-19"
-categories: 
-  - "transcripts"
-tags: 
-  - "ag-history"
-  - "ag-industry"
-  - "gardening"
-coverImage: "./vegetable-gardening.jpg"
-slug: "slug"
-excerpt: ""
+title: '36: Vegetable Gardening Transcript'
+date: '2020-05-19'
+categories:
+  - transcripts
+tags:
+  - ag-history
+  - ag-industry
+  - gardening
+coverImage: ./vegetable-gardening.jpg
+slug: 36-vegetable-gardening-transcript
+excerpt: ''
 ---
 
 [Listen to the full episode](https://12go.onetogrowonpod.com/36-vegetable-gardening/).

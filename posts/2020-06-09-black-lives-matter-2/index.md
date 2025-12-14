@@ -1,11 +1,11 @@
 ---
-title: "Black Lives Matter"
-date: "2020-06-09"
-categories: 
-  - "episodes"
-coverImage: "./BLM.png"
-slug: "slug"
-excerpt: ""
+title: Black Lives Matter
+date: '2020-06-09'
+categories:
+  - episodes
+coverImage: ./BLM.png
+slug: black-lives-matter
+excerpt: ''
 ---
 
 We stand with the protestors.

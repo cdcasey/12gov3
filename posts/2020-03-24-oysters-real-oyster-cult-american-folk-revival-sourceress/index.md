@@ -2,9 +2,9 @@
 title: 'Oysters: Real Oyster Cult: American Folk Revival (Sourceress)'
 date: '2020-03-24'
 categories:
-  - 'episodes'
-coverImage: './oysters.jpg'
-slug: 'slug'
+  - episodes
+coverImage: ./oysters.jpg
+slug: oysters-real-oyster-cult-american-folk-revival-sourceress
 excerpt: ''
 ---
 
