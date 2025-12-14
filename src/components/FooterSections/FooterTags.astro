@@ -1,23 +1,35 @@
 ---
+import { getCollection } from 'astro:content';
 import FooterTagLink from './FooterTagLink.astro';
 
 export interface Tag {
-	id: number;
 	count: number;
-	description: string;
-	link: string;
 	name: string;
 	slug: string;
 }
 
 export type Tags = Tag[];
 
-const res = await fetch('https://12go.onetogrowonpod.com/wp-json/wp/v2/tags?per_page=100');
+// Derive tags from posts collection
+const posts = await getCollection('posts');
 
-if (!res.ok) {
-	console.log(res);
-}
-const tags: Tags = await res.json();
+const tagCounts = posts.reduce(
+	(acc, post) => {
+		post.data.tags?.forEach((tag: Tag['slug']) => {
+			acc[tag] = (acc[tag] || 0) + 1;
+		});
+		return acc;
+	},
+	{} as Record<string, number>,
+);
+
+const tags: Tags = Object.entries(tagCounts)
+	.map(([name, count]) => ({
+		name,
+		slug: name.toLowerCase().replace(/\s+/g, '-'),
+		count,
+	}))
+	.sort((a, b) => b.count - a.count);
 ---
 
 <section>
