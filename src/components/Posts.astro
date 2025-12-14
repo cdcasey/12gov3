@@ -1,12 +1,13 @@
 ---
-import { getCollection } from 'astro:content';
-
+import type { CollectionEntry } from 'astro:content';
 import PostLink from './PostLink.astro';
 
-const { posts: providedPosts } = Astro.props;
 
-// Use provided posts or fetch from collection
-const posts = providedPosts ?? (await getCollection('posts'));
+interface Props {
+	posts: CollectionEntry<'posts'>[];
+}
+
+const { posts } = Astro.props;
 
 const sortedPosts = posts.sort(
 	(a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf(),
