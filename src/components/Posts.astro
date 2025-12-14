@@ -3,18 +3,14 @@ import { getCollection } from 'astro:content';
 
 import PostLink from './PostLink.astro';
 
-const { tag, posts: providedPosts } = Astro.props;
+const { posts: providedPosts } = Astro.props;
 
 // Use provided posts or fetch from collection
 const posts = providedPosts ?? (await getCollection('posts'));
 
-let sortedPosts = posts.sort(
+const sortedPosts = posts.sort(
 	(a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf(),
 );
-
-if (tag) {
-	sortedPosts = sortedPosts.filter((post) => post?.data?.tags?.includes(tag));
-}
 ---
 
 <section class="post-grid">
