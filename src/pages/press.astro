@@ -1,9 +1,16 @@
 ---
+import { Image } from 'astro:assets';
 import PageLayout from '@/layouts/PageLayout.astro';
 import PageTitle from '@/components/PageComponents/PageTitle.astro';
 import SectionTitle from '@/components/PageComponents/SectionTitle.astro';
 import PageSection from '@/components/PageComponents/PageSection.astro';
 import AudioPlayer from '@/components/AudioPlayer.astro';
+
+import hallieHeadshot from '@/assets/press/IMG_5692_square-1024x1024.jpg';
+import chrisHeadshot from '@/assets/press/cdc.jpg';
+import bothGreenhouse from '@/assets/press/IMG_1128.jpg';
+import podcastLogo from '@/assets/press/OTGO_LogoFinal-1-1024x1024.png';
+import bannerArt from '@/assets/press/12GO_PatreonHeader_background-1-1024x256.png';
 ---
 
 <PageLayout title="Press Kit">
@@ -90,11 +97,9 @@ import AudioPlayer from '@/components/AudioPlayer.astro';
 	<div class="gallery">
 		<div class="gallery-item">
 			<figure>
-				<a
-					href="https://12go.onetogrowonpod.com/wp-content/uploads/2018/09/IMG_5692_square-1024x1024.jpg"
-				>
-					<img
-						src="https://12go.onetogrowonpod.com/wp-content/uploads/2018/09/IMG_5692_square-1024x1024.jpg"
+				<a href={hallieHeadshot.src}>
+					<Image
+						src={hallieHeadshot}
 						alt="brunette girl half smiles in front of trees"
 					/>
 				</a>
@@ -107,9 +112,9 @@ import AudioPlayer from '@/components/AudioPlayer.astro';
 		</div>
 		<div class="gallery-item">
 			<figure>
-				<a href="https://12go.onetogrowonpod.com/wp-content/uploads/2018/09/cdc.jpg">
-					<img
-						src="https://12go.onetogrowonpod.com/wp-content/uploads/2018/09/cdc.jpg"
+				<a href={chrisHeadshot.src}>
+					<Image
+						src={chrisHeadshot}
 						alt="Man in sunglasses holding a cigar and a drink and leaning out of a window"
 					/>
 				</a>
@@ -122,9 +127,9 @@ import AudioPlayer from '@/components/AudioPlayer.astro';
 		</div>
 		<div class="gallery-item">
 			<figure>
-				<a href="https://12go.onetogrowonpod.com/wp-content/uploads/IMG_1128.jpg">
-					<img
-						src="https://12go.onetogrowonpod.com/wp-content/uploads/IMG_1128.jpg"
+				<a href={bothGreenhouse.src}>
+					<Image
+						src={bothGreenhouse}
 						alt="A man and a woman smiling at the camera, in a greenhouse"
 					/>
 				</a>
@@ -133,11 +138,9 @@ import AudioPlayer from '@/components/AudioPlayer.astro';
 		</div>
 		<div class="gallery-item">
 			<figure>
-				<a
-					href="https://12go.onetogrowonpod.com/wp-content/uploads/2019/04/OTGO_LogoFinal-1-1024x1024.png"
-				>
-					<img
-						src="https://12go.onetogrowonpod.com/wp-content/uploads/2019/04/OTGO_LogoFinal-1-1024x1024.png"
+				<a href={podcastLogo.src}>
+					<Image
+						src={podcastLogo}
 						alt="The words One To Grow On with fruits and vegetables and a microphone"
 					/>
 				</a>
@@ -146,11 +149,9 @@ import AudioPlayer from '@/components/AudioPlayer.astro';
 		</div>
 		<div class="gallery-item">
 			<figure>
-				<a
-					href="https://12go.onetogrowonpod.com/wp-content/uploads/2019/04/12GO_PatreonHeader_background-1-1024x256.png"
-				>
-					<img
-						src="https://12go.onetogrowonpod.com/wp-content/uploads/2019/04/12GO_PatreonHeader_background-1-1024x256.png"
+				<a href={bannerArt.src}>
+					<Image
+						src={bannerArt}
 						alt="Fruits and vegetables against a white background"
 					/>
 				</a>
