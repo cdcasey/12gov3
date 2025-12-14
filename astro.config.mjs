@@ -1,16 +1,10 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
+import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	// output: 'static',
-	// vite: {
-	// 	build: {
-	// 		outDir: 'dist',
-	// 	},
-	// },
-	// vite: {
-	// 	plugins: [tailwindcss()],
-	// },
+	site: 'https://www.onetogrowonpod.com',
+	integrations: [sitemap()],
 	prefetch: { prefetchAll: true },
 });
