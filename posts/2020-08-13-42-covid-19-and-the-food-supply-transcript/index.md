@@ -1,15 +1,15 @@
 ---
-title: "42: COVID-19 and the Food Supply Transcript"
-date: "2020-08-13"
-categories: 
-  - "transcripts"
-tags: 
-  - "ag-policy"
-  - "ag-industry"
-  - "animal-ag"
-coverImage: "./200809_covid.jpg"
-slug: "slug"
-excerpt: ""
+title: '42: COVID-19 and the Food Supply Transcript'
+date: '2020-08-13'
+categories:
+  - transcripts
+tags:
+  - ag-policy
+  - ag-industry
+  - animal-ag
+coverImage: ./200809_covid.jpg
+slug: 42-covid-19-and-the-food-supply-transcript
+excerpt: ''
 ---
 
 Article Hallie wrote about this topic: [COVID-19 and the US Food Supply Chain: What Happened?](https://sustainablefoodcenter.org/latest/blog/covid-19-and-the-us-food-supply-chain-what-happened)

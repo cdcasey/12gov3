@@ -1,15 +1,15 @@
 ---
-title: "48: Xeriscaping with Leah Churner and Colleen Dieter Transcript"
-date: "2020-11-11"
-categories: 
-  - "transcripts"
-tags: 
-  - "ag-science"
-  - "gardening"
-  - "guest-episode"
-coverImage: "./200919_xeriscaping.jpg"
-slug: "slug"
-excerpt: ""
+title: '48: Xeriscaping with Leah Churner and Colleen Dieter Transcript'
+date: '2020-11-11'
+categories:
+  - transcripts
+tags:
+  - ag-science
+  - gardening
+  - guest-episode
+coverImage: ./200919_xeriscaping.jpg
+slug: 48-xeriscaping-with-leah-churner-and-colleen-dieter-transcript
+excerpt: ''
 ---
 
 [Listen to the full episode.](https://www.onetogrowonpod.com/48-xeriscaping-with-leah-churner-and-colleen-dieter/)

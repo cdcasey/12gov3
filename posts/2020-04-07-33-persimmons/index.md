@@ -2,13 +2,13 @@
 title: '33: Persimmons'
 date: '2020-04-07'
 categories:
-  - 'episodes'
+  - episodes
 tags:
-  - 'ag-science'
-  - 'ag-industry'
-  - 'crops'
-coverImage: './image0.jpg'
-slug: 'slug'
+  - ag-science
+  - ag-industry
+  - crops
+coverImage: ./image0.jpg
+slug: 33-persimmons
 excerpt: ''
 ---
 

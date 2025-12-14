@@ -2,13 +2,13 @@
 title: '36: Vegetable Gardening'
 date: '2020-05-19'
 categories:
-  - 'episodes'
+  - episodes
 tags:
-  - 'ag-history'
-  - 'ag-industry'
-  - 'gardening'
-coverImage: './vegetable-gardening.jpg'
-slug: 'slug'
+  - ag-history
+  - ag-industry
+  - gardening
+coverImage: ./vegetable-gardening.jpg
+slug: 36-vegetable-gardening
 excerpt: ''
 ---
 

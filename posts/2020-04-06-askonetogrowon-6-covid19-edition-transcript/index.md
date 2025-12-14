@@ -1,14 +1,14 @@
 ---
-title: "#AskOnetoGrowOn 6: COVID19 Edition Transcript"
-date: "2020-04-06"
-categories: 
-  - "transcripts"
-tags: 
-  - "askonetogrowon"
-  - "ag-industry"
-coverImage: "./1200px-Pasta_shortage_tourism_at_Tesco2C_Finchley2C_London.jpg"
-slug: "slug"
-excerpt: ""
+title: '#AskOnetoGrowOn 6: COVID19 Edition Transcript'
+date: '2020-04-06'
+categories:
+  - transcripts
+tags:
+  - askonetogrowon
+  - ag-industry
+coverImage: ./1200px-Pasta_shortage_tourism_at_Tesco2C_Finchley2C_London.jpg
+slug: askonetogrowon-6-covid19-edition-transcript
+excerpt: ''
 ---
 
 [Listen to the full episode](https://www.onetogrowonpod.com/askonetogrowon-6-covid19/).

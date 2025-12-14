@@ -1,13 +1,13 @@
 ---
-title: "45: How Plants Use Water Transcript"
-date: "2020-09-23"
-categories: 
-  - "transcripts"
-tags: 
-  - "ag-science"
-coverImage: "./200916_howplantsusewater.jpg"
-slug: "slug"
-excerpt: ""
+title: '45: How Plants Use Water Transcript'
+date: '2020-09-23'
+categories:
+  - transcripts
+tags:
+  - ag-science
+coverImage: ./200916_howplantsusewater.jpg
+slug: 45-how-plants-use-water-transcript
+excerpt: ''
 ---
 
 [Listen to the full episode.](https://www.onetogrowonpod.com/45-how-plants-use-water/)

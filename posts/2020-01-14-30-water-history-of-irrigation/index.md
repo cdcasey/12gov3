@@ -1,16 +1,16 @@
 ---
-title: "30: Water - History of Irrigation"
-date: "2020-01-14"
-categories: 
-  - "episodes"
-tags: 
-  - "ag-history"
-  - "ag-industry"
-  - "series"
-  - "water"
-coverImage: "./water-1.jpg"
-slug: "slug"
-excerpt: ""
+title: '30: Water - History of Irrigation'
+date: '2020-01-14'
+categories:
+  - episodes
+tags:
+  - ag-history
+  - ag-industry
+  - series
+  - water
+coverImage: ./water-1.jpg
+slug: 30-water-history-of-irrigation
+excerpt: ''
 ---
 
 In the first of a two-part series on water, Hallie and Chris discuss irrigation and water use. We learn it’s history, dating from prehistory to today, how it’s used and why it’s so important. We also learn that Chris is still confused about what is and is not a berry.

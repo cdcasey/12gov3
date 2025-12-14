@@ -2,14 +2,14 @@
 title: '"What is Compost?"'
 date: '2019-12-03'
 categories:
-  - 'episodes'
+  - episodes
 tags:
-  - 'ag-science'
-  - 'gardening'
-  - 'question-episode'
-  - 'series'
-coverImage: './Compost_Heap.jpg'
-slug: 'slug'
+  - ag-science
+  - gardening
+  - question-episode
+  - series
+coverImage: ./Compost_Heap.jpg
+slug: what-is-compost
 excerpt: ''
 ---
 

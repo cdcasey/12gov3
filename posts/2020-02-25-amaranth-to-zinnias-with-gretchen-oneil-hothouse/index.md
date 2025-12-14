@@ -1,10 +1,10 @@
 ---
-title: 'Amaranth to Zinnias with Gretchen O’Neil (Hothouse)'
+title: Amaranth to Zinnias with Gretchen O’Neil (Hothouse)
 date: '2020-02-25'
 categories:
-  - 'episodes'
-coverImage: './IMG_8166.jpg'
-slug: 'slug'
+  - episodes
+coverImage: ./IMG_8166.jpg
+slug: amaranth-to-zinnias-with-gretchen-o-neil-hothouse
 excerpt: ''
 ---
 

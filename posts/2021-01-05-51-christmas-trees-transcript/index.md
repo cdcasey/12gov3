@@ -1,15 +1,15 @@
 ---
-title: "51: Christmas Trees Transcript"
-date: "2021-01-05"
-categories: 
-  - "transcripts"
-tags: 
-  - "ag-science"
-  - "ag-industry"
-  - "crops"
-coverImage: "./200922_christmas-scaled.jpg"
-slug: "slug"
-excerpt: ""
+title: '51: Christmas Trees Transcript'
+date: '2021-01-05'
+categories:
+  - transcripts
+tags:
+  - ag-science
+  - ag-industry
+  - crops
+coverImage: ./200922_christmas-scaled.jpg
+slug: 51-christmas-trees-transcript
+excerpt: ''
 ---
 
 [Listen to the full episode.](https://www.onetogrowonpod.com/51-christmas-trees/)

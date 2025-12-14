@@ -1,15 +1,16 @@
 ---
-title: "32: Plant Propagation Transcript"
-date: "2020-02-11"
-categories: 
-  - "transcripts"
-tags: 
-  - "ag-science"
-  - "ag-industry"
-  - "gardening"
-coverImage: "./2048px-Plant_tissue_cultures_National_Center_for_Genetic_Resources_Preservation_USDA.jpg"
-slug: "slug"
-excerpt: ""
+title: '32: Plant Propagation Transcript'
+date: '2020-02-11'
+categories:
+  - transcripts
+tags:
+  - ag-science
+  - ag-industry
+  - gardening
+coverImage: >-
+  ./2048px-Plant_tissue_cultures_National_Center_for_Genetic_Resources_Preservation_USDA.jpg
+slug: 32-plant-propagation-transcript
+excerpt: ''
 ---
 
 [Listen to the full episode](https://12go.onetogrowonpod.com/32-plant-propagation/).

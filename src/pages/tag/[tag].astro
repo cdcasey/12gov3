@@ -15,16 +15,17 @@ export async function getStaticPaths() {
 	allTags = [...new Set(allTags)];
 
 	return allTags.map((tag) => {
+		const filteredPosts = posts.filter((post) => post?.data?.tags?.includes(tag));
 		return {
 			params: { tag },
-			props: { tag },
+			props: { tag, posts: filteredPosts },
 		};
 	});
 }
 
-const { tag } = Astro.props;
+const { tag, posts } = Astro.props;
 ---
 
 <BaseLayout title={tag}>
-	<Posts tag={tag} />
+	<Posts posts={posts} />
 </BaseLayout>

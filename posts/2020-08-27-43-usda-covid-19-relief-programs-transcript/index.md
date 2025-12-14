@@ -1,13 +1,13 @@
 ---
-title: "43: USDA COVID-19 Relief Programs Transcript"
-date: "2020-08-27"
-categories: 
-  - "transcripts"
-tags: 
-  - "ag-policy"
-coverImage: "./200816_usdacovid-scaled.jpg"
-slug: "slug"
-excerpt: ""
+title: '43: USDA COVID-19 Relief Programs Transcript'
+date: '2020-08-27'
+categories:
+  - transcripts
+tags:
+  - ag-policy
+coverImage: ./200816_usdacovid-scaled.jpg
+slug: 43-usda-covid-19-relief-programs-transcript
+excerpt: ''
 ---
 
 [Listen to the full episode](https://www.onetogrowonpod.com/43-usda-covid-19-relief-programs/).

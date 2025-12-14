@@ -2,14 +2,14 @@
 title: '#AskOnetoGrowOn 5: Do I have the right Aloe?'
 date: '2020-01-07'
 categories:
-  - 'episodes'
+  - episodes
 tags:
-  - 'askonetogrowon'
-  - 'ag-science'
-  - 'gardening'
-  - 'minisode'
-coverImage: './005_Aloevera-scaled.jpg'
-slug: 'slug'
+  - askonetogrowon
+  - ag-science
+  - gardening
+  - minisode
+coverImage: ./005_Aloevera-scaled.jpg
+slug: askonetogrowon-5-do-i-have-the-right-aloe
 excerpt: ''
 ---
 

@@ -2,12 +2,12 @@
 title: '34: Super Foods V - Wheatgrass, Avocado, Bee Pollen and Spelt'
 date: '2020-04-21'
 categories:
-  - 'episodes'
+  - episodes
 tags:
-  - 'series'
-  - 'superfoods'
-coverImage: './Pomological_Watercolor_POM00004559-1.jpg'
-slug: 'slug'
+  - series
+  - superfoods
+coverImage: ./Pomological_Watercolor_POM00004559-1.jpg
+slug: 34-super-foods-v-wheatgrass-avocado-bee-pollen-and-spelt
 excerpt: ''
 ---
 

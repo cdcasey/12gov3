@@ -1,15 +1,15 @@
 ---
-title: "48: Xeriscaping with Leah Churner and Colleen Dieter"
-date: "2020-11-03"
-categories: 
-  - "episodes"
-tags: 
-  - "ag-science"
-  - "gardening"
-  - "guest-episode"
-coverImage: "./200919_xeriscaping.jpg"
-slug: "slug"
-excerpt: ""
+title: '48: Xeriscaping with Leah Churner and Colleen Dieter'
+date: '2020-11-03'
+categories:
+  - episodes
+tags:
+  - ag-science
+  - gardening
+  - guest-episode
+coverImage: ./200919_xeriscaping.jpg
+slug: 48-xeriscaping-with-leah-churner-and-colleen-dieter
+excerpt: ''
 ---
 
 This week we’re talking about xeriscaping! Leah and Colleen join us to talk about what it is, where it came from, and why a yard full of gravel is a terrible idea. Also, did your school ever have any weird branding?

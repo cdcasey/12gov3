@@ -1,16 +1,16 @@
 ---
-title: "37: Urban Farming with Sophia Buggs Transcript"
-date: "2020-06-03"
-categories: 
-  - "transcripts"
-tags: 
-  - "ag-industry"
-  - "local-food"
-  - "series"
-  - "social-justice"
-coverImage: "./200602_localfood.jpg"
-slug: "slug"
-excerpt: ""
+title: '37: Urban Farming with Sophia Buggs Transcript'
+date: '2020-06-03'
+categories:
+  - transcripts
+tags:
+  - ag-industry
+  - local-food
+  - series
+  - social-justice
+coverImage: ./200602_localfood.jpg
+slug: 37-urban-farming-with-sophia-buggs-transcript
+excerpt: ''
 ---
 
 [Listen to the full episode](https://12go.onetogrowonpod.com/37-urban-farming-with-sophia-buggs/).

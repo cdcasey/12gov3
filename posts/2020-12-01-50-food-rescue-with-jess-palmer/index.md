@@ -1,15 +1,15 @@
 ---
-title: "50: Food Rescue with Jess Palmer"
-date: "2020-12-01"
-categories: 
-  - "episodes"
-tags: 
-  - "ag-industry"
-  - "guest-episode"
-  - "social-justice"
-coverImage: "./food_rescue.jpg"
-slug: "slug"
-excerpt: ""
+title: '50: Food Rescue with Jess Palmer'
+date: '2020-12-01'
+categories:
+  - episodes
+tags:
+  - ag-industry
+  - guest-episode
+  - social-justice
+coverImage: ./food_rescue.jpg
+slug: 50-food-rescue-with-jess-palmer
+excerpt: ''
 ---
 
 This week we’re talking to Jess Palmer of [Keep Austin Fed](https://keepaustinfed.org/) about food rescue. Why is food rescue something we need to worry about, and what can we do to help?

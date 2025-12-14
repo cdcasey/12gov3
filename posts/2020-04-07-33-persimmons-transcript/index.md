@@ -1,15 +1,15 @@
 ---
-title: "33: Persimmons Transcript"
-date: "2020-04-07"
-categories: 
-  - "transcripts"
-tags: 
-  - "ag-science"
-  - "ag-industry"
-  - "crops"
-coverImage: "./image0.jpg"
-slug: "slug"
-excerpt: ""
+title: '33: Persimmons Transcript'
+date: '2020-04-07'
+categories:
+  - transcripts
+tags:
+  - ag-science
+  - ag-industry
+  - crops
+coverImage: ./image0.jpg
+slug: 33-persimmons-transcript
+excerpt: ''
 ---
 
 [Listen to the full episode](https://12go.onetogrowonpod.com/33-persimmons/).

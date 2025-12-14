@@ -1,15 +1,15 @@
 ---
-title: "44: Bananas Transcript"
-date: "2020-09-10"
-categories: 
-  - "transcripts"
-tags: 
-  - "ag-science"
-  - "ag-history"
-  - "crops"
-coverImage: "./200817_banana.jpg"
-slug: "slug"
-excerpt: ""
+title: '44: Bananas Transcript'
+date: '2020-09-10'
+categories:
+  - transcripts
+tags:
+  - ag-science
+  - ag-history
+  - crops
+coverImage: ./200817_banana.jpg
+slug: 44-bananas-transcript
+excerpt: ''
 ---
 
 [Listen to the full episode.](https://www.onetogrowonpod.com/44-bananas/)
