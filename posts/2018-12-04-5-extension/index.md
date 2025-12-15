@@ -10,6 +10,7 @@ tags:
 coverImage: './Ep_005_extension.jpg'
 slug: 5-extension
 excerpt: 'In this episode, we learn about agricultural extension, the seemingly radical, government supported method of ensuring that farming keeps up with current technology. It’s also what Hallie does all day at work.'
+audio: 'https://pub-95244d2d82644d35bb2d737bd39a6f4f.r2.dev/5_Extension.mp3'
 ---
 
 In this episode, we learn about agricultural extension, the seemingly radical, government supported method of ensuring that farming keeps up with current technology. It’s also what Hallie does all day at work.

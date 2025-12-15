@@ -10,6 +10,7 @@ tags:
 coverImage: ./food_rescue.jpg
 slug: 50-food-rescue-with-jess-palmer
 excerpt: ''
+audio: 'https://pub-95244d2d82644d35bb2d737bd39a6f4f.r2.dev/050_food_rescue.mp3'
 ---
 
 This week we’re talking to Jess Palmer of [Keep Austin Fed](https://keepaustinfed.org/) about food rescue. Why is food rescue something we need to worry about, and what can we do to help?
