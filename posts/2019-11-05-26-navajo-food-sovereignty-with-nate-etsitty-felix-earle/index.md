@@ -10,6 +10,7 @@ tags:
 coverImage: './Screen-Shot-2019-11-04-at-4.50.11-PM.png'
 slug: '26-navajo-food-sovereignty'
 excerpt: 'This week, Hallie brings us an interview with two Navajo growers and activists: Nate Etsitty and Felix Earle. Our guests share their perspective on farming and why they do it, discuss food sovereignty and its importance on Navajo, and reflect on the legacy the colonization has left of food systems.'
+audio: 'https://pub-95244d2d82644d35bb2d737bd39a6f4f.r2.dev/026_NavFoodSov.mp3'
 ---
 
 \*Content warning: there is a PG-13 un-bleeped curse word in this episode\*

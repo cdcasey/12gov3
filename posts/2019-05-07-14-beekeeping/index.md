@@ -10,6 +10,7 @@ tags:
 coverImage: './Ep_014_beekeeping.jpg'
 slug: '14-beekeeping'
 excerpt: 'Julia Wentzel joins Hallie and Chris this week for One to Grow On’s very first special guest episode, in which she discusses bees, beekeeping, and pollination. We learn how orchard planning relates to pollination success, how much most bees travel, and how some pollinators are picky eaters. This episode also contains an optimal amount of bee-related dad jokes from Chris.'
+audio: 'https://pub-95244d2d82644d35bb2d737bd39a6f4f.r2.dev/014_beekeeping.mp3'
 ---
 
 Julia Wentzel joins Hallie and Chris this week for One to Grow On’s very first special guest episode, in which she discusses bees, beekeeping, and pollination. We learn how orchard planning relates to pollination success, how much most bees travel, and how some pollinators are picky eaters. This episode also contains an optimal amount of bee-related dad jokes from Chris.

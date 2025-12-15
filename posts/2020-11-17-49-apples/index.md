@@ -10,6 +10,7 @@ tags:
 coverImage: ./200920_apples-scaled.jpg
 slug: 49-apples
 excerpt: ''
+audio: 'https://pub-95244d2d82644d35bb2d737bd39a6f4f.r2.dev/049_apples.mp3'
 ---
 
 This week we’re talking about apples! We discuss varieties, methods of propagation, and how apples were first domesticated. Also, how well do you know Chaucer?

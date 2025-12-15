@@ -9,6 +9,7 @@ tags:
 coverImage: './Ep_003_haberbosch.jpg'
 slug: 3-haber-bosch
 excerpt: 'This week, Hallie and Chris talk about the most important agricultural process you’ve never heard of: the Haber-Bosch process. We learn about the process that feeds the world and the two men who made it happen, as well as a lady named Hedwig Hamburger.'
+audio: 'https://pub-95244d2d82644d35bb2d737bd39a6f4f.r2.dev/3_Haber-Bosch_final.mp3'
 ---
 
 \*Content warning: this episode mentions suicide in relation to a historical figure\*
