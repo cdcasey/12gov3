@@ -30,8 +30,24 @@
 ### 2. Assets (Cloudflare R2)
 
 - **Images:** Use standard Markdown paths or `src/assets`.
-- **Audio:** Final URLs will look like `https://cdn.onetogrowonpod.com/...`.
+- **Audio (dev):** `https://pub-95244d2d82644d35bb2d737bd39a6f4f.r2.dev/`
+- **Audio (prod):** Will be `https://cdn.onetogrowonpod.com/...` once custom domain configured.
 - **Component:** Use the existing `media-chrome` player.
+
+### 3. RSS Feed
+
+- **Path:** `/feed/podcast/` (src/pages/feed/podcast/index.xml.ts)
+- **Schema fields:** `date`, `excerpt`, `audio`, `categories`, `slug`
+- **Missing data:** Some posts have empty `excerpt` → shows as empty `<itunes:summary>` in feed
+
+### 4. Posts Without Audio (Intentional)
+
+These 5 posts are categorized as "episodes" but have no audio file:
+- `conservation-reserve-program-green-new-deal-follow-up` - blog post follow-up
+- `amaranth-to-zinnias-with-gretchen-o-neil-hothouse` - FFP cross-promo
+- `native-farmers-in-new-mexico-toasted-sister` - FFP cross-promo
+- `oysters-real-oyster-cult-american-folk-revival-sourceress` - FFP cross-promo
+- `39-good-food-and-supply-chains-transcript-with-familyfarmed` - transcript edge case
 
 ## 🚀 How to Start a Session
 
