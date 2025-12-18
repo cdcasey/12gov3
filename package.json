@@ -9,10 +9,12 @@
 		"astro": "astro"
 	},
 	"dependencies": {
+		"@astrojs/rss": "^4.0.14",
 		"@astrojs/sitemap": "^3.6.0",
 		"@fontsource/cabin": "^5.2.8",
 		"@fontsource/lilita-one": "^5.2.8",
 		"astro": "^5.16.5",
+		"install": "^0.13.0",
 		"media-chrome": "^4.17.1",
 		"nanostores": "^1.1.0"
 	},
