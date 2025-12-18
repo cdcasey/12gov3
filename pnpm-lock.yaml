@@ -23,9 +23,6 @@ importers:
       astro:
         specifier: ^5.16.5
         version: 5.16.5(@types/node@24.3.1)(rollup@4.50.1)(typescript@5.9.2)
-      install:
-        specifier: ^0.13.0
-        version: 0.13.0
       media-chrome:
         specifier: ^4.17.1
         version: 4.17.1(react@19.1.1)
@@ -1000,10 +997,6 @@ packages:
 
   import-meta-resolve@4.2.0:
     resolution: {integrity: sha512-Iqv2fzaTQN28s/FwZAoFq0ZSs/7hMAHJVX+w8PZl3cY19Pxk6jFFalxQoIfW2826i/fDLXv8IiEZRIT0lDuWcg==}
-
-  install@0.13.0:
-    resolution: {integrity: sha512-zDml/jzr2PKU9I8J/xyZBQn8rPCAY//UOYNmR01XwNwyfhEWObo2SWfSl1+0tm1u6PhxLwDnfsT/6jB7OUxqFA==}
-    engines: {node: '>= 0.10'}
 
   iron-webcrypto@1.2.1:
     resolution: {integrity: sha512-feOM6FaSr6rEABp/eDfVseKyTMDt+KGpeB35SkVn9Tyn0CqvVsY3EwI0v5i8nMHyJnzCIQf7nsy3p41TPkJZhg==}
@@ -2952,8 +2945,6 @@ snapshots:
   http-cache-semantics@4.2.0: {}
 
   import-meta-resolve@4.2.0: {}
-
-  install@0.13.0: {}
 
   iron-webcrypto@1.2.1: {}
 
