@@ -11,6 +11,8 @@ coverImage: ./Screen-Shot-2019-11-19-at-10.14.24-AM.png
 slug: 27-navajo-food-sovereignty-with-andi-murphy
 excerpt: ''
 audio: 'https://pub-95244d2d82644d35bb2d737bd39a6f4f.r2.dev/027_NavFoodSov.mp3'
+audioSize: 7615742
+duration: '18:07'
 ---
 
 In part two of our series of on Navajo food sovereignty, Hallie interviews Andi Murphy, host of the podcast Toasted Sister and producer of the radio show Native American Calling. Hallie and Andi discuss the role food plays in culture, the importance of traditional growing practices, and how a good meal can make you feel great.

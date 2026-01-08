@@ -43,15 +43,14 @@ export async function GET(context: APIContext) {
 			link: `/${post.data.slug}/`,
 			enclosure: {
 				url: post.data.audio!,
-				length: 0, // TODO: Add 'audioSize' to frontmatter to populate this
+				length: post.data.audioSize ?? 0,
 				type: "audio/mpeg",
 			},
 			customData: `
         <itunes:summary><![CDATA[${post.data.excerpt}]]></itunes:summary>
         <itunes:explicit>clean</itunes:explicit>
         <itunes:episodeType>full</itunes:episodeType>
-        <!-- TODO: Add 'duration' to frontmatter to populate this -->
-        <!-- <itunes:duration>${post.data.duration}</itunes:duration> -->
+        ${post.data.duration ? `<itunes:duration>${post.data.duration}</itunes:duration>` : ""}
         <content:encoded><![CDATA[${post.body}]]></content:encoded>
       `,
 		})),

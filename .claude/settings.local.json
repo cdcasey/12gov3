@@ -8,7 +8,10 @@
       "Bash(bd close:*)",
       "Bash(bd show:*)",
       "Bash(grep:*)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "Bash(bd stats:*)",
+      "Bash(bd ready:*)",
+      "Bash(bd sync:*)"
     ]
   }
 }

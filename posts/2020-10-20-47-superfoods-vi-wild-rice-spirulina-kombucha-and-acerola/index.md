@@ -12,6 +12,8 @@ coverImage: ./200918_superfoods-scaled.jpg
 slug: 47-superfoods-vi-wild-rice-spirulina-kombucha-and-acerola
 excerpt: ''
 audio: 'https://pub-95244d2d82644d35bb2d737bd39a6f4f.r2.dev/047_superfoods_vi.mp3'
+audioSize: 36043748
+duration: '42:54'
 ---
 
 More superfoods! Will wild rice, spirulina, kombucha, or acerola be caped? Will you please vote? Will you wear kombucha scoby?

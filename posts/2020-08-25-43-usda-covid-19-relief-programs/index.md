@@ -9,6 +9,8 @@ coverImage: ./200816_usdacovid-scaled.jpg
 slug: 43-usda-covid-19-relief-programs
 excerpt: ''
 audio: 'https://pub-95244d2d82644d35bb2d737bd39a6f4f.r2.dev/043_UDSA_COVID_RELEIF.mp3'
+audioSize: 25380633
+duration: '30:12'
 ---
 
 Chris and Hallie discuss USDA policies focused on COVID-19 response and relief. They talk about the CARES act, CFAP, the Farm to Families Food Box program, and answer a few listener questions. Also, would Old McDonald be eligible for aid?

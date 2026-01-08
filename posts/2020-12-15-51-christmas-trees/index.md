@@ -11,6 +11,8 @@ coverImage: ./200922_christmas-scaled.jpg
 slug: 51-christmas-trees
 excerpt: ''
 audio: 'https://pub-95244d2d82644d35bb2d737bd39a6f4f.r2.dev/051_christmas_trees.mp3'
+audioSize: 23325676
+duration: '27:46'
 ---
 
 This week we’re talking about Chistmas trees! What is a conifer? Should you buy real or plastic? How many super powers does Santa Claus have?
