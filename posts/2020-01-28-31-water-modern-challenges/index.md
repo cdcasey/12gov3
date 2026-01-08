@@ -12,6 +12,8 @@ coverImage: ./Screen-Shot-2020-01-28-at-10.49.39-AM.png
 slug: 31-water-modern-challenges
 excerpt: ''
 audio: 'https://pub-95244d2d82644d35bb2d737bd39a6f4f.r2.dev/031_water-2.mp3'
+audioSize: 19186804
+duration: '26:38'
 ---
 
 It’s time to learn more about water! This week Hallie and Chris are tackling some of the issues facing both modern farmers and everyone who uses water. They discuss the impacts of climate change, overuse, and new technology and policies. We also learn just how much water it takes to produce one day’s worth of food.

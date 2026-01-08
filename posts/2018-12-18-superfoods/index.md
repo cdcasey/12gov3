@@ -12,6 +12,8 @@ coverImage: './Ep_006_superfoodi.jpg'
 slug: 'superfoods'
 excerpt: 'What makes a superfood so special? Are they actually good for you? Is it worth the hype? Hallie and Chris answer all these questions (and more) in this episode’s discussion of superfoods. Do you know which superfood has a history straight out of a romance novel and which one makes a mean dairy-free pudding? We do! And if you listen to this episode, so will you. Quinoa, acai, goji berries, chia seed and kefir are featured in this episode.'
 audio: 'https://pub-95244d2d82644d35bb2d737bd39a6f4f.r2.dev/6_SuperFoodI_small.mp3'
+audioSize: 15695864
+duration: '37:22'
 ---
 
 What makes a superfood so special? Are they actually good for you? Is it worth the hype? Hallie and Chris answer all these questions (and more) in this episode’s discussion of superfoods. Do you know which superfood has a history straight out of a romance novel and which one makes a mean dairy-free pudding? We do! And if you listen to this episode, so will you. Quinoa, acai, goji berries, chia seed and kefir are featured in this episode.

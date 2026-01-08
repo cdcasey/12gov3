@@ -27,6 +27,8 @@ const posts = defineCollection({
 			tags: z.array(z.string()).optional(),
 			coverImage: image(),
 			audio: z.string().optional(),
+			audioSize: z.number().optional(), // File size in bytes for RSS enclosure
+			duration: z.string().optional(), // Duration as "MM:SS" or "HH:MM:SS" for iTunes
 		}),
 });
 

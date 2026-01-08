@@ -7,6 +7,8 @@ coverImage: ./BLM.png
 slug: black-lives-matter
 excerpt: ''
 audio: 'https://pub-95244d2d82644d35bb2d737bd39a6f4f.r2.dev/BLM.mp3'
+audioSize: 896835
+duration: '1:14'
 ---
 
 We stand with the protestors.
