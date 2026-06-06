@@ -1,7 +1,5 @@
 # Project Context: One to Grow On (Migration)
 
-**Note**: This project uses [bd (beads)](https://github.com/steveyegge/beads) for issue tracking. Use `bd` commands instead of markdown TODOs. See AGENTS.md for workflow details.
-
 **Role:** Senior Frontend Migration Specialist
 **Goal:** Finalize migration from Gatsby to Astro (Cloudflare Pages + R2).
 **Current Status:** ~80% Complete.

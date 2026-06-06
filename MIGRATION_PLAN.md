@@ -40,15 +40,6 @@ audio: string # Optional - URL to audio file
 
 ## Migration Tasks
 
-<!--
-BEADS PARSING NOTES:
-- Each task uses format: ### [TYPE] TITLE
-- Types: epic, task, bug, chore
-- Priority indicated by P0-P4 in description
-- Dependencies noted with "Blocks:" or "Depends on:"
-- Labels in brackets after title
--->
-
 ### [epic] Deploy to Cloudflare Pages
 
 **Priority:** P0

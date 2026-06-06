@@ -25,12 +25,6 @@
 		"prettier-plugin-tailwindcss": "^0.7.2",
 		"sharp": "^0.34.5"
 	},
-	"pnpm": {
-		"onlyBuiltDependencies": [
-			"esbuild",
-			"sharp"
-		]
-	},
 	"browserslist": [
 		"last 2 versions",
 		"> 1%",

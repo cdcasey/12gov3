@@ -1,13 +1,13 @@
 ---
-import { getCollection } from 'astro:content';
-import PageLayout from '@/layouts/PageLayout.astro';
-import PageTitle from '@/components/PageComponents/PageTitle.astro';
-import Posts from '@/components/Posts.astro';
-import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from "astro:content";
+import PageLayout from "@/layouts/PageLayout.astro";
+import PageTitle from "@/components/PageComponents/PageTitle.astro";
+import Posts from "@/components/Posts.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
 
-const allPosts = await getCollection('posts');
+const allPosts = await getCollection("posts");
 
-const transcripts = allPosts.filter((post) => post.data.categories.includes('transcripts'));
+const transcripts = allPosts.filter((post) => post.data.categories.includes("transcripts"));
 ---
 
 <BaseLayout title="Transcripts">
