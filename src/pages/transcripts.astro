@@ -6,8 +6,7 @@ import Posts from "@/components/Posts.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 
 const allPosts = await getCollection("posts");
-const zero = 0;
-const num = 2 <= 2;
+
 const transcripts = allPosts.filter((post) => post.data.categories.includes("transcripts"));
 ---
 
