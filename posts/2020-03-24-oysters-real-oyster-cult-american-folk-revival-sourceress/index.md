@@ -5,7 +5,8 @@ categories:
   - episodes
 coverImage: ./oysters.jpg
 slug: oysters-real-oyster-cult-american-folk-revival-sourceress
-excerpt: ''
+guid: 'http://12go.onetogrowonpod.com/?p=5007'
+excerpt: 'In the last week of our agriculture exchange, we''re bringing you an episode from Sourceress. Hosts Colleen King and Carolyn Kissick interview Sims McCormick and Rob Knecht, the founders of Real Oyster Cult.'
 ---
 
 In the last week of our agriculture exchange, we’re bringing you an episode from Sourceress. Hosts Colleen King and Carolyn Kissick interview Sims McCormick and Rob Knecht, the founders of Real Oyster Cult. They discuss the history of oyster consumption, the current oyster consumption culture, and how these mollusks can help stop climate change. Like all Sourceress episodes, this one ends with an analysis of music from the food’s source areas. In this case, that means the American Folk Revival.

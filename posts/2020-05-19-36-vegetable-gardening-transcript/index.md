@@ -12,7 +12,7 @@ slug: 36-vegetable-gardening-transcript
 excerpt: ''
 ---
 
-[Listen to the full episode](https://12go.onetogrowonpod.com/36-vegetable-gardening/).
+[Listen to the full episode](/36-vegetable-gardening/).
 
 **Hallie:** Hello and welcome to One to Grow On. A show where we dig into questions about agriculture and try to understand how food production impacts us and our world. My name is Hallie Casey and I studied and currently work in agriculture.
 

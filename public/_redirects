@@ -1,0 +1,5 @@
+# Old WordPress feed URL -> the generated feed file.
+# Podcast apps follow 301s; do NOT point this at podcastmirror or it will
+# shadow the self-hosted feed (Pages redirects take precedence over assets).
+/feed/podcast/ /feed/podcast/index.xml 301
+/feed/podcast /feed/podcast/index.xml 301

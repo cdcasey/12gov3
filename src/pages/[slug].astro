@@ -1,5 +1,4 @@
 ---
-// import type { Posts } from '@/components/Posts.astro';
 import { getCollection, render } from 'astro:content';
 import AudioPlayer from '@/components/AudioPlayer.astro';
 
@@ -8,12 +7,6 @@ import { formatDate } from '@/scripts/formatDate';
 import ConnectAbout from '@/components/ConnectAbout.astro';
 
 export async function getStaticPaths() {
-	// const res = await fetch('https://12go.onetogrowonpod.com/wp-json/wp/v2/posts?_embed');
-	//
-	// if (!res.ok) {
-	// 	console.log(res);
-	// }
-	// const posts: Posts = await res.json();
 	const posts = await getCollection('posts');
 
 	return posts.map((post) => {

@@ -9,7 +9,8 @@ tags:
   - social-justice
 coverImage: ./food_rescue.jpg
 slug: 50-food-rescue-with-jess-palmer
-excerpt: ''
+guid: 'http://12go.onetogrowonpod.com/?p=5780'
+excerpt: 'This week we''re talking to Jess Palmer of https://keepaustinfed.org/ about food rescue. Why is food rescue something we need to worry about, and what can we do to help? Also, we''re running our first ad!'
 audio: 'https://pub-95244d2d82644d35bb2d737bd39a6f4f.r2.dev/050_food_rescue.mp3'
 audioSize: 26897957
 duration: '32:01'

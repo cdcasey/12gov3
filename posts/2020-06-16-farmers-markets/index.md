@@ -10,7 +10,8 @@ tags:
   - series
 coverImage: ./Arlington_Courthouse_Farmers_Market_5106012513.jpg
 slug: 38-farmers-markets-with-amy-gallo
-excerpt: ''
+guid: 'http://12go.onetogrowonpod.com/?p=5639'
+excerpt: 'This week Hallie and Chris sit down with Amy Gallo, the Farmers'' Market Programming Manager at the Sustainable Food Center. They discuss how farmers'' markets impact consumers and their communities, as well as what crops are the best to buy fresh.'
 audio: 'https://pub-95244d2d82644d35bb2d737bd39a6f4f.r2.dev/038_local_food-famers_markets.mp3'
 audioSize: 21776550
 duration: '25:55'

@@ -13,7 +13,7 @@ slug: 37-urban-farming-with-sophia-buggs-transcript
 excerpt: ''
 ---
 
-[Listen to the full episode](https://12go.onetogrowonpod.com/37-urban-farming-with-sophia-buggs/).
+[Listen to the full episode](/37-urban-farming-with-sophia-buggs/).
 
 **Chris:** Hey listener. Editing Chris here. We interviewed the wonderful Sophia Buggs of Lady Buggs Farm over a Zoom call and the Zoom audio is just all the audio that we had available. It sounds like a Zoom call, but it’s a really good interview, so sit back, relax, stick with it and enjoy.
 

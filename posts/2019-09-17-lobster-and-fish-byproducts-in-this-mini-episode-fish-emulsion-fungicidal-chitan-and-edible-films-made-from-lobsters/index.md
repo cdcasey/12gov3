@@ -9,6 +9,7 @@ tags:
   - 'minisode'
 coverImage: './KreeftbijDenOsse.jpg'
 slug: 'lobster-and-fish-byproducts'
+guid: 'https://www.onetogrowonpod.com/?p=846'
 excerpt: 'In this mini-episode, Hallie discusses fish emulsion, fungicidal chitin, and edible films made from lobsters.'
 audio: 'https://pub-95244d2d82644d35bb2d737bd39a6f4f.r2.dev/askonetogrowon3_final.mp3'
 audioSize: 1528558

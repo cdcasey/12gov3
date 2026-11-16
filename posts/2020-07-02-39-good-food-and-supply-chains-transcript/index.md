@@ -13,7 +13,7 @@ slug: 39-good-food-and-supply-chains-transcript-with-familyfarmed
 excerpt: ''
 ---
 
-[Listen to the full episode](https://12go.onetogrowonpod.com/39-good-food-and-supply-chains/).
+[Listen to the full episode](/39-good-food-and-supply-chains-with-familyfarmed/).
 
 **Hallie:** Hello and welcome to One to Grow On. A show where we dig into questions about agriculture and try to understand how food production impacts us and our world. I’m Hallie Casey and I studied and currently work in agriculture.  
   

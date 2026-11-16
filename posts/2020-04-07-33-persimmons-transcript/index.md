@@ -12,7 +12,7 @@ slug: 33-persimmons-transcript
 excerpt: ''
 ---
 
-[Listen to the full episode](https://12go.onetogrowonpod.com/33-persimmons/).
+[Listen to the full episode](/33-persimmons/).
 
 Hallie Casey  0:00 
 

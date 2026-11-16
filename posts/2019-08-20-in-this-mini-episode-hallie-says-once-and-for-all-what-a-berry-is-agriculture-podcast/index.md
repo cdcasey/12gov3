@@ -10,6 +10,7 @@ tags:
   - 'series'
 coverImage: './Screen-Shot-2019-11-03-at-4.43.18-PM.png'
 slug: 'what-is-a-berry'
+guid: 'https://www.onetogrowonpod.com/?p=777'
 excerpt: 'In this mini-episode, Hallie says, once and for all, what a berry is.'
 audio: 'https://pub-95244d2d82644d35bb2d737bd39a6f4f.r2.dev/askonetogrowon2.mp3'
 audioSize: 1294307

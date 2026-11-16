@@ -8,7 +8,8 @@ tags:
   - superfoods
 coverImage: ./Pomological_Watercolor_POM00004559-1.jpg
 slug: 34-super-foods-v-wheatgrass-avocado-bee-pollen-and-spelt
-excerpt: ''
+guid: 'http://12go.onetogrowonpod.com/?p=5557'
+excerpt: 'It''s super foods time again! This week, Hallie and Chris discuss the health claims and realities of wheatgrass, avocado, bee pollen and spelt. We learn where these foods come from and how they''re used, as well as some choice vintage Teen Titan''s trivia.'
 audio: 'https://pub-95244d2d82644d35bb2d737bd39a6f4f.r2.dev/034_superfoods-5.mp3'
 audioSize: 21895523
 duration: '30:24'

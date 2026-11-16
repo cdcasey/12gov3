@@ -4,6 +4,12 @@ import PageSection from '@/components/PageComponents/PageSection.astro';
 import SectionTitle from '@/components/PageComponents/SectionTitle.astro';
 import Clear from '@/components/Clear.astro';
 import PageTitle from '../components/PageComponents/PageTitle.astro';
+import { Image } from 'astro:assets';
+
+import hallieImg from '@/assets/about/hallie.jpg';
+import chrisImg from '@/assets/about/chris.jpg';
+import catherineHallieImg from '@/assets/about/catherine-hallie-2009.jpeg';
+import chrisHallieImg from '@/assets/about/chris-hallie-1997.jpeg';
 ---
 
 <PageLayout title="About">
@@ -24,8 +30,9 @@ import PageTitle from '../components/PageComponents/PageTitle.astro';
 	<SectionTitle>Meet the Team</SectionTitle>
 	<PageSection>
 		<figure>
-			<img
-				src="https://12go.onetogrowonpod.com/wp-content/uploads/2018/09/IMG_5692_square-300x300.jpg"
+			<Image
+				src={hallieImg}
+				width={300}
 				alt="brunette girl half smiles in front of trees"
 			/>
 		</figure>
@@ -47,8 +54,9 @@ import PageTitle from '../components/PageComponents/PageTitle.astro';
 	<Clear />
 	<PageSection>
 		<figure>
-			<img
-				src="https://12go.onetogrowonpod.com/wp-content/uploads/2018/09/cdc-300x300.jpg"
+			<Image
+				src={chrisImg}
+				width={300}
 				alt="Chris popping out of a window in a production of Taming of the Shrew"
 			/>
 		</figure>
@@ -64,8 +72,9 @@ import PageTitle from '../components/PageComponents/PageTitle.astro';
 	<SectionTitle>Our Story</SectionTitle>
 	<PageSection>
 		<figure>
-			<img
-				src="https://12go.onetogrowonpod.com/wp-content/uploads/2018/09/WhatsApp-Image-2018-09-29-at-6.08.09-PM-300x292.jpeg"
+			<Image
+				src={catherineHallieImg}
+				width={300}
 				alt="two girls making faces in the back seat of a car"
 			/>
 			<figcaption>Catherine and Hallie, March of 2009</figcaption>
@@ -83,8 +92,9 @@ import PageTitle from '../components/PageComponents/PageTitle.astro';
 	<Clear />
 	<PageSection>
 		<figure>
-			<img
-				src="https://12go.onetogrowonpod.com/wp-content/uploads/2018/09/12go-e1539314987888-287x300.jpeg"
+			<Image
+				src={chrisHallieImg}
+				width={287}
 				alt="A young Hallie sits in Chris's lap while they both wear Troy Aikman jerseys"
 			/>
 			<figcaption>Chris and Hallie, January 1997.</figcaption>
