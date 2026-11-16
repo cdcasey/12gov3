@@ -5,7 +5,8 @@ categories:
   - 'episodes'
 coverImage: './IMG_0454.jpg'
 slug: 'break-time'
-excerpt: ''
+guid: 'http://12go.onetogrowonpod.com/?p=5819'
+excerpt: 'Hey there! We''re taking a little break, but never fear. We''ll be back!'
 audio: 'https://pub-95244d2d82644d35bb2d737bd39a6f4f.r2.dev/00_break.mp3'
 audioSize: 1566364
 duration: '1:51'

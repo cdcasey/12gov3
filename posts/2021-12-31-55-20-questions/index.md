@@ -7,7 +7,8 @@ tags:
   - question-episode
 coverImage: ./me_hallie.jpg
 slug: 55-twenty-questions
-excerpt: ''
+guid: 'https://12go.onetogrowonpod.com/?p=5853'
+excerpt: 'Well, friends, this is it. After much discussion, we''ve decided to step away from the podcast for the foreseeable future. But instead of just podfading, we thought we''d put out one last episode answering some of the most commonly googled agricuture-rel...'
 audio: 'https://pub-95244d2d82644d35bb2d737bd39a6f4f.r2.dev/055_20questions.mp3'
 audioSize: 33066094
 duration: '39:21'

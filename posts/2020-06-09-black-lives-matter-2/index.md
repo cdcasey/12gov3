@@ -5,7 +5,8 @@ categories:
   - episodes
 coverImage: ./BLM.png
 slug: black-lives-matter
-excerpt: ''
+guid: 'http://12go.onetogrowonpod.com/?p=5597'
+excerpt: 'We stand with the protestors. Black lives matter. White silence is violence. Act Blue: https://secure.actblue.com/donate/bailfunds Read the transcript.'
 audio: 'https://pub-95244d2d82644d35bb2d737bd39a6f4f.r2.dev/BLM.mp3'
 audioSize: 896835
 duration: '1:14'

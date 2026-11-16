@@ -9,7 +9,8 @@ tags:
   - guest-episode
 coverImage: ./200919_xeriscaping.jpg
 slug: 48-xeriscaping-with-leah-churner-and-colleen-dieter
-excerpt: ''
+guid: 'http://12go.onetogrowonpod.com/?p=5759'
+excerpt: 'This week we''re talking about xeriscaping! Leah and Colleen join us to talk about what it is, where it came from, and why a yard full of gravel is a terrible idea. Also, did your school ever have any weird branding?'
 audio: 'https://pub-95244d2d82644d35bb2d737bd39a6f4f.r2.dev/048_xeriscaping.mp3'
 audioSize: 37776860
 duration: '44:58'

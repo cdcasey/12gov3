@@ -8,6 +8,7 @@ tags:
   - 'ag-history'
 coverImage: './Ep_003_haberbosch.jpg'
 slug: 3-haber-bosch
+guid: 'https://www.onetogrowonpod.com/?p=489'
 excerpt: 'This week, Hallie and Chris talk about the most important agricultural process you’ve never heard of: the Haber-Bosch process. We learn about the process that feeds the world and the two men who made it happen, as well as a lady named Hedwig Hamburger.'
 audio: 'https://pub-95244d2d82644d35bb2d737bd39a6f4f.r2.dev/3_Haber-Bosch_final.mp3'
 audioSize: 14376264

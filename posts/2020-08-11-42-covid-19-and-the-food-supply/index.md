@@ -9,7 +9,8 @@ tags:
   - animal-ag
 coverImage: ./200809_covid.jpg
 slug: 42-covid-19-and-the-food-supply
-excerpt: ''
+guid: 'http://12go.onetogrowonpod.com/?p=5689'
+excerpt: 'Chris and Hallie discuses how COVID-19 has cause disruptions to the food supply in the US. We learn about swine, milk, and potato supply chains and how the COVID-19 pandemic has disrupted them. Also, who originally decided that it was a good idea to dr...'
 audio: 'https://pub-95244d2d82644d35bb2d737bd39a6f4f.r2.dev/042_covid_and_supply_chains.mp3'
 audioSize: 31347285
 duration: '37:19'

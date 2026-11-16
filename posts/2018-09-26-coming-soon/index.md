@@ -5,6 +5,7 @@ categories:
   - 'promo'
 coverImage: './Carrots_of_many_colors.jpg'
 slug: 'coming-soon'
+guid: 'https://www.onetogrowonpod.com/?p=53'
 excerpt: Coming October 9th!
 audio: 'https://pub-95244d2d82644d35bb2d737bd39a6f4f.r2.dev/promo.mp3'
 audioSize: 1883659

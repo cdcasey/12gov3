@@ -11,7 +11,7 @@ slug: 34-super-foods-v-transcript
 excerpt: ''
 ---
 
-[Listen to the full audio](https://12go.onetogrowonpod.com/34-super-foods-v/).
+[Listen to the full audio](/34-super-foods-v-wheatgrass-avocado-bee-pollen-and-spelt/).
 
 **Hallie:** Hello and welcome to One to Grow On. A show where we dig into questions about agriculture and try to understand how food production impacts us and our world. My name is Hallie Casey and I studied and currently work in agriculture.
 

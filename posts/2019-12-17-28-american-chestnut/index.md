@@ -10,7 +10,8 @@ tags:
   - holiday-episode
 coverImage: ./American_Chestnut.jpg
 slug: 28-the-american-chestnut
-excerpt: ''
+guid: 'https://www.onetogrowonpod.com/?p=2766'
+excerpt: 'This week we''re focusing on just one plant: the American chestnut. Hallie and Chris discuss the cultural and ecological history and death of the American chestnut. We learn why they''re so important, where they went, and how we can get them back.'
 audio: 'https://pub-95244d2d82644d35bb2d737bd39a6f4f.r2.dev/028_chestnuts.mp3'
 audioSize: 17751642
 duration: '24:39'

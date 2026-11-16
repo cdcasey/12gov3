@@ -8,6 +8,7 @@ tags:
   - 'holiday-episode'
 coverImage: './Screen-Shot-2019-11-03-at-4.38.48-PM.png'
 slug: '25: Foods that Can Kill You'
+guid: 'https://www.onetogrowonpod.com/?p=1342'
 excerpt: 'Are you ready to get spooky? We are! For this creepiest of seasons, Hallie and Chris discuss foods that are rumored to kill you and whether or not they’re actually as scary as they’re made out to be. We learn about foods ranging from almonds to nutmeg to potatoes. We also learn about Chris’s undying love of pumpkin chiffon pie.'
 audio: 'https://pub-95244d2d82644d35bb2d737bd39a6f4f.r2.dev/025_foods_that_kill.mp3'
 audioSize: 21238491

@@ -10,7 +10,8 @@ tags:
   - minisode
 coverImage: ./005_Aloevera-scaled.jpg
 slug: askonetogrowon-5-do-i-have-the-right-aloe
-excerpt: ''
+guid: 'http://12go.onetogrowonpod.com/?p=3323'
+excerpt: 'In this mini-episode, Hallie explains what Aloe is and which we kind we use for what.'
 audio: 'https://pub-95244d2d82644d35bb2d737bd39a6f4f.r2.dev/askonetogrowon5_aloe.mp3'
 audioSize: 793656
 duration: '1:53'

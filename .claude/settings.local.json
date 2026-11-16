@@ -11,7 +11,14 @@
       "Bash(find:*)",
       "Bash(bd stats:*)",
       "Bash(bd ready:*)",
-      "Bash(bd sync:*)"
+      "Bash(bd sync:*)",
+      "Bash(dig +short cdn.onetogrowonpod.com)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code} %{content_type} %{size_download}\\\\n\" \"https://12go.onetogrowonpod.com/wp-content/uploads/2019/04/OTGO-1400.jpg\" -r 0-0)",
+      "Bash(sips -g pixelWidth -g pixelHeight -g format /Users/chris/dev/12gov3/public/images/OTGO-1400.jpg)",
+      "Bash(pnpm build *)",
+      "Bash(python3 *)",
+      "Bash(xmllint --noout /Users/chris/dev/12gov3/dist/feed/podcast/index.xml)",
+      "Bash(xmllint --format /Users/chris/dev/12gov3/dist/feed/podcast/index.xml)"
     ]
   }
 }

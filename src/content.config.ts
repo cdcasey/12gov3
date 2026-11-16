@@ -21,6 +21,7 @@ const posts = defineCollection({
 		z.object({
 			title: z.string(),
 			slug: z.string(),
+			guid: z.string().optional(), // Original WP GUID — must stay stable so podcast apps don't re-show episodes
 			date: z.coerce.date(),
 			excerpt: z.string(),
 			categories: z.array(z.enum(['episodes', 'transcripts', 'promo'])),

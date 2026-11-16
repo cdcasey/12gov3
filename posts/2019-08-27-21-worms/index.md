@@ -8,6 +8,7 @@ tags:
   - 'animal-ag'
 coverImage: './Ep_021_earthworms.jpg'
 slug: '21-worms'
+guid: 'https://www.onetogrowonpod.com/?p=821'
 excerpt: 'This week we’re digging into all things small, skinny and wiggly: worms. Hallie and Chris discuss worms, what they are, why they’re so important and their appearance in sci-fi movies. We learn how worms help the soil, how to keep them, and how to use them to fish.'
 audio: 'https://pub-95244d2d82644d35bb2d737bd39a6f4f.r2.dev/021_Worms.mp3'
 audioSize: 22119653

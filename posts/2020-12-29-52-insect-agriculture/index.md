@@ -10,7 +10,8 @@ tags:
   - animal-ag
 coverImage: ./052_insect_ag-scaled.jpg
 slug: 52-insect-agriculture
-excerpt: ''
+guid: 'http://12go.onetogrowonpod.com/?p=5795'
+excerpt: 'This week we talk to Robert Nathan Allen (known by most as RNA) of Little Herds! We talk about what''s exciting in the world of edible insects, as well as break down a few misconceptions. Also, would a grouping of insects even be called a herd?'
 audio: 'https://pub-95244d2d82644d35bb2d737bd39a6f4f.r2.dev/052_insect_agriculture.mp3'
 audioSize: 47235722
 duration: '56:13'

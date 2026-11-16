@@ -10,7 +10,8 @@ tags:
   - water
 coverImage: ./water-1.jpg
 slug: 30-water-history-of-irrigation
-excerpt: ''
+guid: 'http://12go.onetogrowonpod.com/?p=3492'
+excerpt: 'In the first of a two-part series on water, Hallie and Chris discuss the history of irrigation, how it''s used and why it''s so important.'
 audio: 'https://pub-95244d2d82644d35bb2d737bd39a6f4f.r2.dev/030_water-1.mp3'
 audioSize: 31114993
 duration: '37:02'
