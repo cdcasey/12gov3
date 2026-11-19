@@ -44,6 +44,11 @@ maintenance mode. Remaining launch tasks are listed in `README.md`.
 - **Authors:** every item emits `itunes:author`, from the post's optional `author`
   frontmatter or the show default `Hallie Casey, Chris Casey`. 26 posts credit
   Catherine Arjet, backfilled from the old feed.
+- **Show GUID:** `podcast:guid` is a constant in the feed source, derived from the
+  canonical feed URL. Never change it, even if the feed URL changes.
+- **Transcripts:** a `transcripts` post is linked from its episode as
+  `podcast:transcript` (HTML), paired by leading episode number or by slug minus
+  `-transcript`. The build fails if a transcript post matches no feed episode.
 - **Reference snapshot:** `archive/feed.xml` is the final WP feed, kept for diffing GUIDs.
 
 ## Posts Without Audio (Intentional)
