@@ -33,7 +33,7 @@ Redirects live in `public/_redirects`.
 - [x] Move the DNS zone to Cloudflare and attach `www.onetogrowonpod.com` and the bare domain to the Pages project. Add a redirect from the bare domain to `www`.
 - [x] Validate the live feed with https://www.castfeedvalidator.com and https://podba.se/validate/.
 - [ ] Set the feed URL in Apple Podcasts Connect and Spotify to `https://www.onetogrowonpod.com/feed/podcast/index.xml`.
-- [ ] Retire the Netlify site and the old WordPress host once the directories have picked up the new feed URL.
+- [x] Retire the Netlify site and the old WordPress host once the directories have picked up the new feed URL.
 - [ ] Optional: add `cdn.onetogrowonpod.com` as a custom domain on the R2 bucket and switch the audio URLs. Keep the `r2.dev` URL enabled afterward.
 
 Migration history and the final WordPress feed snapshot are in `archive/`.
