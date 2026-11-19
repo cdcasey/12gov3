@@ -1,47 +1,51 @@
-# Project Context: One to Grow On (Migration)
+# Project Context: One to Grow On
 
-**Role:** Senior Frontend Migration Specialist
-**Goal:** Finalize migration from Gatsby to Astro (Cloudflare Pages + R2).
-**Current Status:** ~95% Complete. See `TODO.md` for remaining work.
+Static Astro site for the One to Grow On podcast, deployed on Cloudflare Pages with
+audio in Cloudflare R2. The Gatsby/WordPress migration is finished; the site is in
+maintenance mode. Remaining launch tasks are listed in `README.md`.
 
-## 🛡️ CRITICAL WORKFLOW PROTOCOLS
+## Rules
 
-1.  **Filesystem Strictness:**
-    - Content lives in `./posts/` (verified, glob loader configured).
-    - Source code is in `src/`.
-    - **Do not** create new React components unless strictly necessary. Use `.astro`.
-2.  **No Hallucinations:**
-    - Read the relevant file before editing it. Don't assume structure.
-    - Do not fetch from WordPress. The WP backend is being retired.
-3.  **Always verify the build passes** after making changes: `pnpm build`
+1. **Read the file before editing it.** Don't assume structure.
+2. **Run `pnpm build` after every change** and confirm it passes.
+3. **Use `.astro` components.** Don't add React components unless strictly necessary.
+4. **No WordPress.** The WP backend is retired. Never fetch from it. If you find a
+   `wp-json` or `12go.onetogrowonpod.com` URL in `src/` or a post body, flag it and
+   remove it. The `guid` frontmatter values are the one exception (see below).
 
-## 🔁 Tech Stack & Rules
+## Content
 
-### 1. Data & Content
+- **Source:** one directory per post in `./posts/`, each with an `index.md`.
+- **Schema:** `src/content.config.ts`.
+- **Access:** `getCollection('posts')`. Never `fetch()` posts.
+- **URLs come from the frontmatter `slug`,** not the directory name. The two differ
+  for 29 posts. Changing a slug changes a public URL; no per-post redirects exist.
 
-- **Source:** Markdown files in `./posts/`.
-- **Schema:** Defined in `src/content.config.ts`.
-- **Access:** Use `getCollection('posts')`. Never use `fetch()` for posts.
-- **Legacy Cleanup:** If you see `fetch('.../wp-json/...')`, flag it and remove it.
+## Audio (Cloudflare R2)
 
-### 2. Assets (Cloudflare R2)
+- **Host:** `https://pub-95244d2d82644d35bb2d737bd39a6f4f.r2.dev/` for every post.
+  Published feeds reference it, so keep it enabled even if a custom domain is added.
+- **Planned, not set up:** `cdn.onetogrowonpod.com` as an R2 custom domain. It has no
+  DNS record yet. Requires the DNS zone to be on Cloudflare.
+- **Metadata:** `audioSize` and `duration` in frontmatter must match the actual file.
+  `scripts/backfill-audio-meta.sh` populates them.
+- **Player:** the existing `media-chrome` component, `src/components/AudioPlayer.astro`.
 
-- **Audio (dev):** `https://pub-95244d2d82644d35bb2d737bd39a6f4f.r2.dev/`
-- **Audio (prod):** `https://cdn.onetogrowonpod.com/...` (custom domain on R2)
-- **Player:** Use the existing `media-chrome` player component.
+## RSS Feed
 
-### 3. RSS Feed
+- **Source:** `src/pages/feed/podcast/index.xml.ts`, built to `/feed/podcast/index.xml`.
+- **Old URL:** `/feed/podcast/` 301s to the file. Configured in `astro.config.mjs`
+  `redirects` (dev) and `public/_redirects` (Cloudflare Pages). Keep both in sync.
+- **Items:** posts categorized `episodes` or `promo` that have `audio` and whose slug
+  does not end in `-transcript`. Currently 69.
+- **GUID stability:** each post's `guid` holds the original WP GUID (`?p=NNNN`),
+  emitted with `isPermaLink="false"`. Never change these. Podcast apps use them to
+  dedupe episodes, and a changed GUID re-shows the episode as new.
+- **Reference snapshot:** `archive/feed.xml` is the final WP feed, kept for diffing GUIDs.
 
-- **Path:** `/feed/podcast/` (`src/pages/feed/podcast/index.xml.ts`)
-- **Schema fields used:** `date`, `excerpt`, `audio`, `audioSize`, `duration`, `categories`, `slug`, `guid`
-- **GUID stability:** each post's `guid` frontmatter holds the original WP GUID (`?p=NNNN`),
-  emitted with `isPermaLink="false"`. Never change these — podcast apps use them to
-  dedupe episodes.
-- **Reference snapshot:** `feed.xml` in the project root is the final WP feed for diffing.
+## Posts Without Audio (Intentional)
 
-### 4. Posts Without Audio (Intentional)
-
-These 5 posts are categorized as "episodes" but have no audio file — this is expected:
+These 5 posts are categorized as `episodes` but have no audio file. This is expected:
 
 - `conservation-reserve-program-green-new-deal-follow-up` — blog post follow-up
 - `amaranth-to-zinnias-with-gretchen-o-neil-hothouse` — FFP cross-promo
@@ -49,28 +53,32 @@ These 5 posts are categorized as "episodes" but have no audio file — this is e
 - `oysters-real-oyster-cult-american-folk-revival-sourceress` — FFP cross-promo
 - `39-good-food-and-supply-chains-transcript-with-familyfarmed` — transcript edge case
 
-## 🚀 How to Start a Session
+## Gotchas
 
-1. Read `TODO.md` to find the next open task.
-2. Read the target file(s) before writing any code.
-3. Make the change, run `pnpm build`, confirm no errors.
-4. Mark the task done in `TODO.md`.
+- **Never keep two byte-identical images in `src/assets/`.** They hash to the same
+  output filename. If one copy is used only through `<Image />` and the other is
+  linked by `.src` (as the press page download links are), Astro can prune the
+  original from the build and the link 404s. It works in dev, and can be
+  intermittent in builds. Import a single copy from both places.
+- **Verify links against `dist/`, not the dev server,** for the reason above.
 
-## File Locations Reference
+## File Locations
 
-| Purpose              | Path                                          |
-| -------------------- | --------------------------------------------- |
-| Content schema       | `src/content.config.ts`                       |
-| Markdown posts       | `./posts/*.md`                                |
-| Base layout          | `src/layouts/BaseLayout.astro`                |
-| Page layout          | `src/layouts/PageLayout.astro`                |
-| Post list component  | `src/components/Posts.astro`                  |
-| Single post page     | `src/pages/[slug].astro`                      |
-| Tag pages            | `src/pages/tag/[tag].astro`                   |
-| About page           | `src/pages/about.astro`                       |
-| Transcripts page     | `src/pages/transcripts.astro`                 |
-| Collaborations page  | `src/pages/collaborations.astro`              |
-| RSS feed             | `src/pages/feed/podcast/index.xml.ts`         |
-| Redirects            | `public/_redirects` (does not exist yet — see `TODO.md`) |
-| Site metadata        | `src/constants/metadata.ts`                   |
-| Astro config         | `astro.config.mjs`                            |
+| Purpose             | Path                                  |
+| ------------------- | ------------------------------------- |
+| Content schema      | `src/content.config.ts`               |
+| Markdown posts      | `./posts/*/index.md`                  |
+| Base layout         | `src/layouts/BaseLayout.astro`        |
+| Page layout         | `src/layouts/PageLayout.astro`        |
+| Post list component | `src/components/Posts.astro`          |
+| Single post page    | `src/pages/[slug].astro`              |
+| Tag pages           | `src/pages/tag/[tag].astro`           |
+| About page          | `src/pages/about.astro`               |
+| Press page          | `src/pages/press.astro`               |
+| Transcripts page    | `src/pages/transcripts.astro`         |
+| Collaborations page | `src/pages/collaborations.astro`      |
+| RSS feed            | `src/pages/feed/podcast/index.xml.ts` |
+| Redirects           | `public/_redirects`                   |
+| Site metadata       | `src/constants/metadata.ts`           |
+| Astro config        | `astro.config.mjs`                    |
+| Migration records   | `archive/` (historical, do not update) |
