@@ -1,6 +1,9 @@
 import rss from "@astrojs/rss";
 import type { APIContext } from "astro";
 import { getCollection } from "astro:content";
+
+const SHOW_AUTHOR = "Hallie Casey, Chris Casey";
+
 export async function GET(context: APIContext) {
 	const posts = await getCollection("posts");
 	// Filter to episodes
@@ -26,7 +29,7 @@ export async function GET(context: APIContext) {
 		customData: `
       <atom:link href="${new URL("/feed/podcast/index.xml", context.site)}" rel="self" type="application/rss+xml" />
       <language>en-US</language>
-      <itunes:author>Hallie Casey, Chris Casey</itunes:author>
+      <itunes:author>${SHOW_AUTHOR}</itunes:author>
       <itunes:subtitle>How Agriculture and Food Production Affect Us and Our World</itunes:subtitle>
       <itunes:summary>One to Grow On is a podcast where we dig into questions about agriculture and try to understand how food production impacts us and our world. One to Grow On is hosted by resident expert Hallie Casey and her very own dad.</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
@@ -59,6 +62,7 @@ export async function GET(context: APIContext) {
 			},
 			customData: `
         ${post.data.guid ? `<guid isPermaLink="false">${post.data.guid}</guid>` : ""}
+        <itunes:author>${post.data.author ?? SHOW_AUTHOR}</itunes:author>
         <itunes:summary><![CDATA[${post.data.excerpt}]]></itunes:summary>
         <itunes:explicit>false</itunes:explicit>
         <itunes:episodeType>${post.data.categories.includes("promo") ? "trailer" : "full"}</itunes:episodeType>

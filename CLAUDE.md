@@ -41,6 +41,9 @@ maintenance mode. Remaining launch tasks are listed in `README.md`.
 - **GUID stability:** each post's `guid` holds the original WP GUID (`?p=NNNN`),
   emitted with `isPermaLink="false"`. Never change these. Podcast apps use them to
   dedupe episodes, and a changed GUID re-shows the episode as new.
+- **Authors:** every item emits `itunes:author`, from the post's optional `author`
+  frontmatter or the show default `Hallie Casey, Chris Casey`. 26 posts credit
+  Catherine Arjet, backfilled from the old feed.
 - **Reference snapshot:** `archive/feed.xml` is the final WP feed, kept for diffing GUIDs.
 
 ## Posts Without Audio (Intentional)
