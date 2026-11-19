@@ -11,12 +11,12 @@ One to Grow On is an older kid-friendly podcast that is safe and appropriate for
 
 Astro static site. Requires Node 22.12 or later and pnpm.
 
-| Command        | Action                                    |
-| -------------- | ----------------------------------------- |
-| `pnpm install` | Install dependencies                      |
-| `pnpm dev`     | Dev server at `http://localhost:4321`     |
-| `pnpm build`   | Production build to `./dist/`             |
-| `pnpm preview` | Serve the production build locally        |
+| Command        | Action                                |
+| -------------- | ------------------------------------- |
+| `pnpm install` | Install dependencies                  |
+| `pnpm dev`     | Dev server at `http://localhost:4321` |
+| `pnpm build`   | Production build to `./dist/`         |
+| `pnpm preview` | Serve the production build locally    |
 
 - **Content:** one directory per post in `posts/`. The frontmatter `slug` sets the URL.
 - **Audio:** hosted in a Cloudflare R2 bucket and referenced by URL in each post's frontmatter.
@@ -30,8 +30,8 @@ Redirects live in `public/_redirects`.
 
 ## Remaining launch tasks
 
-- [ ] Move the DNS zone to Cloudflare and attach `www.onetogrowonpod.com` and the bare domain to the Pages project. Add a redirect from the bare domain to `www`.
-- [ ] Validate the live feed with https://www.castfeedvalidator.com and https://podba.se/validate/.
+- [x] Move the DNS zone to Cloudflare and attach `www.onetogrowonpod.com` and the bare domain to the Pages project. Add a redirect from the bare domain to `www`.
+- [x] Validate the live feed with https://www.castfeedvalidator.com and https://podba.se/validate/.
 - [ ] Set the feed URL in Apple Podcasts Connect and Spotify to `https://www.onetogrowonpod.com/feed/podcast/index.xml`.
 - [ ] Retire the Netlify site and the old WordPress host once the directories have picked up the new feed URL.
 - [ ] Optional: add `cdn.onetogrowonpod.com` as a custom domain on the R2 bucket and switch the audio URLs. Keep the `r2.dev` URL enabled afterward.
