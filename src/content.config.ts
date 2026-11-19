@@ -22,6 +22,7 @@ const posts = defineCollection({
 			title: z.string(),
 			slug: z.string(),
 			guid: z.string().optional(), // Original WP GUID — must stay stable so podcast apps don't re-show episodes
+			author: z.string().optional(), // Per-episode itunes:author; feed falls back to the show hosts
 			date: z.coerce.date(),
 			excerpt: z.string(),
 			categories: z.array(z.enum(['episodes', 'transcripts', 'promo'])),

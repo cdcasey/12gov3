@@ -9,6 +9,7 @@ tags:
 coverImage: ./Jade_cabbage_closeup.jpg
 slug: 29-superfoods-iv-bok-choy-wheat-germ-ginger-and-seaweed
 guid: 'https://www.onetogrowonpod.com/?p=3105'
+author: 'Hallie Casey, Chris Casey, Catherine Arjet'
 excerpt: 'In our latest superfoods episode (and last episode of the decade), Hallie and Chris take on bok choy, wheat germ, ginger and seaweed. The stakes are a little bit higher this week though because there''s a brand new original song for cape-worthy foods.'
 audio: 'https://pub-95244d2d82644d35bb2d737bd39a6f4f.r2.dev/029_SF4.mp3'
 audioSize: 18655737

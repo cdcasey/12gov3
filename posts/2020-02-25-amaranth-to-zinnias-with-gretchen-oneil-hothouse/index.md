@@ -6,6 +6,7 @@ categories:
 coverImage: ./IMG_8166.jpg
 slug: amaranth-to-zinnias-with-gretchen-o-neil-hothouse
 guid: 'http://12go.onetogrowonpod.com/?p=4385'
+author: 'Hallie Casey, Chris Casey, Catherine Arjet'
 excerpt: 'We''re kicking off our agricultural podcast exchange with a fellow Austin podcast: Hothouse. In this episode, host Leah and her guest Gretchen discuss growing cut flowers, women-run farms, and the (many) differences between Texas and New England.'
 ---
 
